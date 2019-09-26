@@ -1,0 +1,45 @@
+ping
+set test "ItÂ's working!"
+get test
+exit
+get test
+exit
+show tables
+SET Book:1 "Infinite Jest"
+GET Book:1
+SET Book:1:ReadAction 1
+GET Book:1:ReadAction 
+GET Book:1:ReadAction:Teste 2
+SET Book:1:ReadAction:Teste 1
+GET Book:1:ReadAction:Teste 
+GET Book
+GET Book:1
+GET Book:1:ReadAction
+GET Book:1:ReadAction:Teste
+INCR Book:1:ReadAction
+GET Book:1:ReadAction
+INCRBY Book:1:ReadAction 20
+GET Book:1:ReadAction
+DECR Book:1:ReadAction
+GET Book:1:ReadAction
+DECRBY Book:1:ReadAction 5
+Get Book:1:ReadAction
+INCR Book:1 "Infinite Jest"
+ MSET Person:2 "Kurt Vonnegut" Person:3 "Jane Austen" Person:4 "Mark Twain"
+MGET Person:2 Person:3 Person:4
+exit
+LPUSH Book:1:comment "This was a fun read"
+LRANGE Book:1:comment 0 -1
+LPUSH Book:1:comment "Way too long!"
+LRANGE Book:1:comment 0 -1
+RPUSH Book:1:comment "Tennis anyone?"
+LRANGE Book:1:comment 0 -1
+LPOP Book:1:comment
+LRANGE Book:1:comment 0 -1
+RPOP Book:1:comment
+LRANGE Book:1:comment 0 -1
+RPUSH Organization:1:members Person:1 Person:2 Person:3 Person:4
+LRANGE Organization:1:members 0 -1
+LTRIM Organization:1:members 0 2
+LRANGE Organization:1:members 0 -1
+exit
