@@ -75,6 +75,3 @@ while True:
     print(intMenu)
     opt = input("Select an option: ")
     internalMenu(opt)
-
-
-
