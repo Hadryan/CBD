@@ -63,7 +63,7 @@ def ifEnabled():
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--p", help="Enable printing the result of the insertion query. 0 - Disable, 1 - Enable", default="1")
-	parser.add_argument("--f", help="Clean table. 0 - Disable, 1 - Enable", default=0)
+	parser.add_argument("--f", help="Clean database. 0 - Disable, 1 - Enable", default="0")
 	args = parser.parse_args()
 	ENABLE = args.p
 	FLUSH = args.f
