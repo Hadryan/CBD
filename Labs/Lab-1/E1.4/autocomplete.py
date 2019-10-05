@@ -1,4 +1,5 @@
 #encoding: UTF-8
+import argparse
 """
 Redis drive installed on venv
 The script to install redis driver
@@ -17,6 +18,10 @@ make this a requisite. To
 aim this we upper the user 
 input and the result of the 
 queries.
+
+Parameters
+-----
+inp - User input
 """
 def autoComplete(inp):
 	search = conn.zrange("autocomplete", 0, -1)
