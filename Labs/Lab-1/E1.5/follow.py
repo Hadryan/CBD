@@ -105,3 +105,23 @@ def unfollow(uemail,email, retList):
     else:
         conn.srem(f"MyFollowList:{uemail}", email)
         return "Success"
+
+
+"""
+Given an users gets the emails
+he follows.
+Remove all prints
+
+Parameters
+-----
+uemail - User email
+
+Returns
+-----
+lfollowing - Following list
+"""
+def followingquiet(uemail):
+    lfollowing = []
+    for i in conn.smembers("MyFollowList:" + uemail):
+        lfollowing.append(str(i, "utf-8"))
+    return lfollowing
