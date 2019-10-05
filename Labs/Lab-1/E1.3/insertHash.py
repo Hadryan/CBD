@@ -31,8 +31,7 @@ def insertData():
 	>> HMSET langhash lang1 "PHP" lang2 "JavaScript" lang3 "Redis"
 	OK
 	"""
-	for i in data:
-		conn.hmset("Users", data)
+	conn.hmset("Users", data)
 
 def ifEnabled():
 	"""
