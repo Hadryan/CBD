@@ -17,7 +17,7 @@ while True:
         else:
             file= open("initials4redis.txt","a")
             file.write("SET " + letter.upper() + " " + str(count) + "\n")
-            count = 0
+            count = 1
             letter = comp
     else:
         file= open("initials4redis.txt","a")
