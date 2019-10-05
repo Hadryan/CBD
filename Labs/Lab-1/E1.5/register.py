@@ -9,7 +9,15 @@ import redis
 
 conn = redis.Redis()
 
-def regist(email, password, name, age):
+"""
+Allow us to store users into 
+our database.
+For an easy login we set the email
+and password but first we verify
+if the email is already into 
+the database.
+"""
+def regist(email, password, name):
     if conn.get(email) is not None:
         return "Already on db"
     else:
