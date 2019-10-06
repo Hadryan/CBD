@@ -104,3 +104,102 @@ def unfollow(uemail,email, retList):
         conn.srem("MyFollowList:" + uemail, email)
         return "Success"
 ```
+
+### Mensagens
+Uma vez estabelecidos os princípios de como as pessoas podem comunicar, é necessário fornecer meios para enviar mensagens. Para isso foi criado o ficheiro `messages.py` que conta com 3 funções, uma para enviar mensagens e outra para listar as mesmas.
+
+#### Enviar mensagens
+Optei por aquela que me pareceu ser a solução mais simples, usar o right push para mensagens, a utilização deste permite que seja mais simples listar as mensagens posteriormente.
+```python
+def sendMessage(uemail, message):
+    conn.rpush("Messages:" + uemail, message)
+    print("Message sent")
+    print()
+```
+#### Listar as minhas mensagens
+Dado que apenas doi utilizado o rigth push para inserir as mensagens é facil agora de obter as mensagens que o próprio enviou. Usamos o `lrange` e listamos as mensagens associadas ao email do utilizador.
+```python
+def listMyMessages(uemail):
+    counter = 1
+    print("List of my messages: ")
+    for i in conn.lrange("Messages:" + uemail, 0, -1):
+        print("Message " + str(counter) + "\t" +  str(i, "utf-8"))
+        counter += 1
+    print()
+```
+#### Listar mensagens das pessoas que segue
+Para listar as mensagens das pessoas que segue o processo é bastante similar, apenas temos que ter atenção em não mostrar as mensagens de toda a gente e as mensagens do utilizador, deste modo, fazemos uma chamada à função `followingquiet` que se encontra no ficheiro `follow.py` e obtemos a lista de pessoa que o utilizador segue.
+```python
+def followingquiet(uemail):
+    lfollowing = []
+    for i in conn.smembers("MyFollowList:" + uemail):
+        lfollowing.append(str(i, "utf-8"))
+    return lfollowing
+```
+Retornada a lista de pessoas que o utilizador segue temos apenas trabalhar sobre a mesma, isto é, iteramos sobre ela de modo a obtermos as mensagens das pessoas que utilizador segue. É de notar que se o utilizador não seguir ninguém é desnecessário iterar sobre a lista, apenas retornamos uma mensagem de erro e voltamos para o menu.
+```python
+def listMessageSubs(uemail):
+    print("Messages from people I follow: ")
+    lista = followingquiet(uemail)
+    if len(lista) <= 0:
+        print("No messages - Following 0 persons")
+        print()
+        return False
+    for i in lista:
+        for f in conn.lrange("Messages:" + i, 0, -1):
+            print("Message from: " + i + "\t\t" + str(f, "utf-8"))
+    print()
+```
+### Extras
+Uma vez criado o corpo básico do exercício tinham de ser desenvolvidas algumas funções extra (mesmo já tendo desenvolvido algumas como o login).
+Deste modo implementei vários tipos de pesquisas que podem ser encontrados no `search.py`. As pesquisas definidas são:
+* Mensagens associadas a um email
+* Pesquisa pelo conteúdo de uma mensagem
+* Encontrar todos as pessoas que seguem o utilizador
+
+#### Mensagens associadas a um email
+Para a pesquisa de de mensagens associadas a um certo email temos de ter em atenção os requisitos do sistema, o utilizador apenas pode visualizar mensagens de pessoas que segue, deste modo:
+* **Se** o utilizador **não** seguir ninguém não pode ver mensagens, podemos apenas apresentar isso e mnão existe necessidade de correr o resto do código, redirecinamos o utilizador logo para o menu.
+* **Se** o utilizador **pesquisar** por um utilizador que **não** segue não deverá conseguir ver as mensagens devendo ser apresentado um erro a informar isto e, enviar o mesmo para o menu.
+* **Se** nenhum destes erros se verificar podemos então iterar sobre a lista de emails que obtemos através da função `following(uemail)` que se encontra no `follow.py`. Após a iteração apresentamos os resultados ao utilizador.
+```python
+def searchByEmail(uemail):
+    lista = following(uemail)
+    if len(lista) <= 0:
+        print("You're following 0 persons")
+        print()
+        return False
+    email = input("Email to search: ")
+    if email not in lista:
+        print("You're not following this person")
+        print()
+        return False
+    else:
+        for i in conn.lrange("Messages:" + email, 0, -1):
+            print("Message from: " + email + "\t\t" + str(i, "utf-8"))
+        print()
+        return True
+```
+#### Pesquisa pelo conteúdo da mensagem
+A pesquisa pelo conteúdo da mensagem é algo similar à pesquisa de mensagens por email. Temos de obeceder a praticamente os mesmos requisitos.
+Sendo um sistema de pesquisa de conteúdo nas mensagens achei, por bem, que a pesquisa **não** devia ser case sensitive, deste modo, optei por pesquisar tudo em maiúsculas, isto é, o input inserido pelo utilizador é convertido para maiúsculas utilizando a função `upper()` do python bem como o que é retornado pelas queries deve ser passado por essa função.
+Assim temos como requisitos do sistema:
+* **Se** o utilizador **não** seguir ninguém não pode ver mensagens, podemos apenas apresentar isso e mnão existe necessidade de correr o resto do código, redirecinamos o utilizador logo para o menu.
+* A pequisa não deve ser case sensitive
+
+Se os requisitos forem verificados, podemos assim iterar sobre o lista de emails que o utilizador segue, retornada pela função `followingquiet` fo ficheiro `follow.py`. Aṕos iterado retornamos os resultados e apresentamos ao utilizador.
+```python
+def searchByContent(uemail):
+    lista = followingquiet(uemail)
+    if len(lista) <= 0:
+        print("No messages - Following 0 persons")
+        print()
+        return False
+    content = input("Message to search: ")
+    for i in lista:
+        for f in conn.lrange("Messages:" + i, 0, -1):
+            if content.upper() in str(f, "utf-8").upper():
+                print("Message from: " + i + "\t\t" + str(f, "utf-8"))
+    print()
+    return True
+```
