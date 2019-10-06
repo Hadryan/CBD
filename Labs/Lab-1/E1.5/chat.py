@@ -4,12 +4,14 @@ from register import regist
 from login import logIn
 from follow import getForFollow, follow, following, unfollow
 from messages import sendMessage, listMyMessages, listMessageSubs
+import redis
 
 Menu = "2 - Login\n\
 1 - Registar\n\
 0 - Exit"
 
-intMenu = "6 - List messages from persons I follow\n\
+intMenu = "7 - Flush database \n\
+6 - List messages from persons I follow\n\
 5 - List my messages\n\
 4 - Send messages\n\
 3 - Remover pessoas que sigo\n\
@@ -60,6 +62,11 @@ def internalMenu(opt):
         sendMessage(uemail, message)
     if(opt=="5"): listMyMessages(uemail)
     if(opt=="6"): listMessageSubs(uemail)
+    if(opt=="7"):
+        conn = redis.Redis()
+        conn.flushdb()
+        print("Done")
+        print()
 
 
 print(Menu)
