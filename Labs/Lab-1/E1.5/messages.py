@@ -56,6 +56,7 @@ def listMessageSubs(uemail):
     lista = followingquiet(uemail)
     if len(lista) <= 0:
         print("No messages - Following 0 persons")
+        print()
         return False
     for i in lista:
         for f in conn.lrange("Messages:" + i, 0, -1):

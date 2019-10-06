@@ -4,13 +4,22 @@ from register import regist
 from login import logIn
 from follow import getForFollow, follow, following, unfollow
 from messages import sendMessage, listMyMessages, listMessageSubs
+from search import searchByEmail, searchByContent, searchMyFollowers
+"""
+Redis drive installed on venv
+The script to install redis driver
+is available into the root directory.
+"""
 import redis
 
 Menu = "2 - Login\n\
 1 - Registar\n\
 0 - Exit"
 
-intMenu = "7 - Flush database \n\
+intMenu = "10 - Flush database \n\
+9 - Followers\n\
+8 - Search by content\n\
+7 - Search messages by email\n\
 6 - List messages from persons I follow\n\
 5 - List my messages\n\
 4 - Send messages\n\
@@ -62,12 +71,14 @@ def internalMenu(opt):
         sendMessage(uemail, message)
     if(opt=="5"): listMyMessages(uemail)
     if(opt=="6"): listMessageSubs(uemail)
-    if(opt=="7"):
+    if(opt=="7"): searchByEmail(uemail)
+    if(opt=="8"): searchByContent(uemail)
+    if(opt=="9"): searchMyFollowers(uemail)
+    if(opt=="10"):
         conn = redis.Redis()
         conn.flushdb()
         print("Done")
         print()
-
 
 print(Menu)
 inp = input("Select an option: ")
