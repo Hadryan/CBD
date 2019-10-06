@@ -60,7 +60,7 @@ def follow(uemail, email, retList):
         if email not in retList:
             return "Unable to add person to follow"
         else:
-            conn.sadd(f"MyFollowList:{uemail}", email)
+            conn.sadd("MyFollowList:" + uemail, email)
             return "Success"
 
 """
@@ -103,7 +103,7 @@ def unfollow(uemail,email, retList):
     if email not in retList:
         return email + "it's not into your following list"
     else:
-        conn.srem(f"MyFollowList:{uemail}", email)
+        conn.srem("MyFollowList:" + uemail, email)
         return "Success"
 
 

@@ -22,5 +22,5 @@ def regist(email, password, name):
         return "Already on db"
     else:
         conn.set(email, password)
-        conn.hset(f"UserList:{email}", "name", name)
+        conn.hset("UserList:" + email, "name", name)
         return "Success"
