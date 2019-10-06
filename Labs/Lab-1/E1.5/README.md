@@ -187,7 +187,7 @@ Assim temos como requisitos do sistema:
 * **Se** o utilizador **não** seguir ninguém não pode ver mensagens, podemos apenas apresentar isso e mnão existe necessidade de correr o resto do código, redirecinamos o utilizador logo para o menu.
 * A pequisa não deve ser case sensitive
 
-Se os requisitos forem verificados, podemos assim iterar sobre o lista de emails que o utilizador segue, retornada pela função `followingquiet` fo ficheiro `follow.py`. Aṕos iterado retornamos os resultados e apresentamos ao utilizador.
+Se os requisitos forem verificados, podemos assim iterar sobre o lista de emails que o utilizador segue, retornada pela função `followingquiet(uemail)` fo ficheiro `follow.py`. Aṕos iterado retornamos os resultados e apresentamos ao utilizador.
 ```python
 def searchByContent(uemail):
     lista = followingquiet(uemail)
@@ -202,4 +202,30 @@ def searchByContent(uemail):
                 print("Message from: " + i + "\t\t" + str(f, "utf-8"))
     print()
     return True
+```
+#### Encontrar todos as pessoas que seguem o utilizador
+Para obter a lista de pessoas que segye o utilizador apenas temos que ir aos membos da `MyFollowList` e verificar para qual utilizador que consta nela, ocrre nos seus valores a variável `uemail` que é representativa do email do utilizador que está a usar o sistema de mensagens.
+```python
+def searchMyFollowers(uemail):
+    allUsers = getallUsers() 
+    flag = False
+    for i in allUsers:
+        for f in conn.smembers("MyFollowList:" + i):
+            if str(f, "utf-8") == uemail:
+                if not flag:
+                    print("Followed by: ")
+                    print(i)
+                    flag = True
+                else:
+                    print(i)
+    print()
+```
+Deste modo surge a necessidade de de obter uma lista de todos os utilizadores do sistema que se registaram.
+Com esse efeito foi criada uma função auxiliar chamada `getallUsers()` que nos permite retornar à função `searchMyFollowers(uemail)` uma lista com todos os utilizadores do sistema de modo a que esta possa iterar sobre ela e encontrar quem segue o utilizador com o login efetuado.
+```python
+def getallUsers():
+    lista = []
+    for i in conn.keys("UserList:*" ):
+        lista.append(str(i, "utf-8")[9:])
+    return lista
 ```
