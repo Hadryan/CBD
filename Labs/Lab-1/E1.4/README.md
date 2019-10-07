@@ -66,7 +66,7 @@ def insertData():
 ```
 ### Trabalhar sobre os dados
 Tal como no exercício anterior, o método para obter informação é similar, usamos o `zrange` para obter as informações associadas à tag, no caso, `nomes2018` e interamos sobre essa lista. 
-O que diferencia este exercício do anterior é que temos uma ordem específica pela qual queremos mostrar a informação, neste caso é pedido que seja por ordem decrescente de popularidade, para alcançar isto temos apenas que, no `zrange` inserir um quarto parametro, `True`, o quarto parametro está relacionado com a ordem decrescente.
+O que diferencia este exercício do anterior é que temos uma ordem específica pela qual queremos mostrar a informação, neste caso é pedido que seja por ordem decrescente de popularidade, para alcançar isto temos apenas que, no `zrange` inserir um quarto parametro, `True`, o quarto parametro está relacionado com a ordem decrescente, ou seja, ele vai aos valores associados às keys e faz o sort por ordem decrescente.
 ```python
 def autoComplete(inp):
 	search = conn.zrange("nomes2018", 0, -1, True)
