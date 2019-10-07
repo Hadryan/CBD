@@ -26,13 +26,12 @@ def insertData():
 		conn.rpush("listOfUsers", i)
 
 def ifEnabled():
-	# Gets the list of user (list range)
 	db_table = conn.lrange("listOfUsers", 0, -1)
 	"""
 	Allow us to print the info we want.
 	"""
-	for name in db_table:
-		print(str(name, "utf-8"))
+	for i in db_table:
+		print(str(i, "utf-8"))
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
