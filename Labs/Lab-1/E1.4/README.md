@@ -28,6 +28,17 @@ def insertData():
 Saliento que por cima do script base tanto nesta versão como na segunda deste exercício podemos habilitar e desabilitar a função de flusb pela linha de comandos, ou seja:
 * `--f` permite que seja realizada a operação de flush sobre a base de dados apagando toda a informação que reside na mesma, por default está desabilitada, para a corrermos temos apenas que fazer `python ac_setup.py --f 1`
 
+```python
+if __name__ == "__main__":
+	conn = redis.Redis()
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--f", help="Clean database. 0 - Disable, 1 - Enable", default="0")
+	args = parser.parse_args()
+	FLUSH = args.f
+	if (FLUSH == "1"): conn.flushdb()
+	insertData()
+```
+
 ### Trabalhar sobre os dados
 Uma vez que os dados foram inseridos já podemos trabalhar sobre eles, para isso apenas temos de obter os dados através da função `zrange()` e após isso iteramos sobre essa lista.
 Devo mencionar que, naquilo que é o meu entender do exercício, o autocomplete não deve ser case sensitive, apenas deve averiguar quais as palavras que começam por determinada expressão, assim, para alcançar isso recorri a duas funções do python:
@@ -54,3 +65,13 @@ def insertData():
 
 ```
 ### Trabalhar sobre os dados
+Tal como no exercício anterior, o método para obter informação é similar, usamos o `zrange` para obter as informações associadas à tag, no caso, `nomes2018` e interamos sobre essa lista. 
+O que diferencia este exercício do anterior é que temos uma ordem específica pela qual queremos mostrar a informação, neste caso é pedido que seja por ordem decrescente de popularidade, para alcançar isto temos apenas que, no `zrange` inserir um quarto parametro, `True`, o quarto parametro está relacionado com a ordem decrescente.
+```python
+def autoComplete(inp):
+	search = conn.zrange("nomes2018", 0, -1, True)
+	for k in search:
+		if str(k, "utf-8").upper().startswith(inp):
+			print(str(k, "utf-8"))
+	print()
+```
