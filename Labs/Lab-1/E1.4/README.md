@@ -5,7 +5,7 @@ Criação de um autocomplete não no sentido lato, isto é, quando pesquisamos p
 Numa primeira fase é nos pedido que seja criado um auto complete que nos permite pesquisar sobre a informação contida no ficheiro `female-names.txt` esta informação não se encontra local, isto é, no ficheiro mas sim na base de dados Redis.
 Deste modo temos que fazer o setup do autocomplete.
 ### Setup
-Para fazer setup do autocompelte temos de ter o driver do redis instalado, o script de instalação para o `Ubuntu 18.04.1` encontra-se no diretório root (`setup.sh`).
+Para fazer setup do autocomplete temos de ter o driver do redis instalado, o script de instalação para o `Ubuntu 18.04.1` encontra-se no diretório root (`setup.sh`).
 ```bash
 python3 -m venv venv &&
 source venv/bin/activate &&
@@ -65,8 +65,8 @@ def insertData():
 
 ```
 ### Trabalhar sobre os dados
-Tal como no exercício anterior, o método para obter informação é similar, usamos o `zrange` para obter as informações associadas à tag, no caso, `nomes2018` e interamos sobre essa lista. 
-O que diferencia este exercício do anterior é que temos uma ordem específica pela qual queremos mostrar a informação, neste caso é pedido que seja por ordem decrescente de popularidade, para alcançar isto temos apenas que, no `zrange` inserir um quarto parametro, `True`, o quarto parametro está relacionado com a ordem decrescente, ou seja, ele vai aos valores associados às keys e faz o sort por ordem decrescente.
+Tal como no exercício anterior, o método para obter informação é similar, usamos o `zrange` para obter as informações associadas à tag, no caso, `nomes2018` e iteramos sobre essa lista. 
+O que diferencia este exercício do anterior é que temos uma ordem específica pela qual queremos mostrar a informação, neste caso é pedido que seja por ordem decrescente de popularidade, para alcançar isto temos apenas que, no `zrange` inserir um quarto parâmetro, `True`, o quarto parâmetro está relacionado com a ordem decrescente, ou seja, ele vai aos valores associados às keys e faz o sort por ordem decrescente.
 ```python
 def autoComplete(inp):
 	search = conn.zrange("nomes2018", 0, -1, True)

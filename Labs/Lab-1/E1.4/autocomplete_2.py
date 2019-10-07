@@ -13,7 +13,7 @@ input and check if the
 value is on our database.
 
 An autocompleter should not
-be case senstive so we should
+be case sensitive so we should
 make this a requisite. To 
 aim this we upper the user 
 input and the result of the 

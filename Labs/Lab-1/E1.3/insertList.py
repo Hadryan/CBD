@@ -13,7 +13,7 @@ def insertData():
 	"""
 	Data to be inserted and proper
 	sort. That will allow us to 
-	push (rigth) into Redis and
+	push (right) into Redis and
 	having the information ordered.
 	"""
 	data = ["Ana", "Pedro", "Maria", "Luís"]
