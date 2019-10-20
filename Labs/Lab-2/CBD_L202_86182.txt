@@ -1,0 +1,42 @@
+// NMEC: 86182
+
+#1
+db.rest.find()
+
+#2
+db.rest.find({}, {"nome": "*", "restaurant_id" : "*", "localidade" : "*", "gastronomia" : "*"})
+
+#3
+db.rest.find({}, {"nome": "*", "restaurant_id" : "*", "localidade" : "*", "address.zipcode" :1,"_id":""}).pretty()
+
+#4
+db.rest.find({"localidade": "Bronx"}).pretty()
+
+#5
+db.rest.find({"localidade": "Bronx"}).limit(5).pretty()
+
+#6
+db.rest.find({"grades.score": { "$gt": 85 }}).pretty()
+
+#7
+db.rest.find({"grades.score": { "$gt": 80 , "$lt": 100 }}).pretty()
+
+#8
+db.rest.find({"address.coord" : {"$lt" : -95.7}}).pretty()
+
+#9
+db.rest.find({ "gastronomia" : { "$ne" : "American" }, "grades.score": { "$gt": 70 }, "address.coord" : {$lt : -65}}).pretty()
+
+#10
+db.rest.find( {nome: /^Wil/}, { "restaurant_id" :"*", "nome":"*", "localidade":"*", "gastronomia":"*"}).pretty()
+
+#11
+db.rest.find({"localidade": "Bronx" ,  $or : [ { "gastronomia" : "American " }, { "gastronomia" : "Chinese" } ]  }, {"nome":"*", "_id":0, "localidade":"*", "gastronomia":"*"}  ).pretty()
+
+#12
+db.rest.find({$or : [ {"localidade":"Bronx"}, {"localidade":"Staten Island"}, { "localidade" : "Queens" }, {"localidade": "Bronx"}, {"localidade":"Brooklyn"} ]  }, {"nome":"*", "_id":0, "localidade":"*", "gastronomia":"*"}  ).pretty()
+
+#13
+db.rest.find({"grades.score" : { $not: {$gt : 3}}}, {"nome":"*", "localidade":"*", "score":"*","gastronomia":"*", "_id":0})
+
+#14

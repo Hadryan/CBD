@@ -20,7 +20,7 @@ b3662309c7b6        portainer/portainer   "/portainer"             60 days ago  
 ```
 Após isto apenas precisei de adicionar à `.zshrc` a seguinte linha:
 ```bash
-$ alias mongo="docker exec -it 46338965c23e /bin/bash"
+$ alias mongo="docker exec -it 46338965c23e /bin/bash" >> .zshrc
 ```
 
 ## Conceitos
@@ -167,3 +167,21 @@ Exemplo:
 * query specifies the optional selection criteria for selecting documents
 * sort specifies the optional sort criteria
 * limit specifies the optional maximum number of documents to be returned
+
+## MongoDB - Construção de Queries
+Uma vez que estou a usar docker para correr mongo é necessário copiar o ficheiro para o container do docker:
+```bash
+$ docker cp restaurants.json 46338965c23e:/restaurants.json
+```
+Após copiado basta aceder ao container do mongo e correr o comando dado no guião:
+```bash
+$ mongo
+$ mongoimport --db CBD --collection rest --drop --file restaurants.json
+```
+Verificar se foi tudo inserido com sucesso:
+```sql
+> use CBD
+switched to db CBD
+> db.rest.count()
+3772
+```
