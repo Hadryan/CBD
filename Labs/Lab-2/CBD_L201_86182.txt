@@ -1,0 +1,1718 @@
+> show dbs
+CBD      0.000GB
+admin    0.000GB
+config   0.000GB
+local    0.000GB
+taca_ua  0.000GB
+> use taca_ua
+switched to db taca_ua
+> db.matches.find()
+{ "_id" : ObjectId("5dab42924386467bf35641cf"), "modalidade" : "Futsal Masculino", "visitada" : "Gestão da Qualidade", "visitante" : "Engenharia do Ambiente", "data" : "21-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "20:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d0"), "modalidade" : "Futsal Masculino", "visitada" : "Matemática", "visitante" : "Educação Básica", "data" : "21-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "21:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d1"), "modalidade" : "Futsal Masculino", "visitada" : "Contabilidade B", "visitante" : "Engenharia de Computadores e Telemática", "data" : "21-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "22:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d2"), "modalidade" : "Futsal Masculino", "visitada" : "Música", "visitante" : "Biologia/Geologia", "data" : "21-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "23:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d3"), "modalidade" : "Futsal Masculino", "visitada" : "Economia", "visitante" : "Engenharia Eletrónica e Telecomunicações", "data" : "22-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "21:30", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d4"), "modalidade" : "Futsal Masculino", "visitada" : "Psicologia", "visitante" : "Ciências do Mar", "data" : "22-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "22:30", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d5"), "modalidade" : "Futsal Masculino", "visitada" : "Ciências Biomédicas", "visitante" : "Gestão", "data" : "22-10-2019", "divisao" : "2ª Divisão - Grupo A", "hora" : "23:30", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d6"), "modalidade" : "Futsal Feminino", "visitada" : "Matemática", "visitante" : "Finanças", "data" : "23-10-2019", "divisao" : "Grupo A", "hora" : "15:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d7"), "modalidade" : "Futsal Feminino", "visitada" : "Engenharia Eletrónica e Telecomunicações", "visitante" : "Engenharia Mecânica", "data" : "23-10-2019", "divisao" : "Grupo A", "hora" : "16:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d8"), "modalidade" : "Futsal Feminino", "visitada" : "Psiologia", "visitante" : "Biotecnologia", "data" : "23-10-2019", "divisao" : "Grupo A", "hora" : "17:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641d9"), "modalidade" : "Futsal Feminino", "visitada" : "Música", "visitante" : "Engenharia de Gestão Industrial", "data" : "23-10-2019", "divisao" : "Grupo A", "hora" : "18:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641da"), "modalidade" : "Futsal Feminino", "visitada" : "Engenharia Informática", "visitante" : "Engenharia do Ambiente", "data" : "23-10-2019", "divisao" : "Grupo B", "hora" : "19:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641db"), "modalidade" : "Futsal Feminino", "visitada" : "Novas Tecnologias da Comunicação", "visitante" : "Economia", "data" : "23-10-2019", "divisao" : "Grupo B", "hora" : "20:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641dc"), "modalidade" : "Futsal Feminino", "visitada" : "Engenharia Física", "visitante" : "Fisioterapia", "data" : "23-10-2019", "divisao" : "Grupo B", "hora" : "21:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641dd"), "modalidade" : "Futsal Feminino", "visitada" : "Ciências Biomédicas", "visitante" : "Gestão", "data" : "23-10-2019", "divisao" : "Grupo B", "hora" : "22:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641de"), "modalidade" : "Futsal Masculino", "visitada" : "Biotecnologia", "visitante" : "Engenharia de Gestão Industrial B", "data" : "23-10-2019", "divisao" : "2ª Divisão - Grupo B", "hora" : "23:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641df"), "modalidade" : "Futsal Masculino", "visitada" : "Engenharia Computacional", "visitante" : "Engenharia de Materiais", "data" : "24-10-2019", "divisao" : "2ª Divisão - Grupo B", "hora" : "23:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641e0"), "modalidade" : "Futsal Masculino", "visitada" : "Engenharia de Gestão Industrial A", "visitante" : "Engenharia Física", "data" : "27-10-2019", "divisao" : "1ª Divisão", "hora" : "18:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641e1"), "modalidade" : "Futsal Masculino", "visitada" : "Administração Pública", "visitante" : "Marketing", "data" : "27-10-2019", "divisao" : "1ª Divisão", "hora" : "19:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+{ "_id" : ObjectId("5dab42924386467bf35641e2"), "modalidade" : "Futsal Masculino", "visitada" : "Fisioterapia", "visitante" : "Turismo", "data" : "27-10-2019", "divisao" : "1ª Divisão", "hora" : "20:00", "visitada_score" : "0", "visitante_score" : "0", "obs" : "-" }
+Type "it" for more
+> db.calendario.find().pretty()
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac3f"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Gestão da Qualidade",
+	"visitante" : "Engenharia do Ambiente",
+	"data" : "21-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac40"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Matemática",
+	"visitante" : "Educação Básica",
+	"data" : "21-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac41"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Contabilidade B",
+	"visitante" : "Engenharia de Computadores e Telemática",
+	"data" : "21-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac42"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Música",
+	"visitante" : "Biologia/Geologia",
+	"data" : "21-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac43"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Economia",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "22-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac44"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Psicologia",
+	"visitante" : "Ciências do Mar",
+	"data" : "22-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac45"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Gestão",
+	"data" : "22-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac46"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Matemática",
+	"visitante" : "Finanças",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo A",
+	"hora" : "15:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac47"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo A",
+	"hora" : "16:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac48"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Psiologia",
+	"visitante" : "Biotecnologia",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo A",
+	"hora" : "17:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac49"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Música",
+	"visitante" : "Engenharia de Gestão Industrial",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo A",
+	"hora" : "18:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4a"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia do Ambiente",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo B",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4b"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Novas Tecnologias da Comunicação",
+	"visitante" : "Economia",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo B",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4c"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Física",
+	"visitante" : "Fisioterapia",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo B",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4d"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Gestão",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo B",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4e"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Engenharia de Gestão Industrial B",
+	"data" : "23-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4f"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Computacional",
+	"visitante" : "Engenharia de Materiais",
+	"data" : "24-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac50"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia de Gestão Industrial A",
+	"visitante" : "Engenharia Física",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "18:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac51"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Administração Pública",
+	"visitante" : "Marketing",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac52"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Fisioterapia",
+	"visitante" : "Turismo",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "20:00"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac53"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Finanças",
+	"visitante" : "Contabilidade A",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac54"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Biologia",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac55"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Novas Tecnologias da Comunicação",
+	"visitante" : "Engenharia Informática",
+	"data" : "27-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac56"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Contabilidade",
+	"visitante" : "Música",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac57"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Biologia",
+	"visitante" : "Biotecnologia A",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac58"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Engenharia de Gestão Industrial",
+	"visitante" : "Economia",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac59"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Turismo",
+	"visitante" : "Engenharia Química",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5a"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Engenharia de Computadores e Telemática",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5b"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações A",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5c"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Música",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5d"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Biotecnologia A",
+	"visitante" : "Contabilidade",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5e"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Economia",
+	"visitante" : "Biologia",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac5f"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Engenharia Química",
+	"visitante" : "Engenharia de Gestão Industrial",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac60"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Engenharia de Computadores e Telemática",
+	"visitante" : "Turismo",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac61"),
+	"modalidade" : "Voleibol Masculino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações A",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "28-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac62"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "29-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac63"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Ciências do Mar",
+	"visitante" : "Gestão",
+	"data" : "29-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "22:15"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac64"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Engenharia de Computadores e Telemática",
+	"visitante" : "Contabilidade",
+	"data" : "29-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac65"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Metereologia, Oceanografia e Geofísica",
+	"visitante" : "Biotecnologia",
+	"data" : "29-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "23:45"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac66"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia Química",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "15:30"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac67"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Contabilidade",
+	"visitante" : "Bioquímica",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "15:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac68"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia de Gestão Industrial",
+	"visitante" : "Fisioterapia",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "15:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac69"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Biologia",
+	"visitante" : "Turismo",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "16:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6a"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Gestão",
+	"visitante" : "Psicologia A",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "16:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6b"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Contabilidade",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "16:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6c"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Psicologia A",
+	"visitante" : "Engenharia Química",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "17:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6d"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Bioquímica",
+	"visitante" : "Engenharia de Gestão Industrial",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "17:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6e"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Fisioterapia",
+	"visitante" : "Biologia",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "17:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac6f"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Turismo",
+	"visitante" : "Gestão",
+	"data" : "30-10-2019",
+	"divisao" : "1ª Divisão",
+	"hora" : "18:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac70"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Economia",
+	"visitante" : "Educação Básica",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "18:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac71"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia Biomédica",
+	"visitante" : "Biotecnologia",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "18:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac72"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Psicologia B",
+	"visitante" : "Ciências do Mar",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "19:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac73"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia de Computadores e Telemática",
+	"visitante" : "Design",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "19:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac74"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Educação Básica",
+	"visitante" : "Engenharia Biomédica",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "19:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac75"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Design",
+	"visitante" : "Economia",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac76"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Psicologia B",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac77"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Ciências do Mar",
+	"visitante" : "Engenharia de Computadores e Telemática",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "20:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac78"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Música",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac79"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Línguas e Relações Empresariais",
+	"visitante" : "Matemática",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7a"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia Civil",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "21:30"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7b"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Línguas e Relações Empresariais",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7c"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Matemática",
+	"visitante" : "Engenharia Civil",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7d"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações",
+	"visitante" : "Metereologia, Oceanografia e Geofísica",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7e"),
+	"modalidade" : "Voleibol Feminino",
+	"visitada" : "Design",
+	"visitante" : "GADPT",
+	"data" : "30-10-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac7f"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Enfermagem",
+	"visitante" : "Geologia",
+	"data" : "31-10-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac80"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia do Ambiente",
+	"visitante" : "Engenharia Civil",
+	"data" : "03-11-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac81"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Educação Básica",
+	"visitante" : "Gestão da Qualidade",
+	"data" : "03-11-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac82"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia de Computadores e Telemática",
+	"visitante" : "Matemática",
+	"data" : "03-11-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac83"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Biologia/Geologia",
+	"visitante" : "Contabilidade B",
+	"data" : "03-11-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac84"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Línguas e Relações Empresariais",
+	"visitante" : "Música",
+	"data" : "03-11-2019",
+	"divisao" : "2ª Divisão - Grupo A",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac85"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Enfermagem",
+	"visitante" : "Turismo",
+	"data" : "04-11-2019",
+	"divisao" : "Grupo B",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac86"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Economia",
+	"visitante" : "Marketing",
+	"data" : "04-11-2019",
+	"divisao" : "Grupo B",
+	"hora" : "22:15"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac87"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Biologia/Geologia",
+	"visitante" : "Biologia",
+	"data" : "04-11-2019",
+	"divisao" : "Grupo B",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac88"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia de Gestão Industrial",
+	"data" : "04-11-2019",
+	"divisao" : "Grupo B",
+	"hora" : "23:45"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac89"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Ciências do Mar",
+	"visitante" : "Economia",
+	"data" : "05-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8a"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Gestão",
+	"visitante" : "Psicologia",
+	"data" : "05-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8b"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia de Gestão Industrial B",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "05-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8c"),
+	"modalidade" : "Badminton",
+	"visitada" : "-",
+	"visitante" : "-",
+	"data" : "06-11-2019",
+	"divisao" : "-",
+	"hora" : "15:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8d"),
+	"modalidade" : "Ténis de Mesa",
+	"visitada" : "-",
+	"visitante" : "-",
+	"data" : "06-11-2019",
+	"divisao" : "-",
+	"hora" : "15:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8e"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Materiais",
+	"visitante" : "Biotecnologia",
+	"data" : "06-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "22:00"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac8f"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "GADPT",
+	"visitante" : "Engenharia Computacional",
+	"data" : "06-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac90"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Química",
+	"visitante" : "Design",
+	"data" : "06-11-2019",
+	"divisao" : "2ª Divisão - Grupo B",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac91"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Finanças",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "10-11-2019",
+	"divisao" : "Grupo A",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac92"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Psicologia",
+	"data" : "10-11-2019",
+	"divisao" : "Grupo A",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac93"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Música",
+	"data" : "10-11-2019",
+	"divisao" : "Grupo A",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac94"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia de Gestão Industrial",
+	"visitante" : "Bioquímica",
+	"data" : "10-11-2019",
+	"divisao" : "Grupo A",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac95"),
+	"modalidade" : "Andebol",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Ciências do Mar",
+	"data" : "11-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac96"),
+	"modalidade" : "Andebol",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "11-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "22:15"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac97"),
+	"modalidade" : "Andebol",
+	"visitada" : "Gestão",
+	"visitante" : "Engenharia de Computadores e de Telemática",
+	"data" : "11-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac98"),
+	"modalidade" : "Andebol",
+	"visitada" : "Contabilidade",
+	"visitante" : "Meteorologia, Oceonografia e Geofísica",
+	"data" : "11-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "23:45"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac99"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Matemática",
+	"visitante" : "Bioquímica",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9a"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Psicologia",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações B",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9b"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Engenharia Civil",
+	"visitante" : "Engenharia Ambiente",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9c"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Gestão",
+	"visitante" : "Marketing",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9d"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia Física",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9e"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações B",
+	"visitante" : "Matemática",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9f"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Engenharia Ambiente",
+	"visitante" : "Psicologia",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca0"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Marketing",
+	"visitante" : "Engenharia Civil",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca1"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Eng Física",
+	"visitante" : "Gestão",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca2"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Biotecnologia B",
+	"visitante" : "Engenharia Informática",
+	"data" : "13-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "20:00"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca3"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Engenharia e Gestão Industrial",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca4"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Contabilidade",
+	"visitante" : "Engenharia Química",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca5"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Biologia",
+	"visitante" : "Bioquímica",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca6"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Gestão",
+	"visitante" : "Fisioterapia",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca7"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Psicologia A",
+	"visitante" : "Turismo",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca8"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Biologia",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aca9"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Engenharia Química",
+	"visitante" : "Engenharia e Gestão Industrial",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acaa"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Contabilidade",
+	"visitante" : "Psicologia A",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acab"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Bioquímica",
+	"visitante" : "Gestão",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acac"),
+	"modalidade" : "VoleibolFeminino",
+	"visitada" : "Fisioterapia",
+	"visitante" : "Turismo",
+	"data" : "13-11-2019",
+	"divisão" : "1ª",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acad"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Ambiente",
+	"visitante" : "Novas Tecnologias da Comunicação",
+	"data" : "17-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acae"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Economia",
+	"visitante" : "Engenharia Física",
+	"data" : "17-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acaf"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Fisioterapia",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "17-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb0"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Gestão",
+	"visitante" : "Educação Básica",
+	"data" : "17-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb1"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia e Gestão Industrial A",
+	"visitante" : "Administração Pública",
+	"data" : "18-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb2"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Marketing",
+	"visitante" : "Fisioterapia",
+	"data" : "18-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb3"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Turismo",
+	"visitante" : "Finanças",
+	"data" : "18-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb4"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Contabilidade A",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "19-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb5"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Biologia",
+	"visitante" : "Novas Tecnologias da Comunicação",
+	"data" : "19-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb6"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Física",
+	"visitante" : "Engenharia Informática",
+	"data" : "19-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:30"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb7"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Economia",
+	"visitante" : "Biotecnologia",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb8"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Matemática",
+	"visitante" : "Enfermagem",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acb9"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Engenharia de Computadores e de Telemática",
+	"visitante" : "Bioquímica",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acba"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Fisioterapia",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acbb"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Matemática",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acbc"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Enfermagem",
+	"visitante" : "Engenharia de Computadores e de Telemática",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "15:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acbd"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Bioquímica",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "16:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acbe"),
+	"modalidade" : "Basquetebol Feminino ",
+	"visitada" : "Fisioterapia",
+	"visitante" : "Engenharia Biomédica",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo A",
+	"hora" : "16:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acbf"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Engenharia Ambiente",
+	"visitante" : "Psicologia",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "16:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc0"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Engenharia e Gestão Industrial",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "16:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc1"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Biologia",
+	"visitante" : "Gestão",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "16:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc2"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Biologia/Geologia",
+	"visitante" : "Turismo",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "16:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc3"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Psicologia",
+	"visitante" : "Engenharia e Gestão Industrial",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "17:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc4"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Biologia",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "17:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc5"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Gestão",
+	"visitante" : "Biologia/Geologia",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "17:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc6"),
+	"modalidade" : "Basquetebol Feminino",
+	"visitada" : "Turismo",
+	"visitante" : "Educação Básica",
+	"data" : "20-11-2019",
+	"divisão" : "Grupo B",
+	"hora" : "17:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc7"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Economia",
+	"visitante" : "Química",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "17:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc8"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Administração Pública",
+	"visitante" : "Marketing",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "17:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acc9"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Quimíca",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acca"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia e Gestão Industrial",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:00"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6accb"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "EngenhariaAmbiente",
+	"visitante" : "Engenharia Física",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6accc"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Gestão",
+	"visitante" : "Matemática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6accd"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Química",
+	"visitante" : "Gestão",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acce"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Marketing",
+	"visitante" : "Economia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "18:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6accf"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Mecânica",
+	"visitante" : "Administração Pública",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd0"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações",
+	"visitante" : "Engenharia Quimíca",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd1"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Física",
+	"visitante" : "Engenharia e Gestão Industrial",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd2"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Matemática",
+	"visitante" : "Engenharia Ambiente",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd3"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Química",
+	"visitante" : "Marketing",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd4"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Economia",
+	"visitante" : "Engenharia Mecânica",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "19:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd5"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Administração Pública",
+	"visitante" : "Engenharia Eletrónica e Telecomunicações",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd6"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Quimíca",
+	"visitante" : "Engenharia Física",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd7"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia e Gestão Industrial",
+	"visitante" : "Matemática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd8"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Gestão",
+	"visitante" : "Engenharia Ambiente",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acd9"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia de Computadores e de Telemática",
+	"visitante" : "Engenharia Biomédica",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acda"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Enfermagem",
+	"visitante" : "Engenharia Informática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "20:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acdb"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Novas Tecnologias da Comunicação",
+	"visitante" : "Ciências do Mar",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acdc"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Engenharia Materiais",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acdd"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Biologia/Geologia",
+	"visitante" : "Biologia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acde"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Meteorologia, Oceonografia e Geofísica",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:20"
+}
+Type "it" for more
+> it
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acdf"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Biomédica",
+	"visitante" : "Ciências Biomédicas",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace0"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia de Computadores e de Telemática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace1"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Ciências do Mar",
+	"visitante" : "Enfermagem",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace2"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Materiais",
+	"visitante" : "Novas Tecnologias da Comunicação",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace3"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Biologia",
+	"visitante" : "Biotecnologia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace4"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Meteorologia, Oceonografia e Geofísica",
+	"visitante" : "Biologia/Geologia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace5"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Biomédica",
+	"visitante" : "Engenharia Informática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace6"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia de Computadores e de Telemática",
+	"visitante" : "Ciências do Mar",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "22:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace7"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Enfermagem",
+	"visitante" : "Engenharia Materiais",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace8"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Novas Tecnologias da Comunicação",
+	"visitante" : "Biologia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace9"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "Meteorologia, Oceonografia e Geofísica",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acea"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Biologia/Geologia",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:20"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aceb"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Eletrónica e Telecomunicações",
+	"visitante" : "Ciências do Mar",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "18:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acec"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Economia",
+	"visitante" : "Gestão",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6aced"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Psicologia",
+	"visitante" : "Engenharia e Gestão Industrial B",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "20:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acee"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Ciências Biomédicas",
+	"visitante" : "Engenharia Materiais",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "21:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acef"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Biotecnologia",
+	"visitante" : "GADPT",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acf0"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Computacional",
+	"visitante" : "Engenharia Química",
+	"data" : "24-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "23:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acf1"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Química",
+	"visitante" : "Enfermagem",
+	"data" : "25-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "21:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acf2"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Geologia",
+	"visitante" : "Engenharia Ambiente",
+	"data" : "25-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:30"
+}
+Type "it" for more
+> db.calendario.find({"visitada" : "Engenharia Informática"}).pretty()
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac4a"),
+	"modalidade" : "Futsal Feminino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia do Ambiente",
+	"data" : "23-10-2019",
+	"divisao" : "Grupo B",
+	"hora" : "19:00"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac88"),
+	"modalidade" : "Andebol Misto",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia de Gestão Industrial",
+	"data" : "04-11-2019",
+	"divisao" : "Grupo B",
+	"hora" : "23:45"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ac9d"),
+	"modalidade" : "VoleibolMasculino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia Física",
+	"data" : "12-11-2019",
+	"divisão" : "2ª Divisão",
+	"hora" : "22:30"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6ace0"),
+	"modalidade" : "Basquetebol Masculino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Engenharia de Computadores e de Telemática",
+	"data" : "20-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "21:40"
+}
+{
+	"_id" : ObjectId("5daa58658db6777a51e6acff"),
+	"modalidade" : "Futsal Masculino",
+	"visitada" : "Engenharia Informática",
+	"visitante" : "Biologia",
+	"data" : "27-11-2019",
+	"divisão" : "1ª Divisão",
+	"hora" : "23:00"
+}
+> db.equipas.update({'logo':'logosNucleos/egi.jpg'}, {$set:{'logo':'no logo'}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.equipas.find({"siglaE": "EGI"})
+{ "_id" : ObjectId("5daa2705d8d1d11e462c801a"), "equipa" : "Engenharia e Gestão Industrial", "modalidades" : [ "Voleibol Feminino", "Basquetebol Feminino", "Futebol 7 Masculino", "Voleibol Masculino", "Futsal Feminino", "Basquetebol Masculino", "Andebol Misto", "Futsal Masculino" ], "nucleo" : "EGI", "siglaE" : "EGI", "siglaN" : "EGI", "logo" : "no logo" }
