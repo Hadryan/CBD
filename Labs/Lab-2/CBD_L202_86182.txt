@@ -7,7 +7,7 @@ db.rest.find()
 db.rest.find({}, {"nome": "*", "restaurant_id" : "*", "localidade" : "*", "gastronomia" : "*"})
 
 #3
-db.rest.find({}, {"nome": "*", "restaurant_id" : "*", "localidade" : "*", "address.zipcode" :1,"_id":""}).pretty()
+db.rest.find({}, {"nome": "*", "restaurant_id" : "*", "localidade" : "*", "address.zipcode" :1,"_id":0}).pretty()
 
 #4
 db.rest.find({"localidade": "Bronx"}).pretty()
