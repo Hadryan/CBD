@@ -34,9 +34,15 @@ db.rest.find( {nome: /^Wil/}, { "restaurant_id" :"*", "nome":"*", "localidade":"
 db.rest.find({"localidade": "Bronx" ,  $or : [ { "gastronomia" : "American " }, { "gastronomia" : "Chinese" } ]  }, {"nome":"*", "_id":0, "localidade":"*", "gastronomia":"*"}  ).pretty()
 
 #12
-db.rest.find({$or : [ {"localidade":"Bronx"}, {"localidade":"Staten Island"}, { "localidade" : "Queens" }, {"localidade": "Bronx"}, {"localidade":"Brooklyn"} ]  }, {"nome":"*", "_id":0, "localidade":"*", "gastronomia":"*"}  ).pretty()
+db.rest.find({$or : [{"localidade":"Bronx"}, {"localidade":"Staten Island"}, {"localidade" : "Queens"}, {"localidade": "Bronx"}, {"localidade":"Brooklyn"} ]  }, {"nome":"*", "_id":0, "localidade":"*", "gastronomia":"*"}  ).pretty()
 
 #13
-db.rest.find({"grades.score" : { $not: {$gt : 3}}}, {"nome":"*", "localidade":"*", "score":"*","gastronomia":"*", "_id":0})
+db.rest.find({"grades.score":{$not: {$gt : 3}}}, {"nome":"*", "localidade":"*", "score":"*","gastronomia":"*", "_id":0}).pretty()
 
 #14
+db.rest.find({"grades.date": ISODate("2014-08-11T00:00:00Z"), "grades.grade":"A" , "grades.score" : 10}, {"nome":"*", "_id":0}).pretty()
+
+#15
+db.rest.find({"grades.1.date": ISODate("2014-08-11T00:00:00Z"), "grades.1.grade":"A" , "grades.1.score" : 9 },  {"restaurant_id" : "*","nome":"*","grades.score":"*", "_id":0}).pretty()
+
+#16
