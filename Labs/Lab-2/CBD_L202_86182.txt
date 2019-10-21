@@ -49,9 +49,22 @@ db.rest.find({"grades.1.date": ISODate("2014-08-11T00:00:00Z"), "grades.1.grade"
 db.rest.find({"address.coord.1": {$gt : 42, $lte : 52}}, {"restaurant_id":"*", "nome":"*", "address":"*", "_id":0}).pretty()
 
 #17
-db.rest.find({}, {"nome":"*", "_id":0}).sort({"nome":1})
+db.rest.find({}, {"nome":"*", "_id":0}).sort({"nome":1}).pretty()
 
 #18
-db.rest.find({}, {"nome":"*", "gastronomia":"*", "localidade":"*", "_id":0}).sort({"gastronomia":1, "localidade":-1})
+db.rest.find({}, {"nome":"*", "gastronomia":"*", "localidade":"*", "_id":0}).sort({"gastronomia":1, "localidade":-1}).pretty()
 
 #19
+db.rest.find({"gastronomia": {"$ne" : "American"}, "grades.grade":"A", "localidade": {"$ne": "Brooklyn"}}).sort({"gastronomia":-1}).pretty()
+
+#20
+db.rest.group({key:{"localidade":"*"}, cond:{"gastronomia":"*"}, reduce: function(cur, result){result.count+=1}, initial:{"count":0}}).pretty()
+
+#21
+db.rest.aggregate([{$group:{_id:"$localidade", total:{$sum:1}}}]).pretty()
+
+#22
+db.rest.aggregate([{ '$group': {'_id': '$nome','avg': {'$avg': {'$avg': {'$map': {'input': {'$filter': {'input': '$grades', 'as': 'grade','cond': {}}},'as': 'grade','in': '$$grade.score'}}}}}}, { '$sort': { 'avg': -1 } }, { '$match': {'avg' : {'$gt' : 30} } }]).pretty()
+
+#23
+db.rest.find({$and:[{"gastronomia" : {"$ne" :"American "}},{"grades.score" : {"$gt" : 70}},{"address.coord" : {"$lt" : -65}}]}).pretty()
