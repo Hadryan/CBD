@@ -1,0 +1,14 @@
+#1 - Mostrar todas as modalidades por equipa
+db.equipas.find({}, {"equipa":"*", "modalidades":"*", "_id":0})
+
+#2 - Mostrar todos os jogos a ocorrer no dia 21 de outubro de 2019
+db.calendario.find({ "data":"21-10-2019"}, {"equipa":"*", "visitada":"*", "visitante":"*", "_id":0})
+
+#3 - Mostrar todos os jogos em que a equipa visitada ganhou
+db.matches.find({"$where": "this.visitada_score > this.visitante_score" }, {"visitada":"*", "_id":0})
+
+#4 - 
+db.collection.aggregate( [
+{ $match : { visitada_score : { $gt : 0, $lte : 3 } } },
+{ $group: { _id: visitada, count: { $sum: 1 } } }
+] );

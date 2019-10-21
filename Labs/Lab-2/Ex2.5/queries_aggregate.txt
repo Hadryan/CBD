@@ -1,0 +1,5 @@
+# 1 - Contar todos as equipas que têm um score entre ]0,3]
+db.matches.aggregate( [ { $match : { visitada_score : { $gt : "0", $lte : "3" } } }, { $group: { _id:1, count: { $sum: 1 } } } ] );
+
+# 2 - Mostrar todos os jogos em que ambas as equipas marcaram
+db.matches.aggregate( [ { $match : { visitada_score : { $gt : "0" }, visitante_score: {$gt : "0"} } }, { $group: { _id:{"visitada":"$visitada", "visitante":"$visitante"}} } ] );
