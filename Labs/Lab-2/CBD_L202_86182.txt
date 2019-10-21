@@ -46,3 +46,12 @@ db.rest.find({"grades.date": ISODate("2014-08-11T00:00:00Z"), "grades.grade":"A"
 db.rest.find({"grades.1.date": ISODate("2014-08-11T00:00:00Z"), "grades.1.grade":"A" , "grades.1.score" : 9 },  {"restaurant_id" : "*","nome":"*","grades.score":"*", "_id":0}).pretty()
 
 #16
+db.rest.find({"address.coord.1": {$gt : 42, $lte : 52}}, {"restaurant_id":"*", "nome":"*", "address":"*", "_id":0}).pretty()
+
+#17
+db.rest.find({}, {"nome":"*", "_id":0}).sort({"nome":1})
+
+#18
+db.rest.find({}, {"nome":"*", "gastronomia":"*", "localidade":"*", "_id":0}).sort({"gastronomia":1, "localidade":-1})
+
+#19
