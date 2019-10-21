@@ -59,7 +59,7 @@ db.rest.find({"gastronomia": {"$ne" : "American"}, "grades.grade":"A", "localida
 
 #20
 db.rest.group({key:{"localidade":"*"}, cond:{"gastronomia":"*"}, reduce: function(cur, result){result.count+=1}, initial:{"count":0}}).pretty()
-
+db.rest.aggregate([       {         $group : {_id:"$localidade", mycount:{$sum:1}}       }]).map(function(o) {       var r = {};       r[o._id] = o.mycount;       return r;     });
 #21
 db.rest.aggregate([{$group:{_id:"$localidade", total:{$sum:1}}}]).pretty()
 
