@@ -1,0 +1,4511 @@
+use taca_ua
+
+db.calendario.insert([
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Gestão da Qualidade",
+        "visitante": "Engenharia do Ambiente",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Matemática",
+        "visitante": "Educação Básica",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Contabilidade B",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Música",
+        "visitante": "Biologia/Geologia",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Economia",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Psicologia",
+        "visitante": "Ciências do Mar",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Gestão",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Matemática",
+        "visitante": "Finanças",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "15:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Engenharia Mecânica",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "16:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Psiologia",
+        "visitante": "Biotecnologia",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "17:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Música",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "18:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Informática",
+        "visitante": "Engenharia do Ambiente",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "19:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Novas Tecnologias da Comunicação",
+        "visitante": "Economia",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Física",
+        "visitante": "Fisioterapia",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Gestão",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "22:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Biotecnologia",
+        "visitante": "Engenharia de Gestão Industrial B",
+        "data": "23-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Computacional",
+        "visitante": "Engenharia de Materiais",
+        "data": "24-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Gestão Industrial A",
+        "visitante": "Engenharia Física",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "18:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Administração Pública",
+        "visitante": "Marketing",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "19:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Fisioterapia",
+        "visitante": "Turismo",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Finanças",
+        "visitante": "Contabilidade A",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Biologia",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Novas Tecnologias da Comunicação",
+        "visitante": "Engenharia Informática",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Contabilidade",
+        "visitante": "Música",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Biologia",
+        "visitante": "Biotecnologia A",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Economia",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Turismo",
+        "visitante": "Engenharia Química",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Engenharia Eletrónica e Telecomunicações A",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Música",
+        "visitante": "Ciências Biomédicas",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Biotecnologia A",
+        "visitante": "Contabilidade",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Economia",
+        "visitante": "Biologia",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Química",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Turismo",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações A",
+        "visitante": "Engenharia Mecânica",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Engenharia Mecânica",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Ciências do Mar",
+        "visitante": "Gestão",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:15"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Contabilidade",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Metereologia, Oceanografia e Geofísica",
+        "visitante": "Biotecnologia",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:45"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Química",
+        "visitante": "Engenharia Mecânica",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Contabilidade",
+        "visitante": "Bioquímica",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Fisioterapia",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Biologia",
+        "visitante": "Turismo",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Gestão",
+        "visitante": "Psicologia A",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Contabilidade",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Psicologia A",
+        "visitante": "Engenharia Química",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Bioquímica",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Fisioterapia",
+        "visitante": "Biologia",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Turismo",
+        "visitante": "Gestão",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "18:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Economia",
+        "visitante": "Educação Básica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "18:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Biomédica",
+        "visitante": "Biotecnologia",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "18:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Psicologia B",
+        "visitante": "Ciências do Mar",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Design",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Educação Básica",
+        "visitante": "Engenharia Biomédica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Design",
+        "visitante": "Economia",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Biotecnologia",
+        "visitante": "Psicologia B",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Ciências do Mar",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Música",
+        "visitante": "Ciências Biomédicas",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Línguas e Relações Empresariais",
+        "visitante": "Matemática",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Civil",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Línguas e Relações Empresariais",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Matemática",
+        "visitante": "Engenharia Civil",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Metereologia, Oceanografia e Geofísica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Design",
+        "visitante": "GADPT",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Enfermagem",
+        "visitante": "Geologia",
+        "data": "31-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia do Ambiente",
+        "visitante": "Engenharia Civil",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Educação Básica",
+        "visitante": "Gestão da Qualidade",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Matemática",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Biologia/Geologia",
+        "visitante": "Contabilidade B",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Línguas e Relações Empresariais",
+        "visitante": "Música",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Enfermagem",
+        "visitante": "Turismo",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Economia",
+        "visitante": "Marketing",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "22:15"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Biologia/Geologia",
+        "visitante": "Biologia",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "23:00"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia Informática",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "23:45"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Ciências do Mar",
+        "visitante": "Economia",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Gestão",
+        "visitante": "Psicologia",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Gestão Industrial B",
+        "visitante": "Ciências Biomédicas",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:30"
+    },
+    {
+        "modalidade": "Badminton",
+        "visitada": "-",
+        "visitante": "-",
+        "data": "06-11-2019",
+        "divisao": "-",
+        "hora": "15:00"
+    },
+    {
+        "modalidade": "Ténis de Mesa",
+        "visitada": "-",
+        "visitante": "-",
+        "data": "06-11-2019",
+        "divisao": "-",
+        "hora": "15:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Materiais",
+        "visitante": "Biotecnologia",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "GADPT",
+        "visitante": "Engenharia Computacional",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Química",
+        "visitante": "Design",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Finanças",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "19:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Psicologia",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "20:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Biotecnologia",
+        "visitante": "Música",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "21:00"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Bioquímica",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "22:00"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Ciências do Mar",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Biotecnologia",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"22:15"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Gestão",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Contabilidade",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"23:45"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Matemática",
+        "visitante":"Bioquímica",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia Eletrónica e Telecomunicações B",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Civil",
+        "visitante":"Engenharia Ambiente",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Marketing",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Engenharia Física",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações B",
+        "visitante":"Matemática",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Psicologia",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Marketing",
+        "visitante":"Engenharia Civil",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Eng Física",
+        "visitante":"Gestão",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Biotecnologia B",
+        "visitante":"Engenharia Informática",
+        "data":"13-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Mecânica",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Contabilidade",
+        "visitante":"Engenharia Química",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Biologia",
+        "visitante":"Bioquímica",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Gestão",
+        "visitante":"Fisioterapia",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Psicologia A",
+        "visitante":"Turismo",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Biologia",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia Química",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Contabilidade",
+        "visitante":"Psicologia A",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Bioquímica",
+        "visitante":"Gestão",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Fisioterapia",
+        "visitante":"Turismo",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"19:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Economia",
+        "visitante":"Engenharia Física",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Fisioterapia",
+        "visitante":"Ciências Biomédicas",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Gestão",
+        "visitante":"Educação Básica",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia e Gestão Industrial A",
+        "visitante":"Administração Pública",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Marketing",
+        "visitante":"Fisioterapia",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Turismo",
+        "visitante":"Finanças",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Contabilidade A",
+        "visitante":"Engenharia Mecânica",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Biologia",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia Informática",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Economia",
+        "visitante":"Biotecnologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Matemática",
+        "visitante":"Enfermagem",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Bioquímica",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:20"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Fisioterapia",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:20"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Biotecnologia",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:40"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:40"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Bioquímica",
+        "visitante":"Ciências Biomédicas",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"16:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Fisioterapia",
+        "visitante":"Engenharia Biomédica",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"16:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Psicologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:20"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:20"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Biologia",
+        "visitante":"Gestão",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:40"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Biologia/Geologia",
+        "visitante":"Turismo",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:40"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Gestão",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:20"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Turismo",
+        "visitante":"Educação Básica",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Economia",
+        "visitante":"Química",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"17:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Marketing",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"17:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Quimíca",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"EngenhariaAmbiente",
+        "visitante":"Engenharia Física",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Química",
+        "visitante":"Gestão",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Marketing",
+        "visitante":"Economia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Administração Pública",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Engenharia Quimíca",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Matemática",
+        "visitante":"Engenharia Ambiente",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Química",
+        "visitante":"Marketing",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Economia",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Quimíca",
+        "visitante":"Engenharia Física",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Engenharia Ambiente",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Engenharia Biomédica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia Informática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Ciências do Mar",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"Engenharia Materiais",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biologia/Geologia",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Biomédica",
+        "visitante":"Ciências Biomédicas",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências do Mar",
+        "visitante":"Enfermagem",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Materiais",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biologia",
+        "visitante":"Biotecnologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Meteorologia, Oceonografia e Geofísica",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Biomédica",
+        "visitante":"Engenharia Informática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Ciências do Mar",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:40"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia Materiais",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:20"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:20"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Ciências do Mar",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"18:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Economia",
+        "visitante":"Gestão",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"19:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia e Gestão Industrial B",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Engenharia Materiais",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"GADPT",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Computacional",
+        "visitante":"Engenharia Química",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Química",
+        "visitante":"Enfermagem",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Geologia",
+        "visitante":"Engenharia Ambiente",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Civil",
+        "visitante":"Educação Básica",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Gestão Qualidade",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Matemática",
+        "visitante":"Biologia/Geologia",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Contabilidade B",
+        "visitante":"Línguas e Relações Empresariais",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia Ambiente",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"15:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Engenharia Informática",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Economia",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Educação Básica",
+        "visitante":"Fisioterapia",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"18:00"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Psicologia",
+        "visitante":"Finanças",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"19:00"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Matemática",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Música",
+        "visitante":"Engenharia Mecânica",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Bioquímica",
+        "visitante":"Biotecnologia",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"22:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Biologia",
+        "data":"27-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Fisioterapia",
+        "visitante":"Engenharia e Gestão Industrial A",
+        "data":"28-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Engenharia Física",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Finanças",
+        "visitante":"Marketing",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Turismo",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Contabilidade A",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00"
+    }
+])
+db.equipas.insert([
+    {
+        "equipa":"Engenharia de Computadores e de Telemática",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia de Computadores e de Telemática",
+        "siglaE":"ECT",
+        "siglaN":"NEECT",
+        "logo":"logosNucleos/neect.jpg"
+    },
+    {
+        "equipa":"Engenharia e Gestão Industrial",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto",
+            "Futsal Masculino"
+        ],
+        "nucleo":"EGI",
+        "siglaE":"EGI",
+        "siglaN":"EGI",
+        "logo":"logosNucleos/egi.jpg"
+    },
+    {
+        "equipa":"Engenharia Civil",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Voleibol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Civil",
+        "siglaE":"Eng. Civil",
+        "siglaN":"NEBEC",
+        "logo":"logosNucleos/nebec.jpg"
+    },
+    {
+        "equipa":"Ciências do Mar",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Ciências do Mar",
+        "siglaE":"CM",
+        "siglaN":"NECM",
+        "logo":"logosNucleos/necm.jpg"
+    },
+    {
+        "equipa":"Educação Básica",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Educação Básica",
+        "siglaE":"EB",
+        "siglaN":"NEEB",
+        "logo":"logosNucleos/neeb.jpg"
+    },
+    {
+        "equipa":"Contabilidade",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Andebol Misto",
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes do ISCA",
+        "siglaE":"Contabilidade",
+        "siglaN":"NAE-ISCA",
+        "logo":"logosNucleos/naeisca.jpg"
+    },
+    {
+        "equipa":"Turismo",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Gestão e Planeamento em Turismo",
+        "siglaE":"Turismo",
+        "siglaN":"NEGPT",
+        "logo":"logosNucleos/negpt.jpg"
+    },
+    {
+        "equipa":"Psicologia A",
+        "modalidades":[
+            "Voleibol Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Psicologia",
+        "siglaE":"Psicologia",
+        "siglaN":"NEP",
+        "logo":"logosNucleos/nep.jpg"
+    },
+    {
+        "equipa":"Psicologia B",
+        "modalidades":[
+            "Voleibol Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Psicologia",
+        "siglaE":"Psicologia",
+        "siglaN":"NEP",
+        "logo":"logosNucleos/nep.jpg"
+    },
+    {
+        "equipa":"Gestão",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Gestão",
+        "siglaE":"Gestão",
+        "siglaN":"NEG",
+        "logo":"logosNucleos/neg.jpg"
+    },
+    {
+        "equipa":"Bioquímica",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Voleibol Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Química",
+        "siglaE":"Bioquímica",
+        "siglaN":"NEQ",
+        "logo":"logosNucleos/neq.jpg"
+    },
+    {
+        "equipa":"Biotecnologia",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto",
+            "Voleibol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Química",
+        "siglaE":"Biotecnologia",
+        "siglaN":"NEQ",
+        "logo":"logosNucleos/neq.jpg"
+    },
+    {
+        "equipa":"Matemática",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Matemática",
+        "siglaE":"Matemática",
+        "siglaN":"NEMat",
+        "logo":"logosNucleos/nemat.jpg"
+    },
+    {
+        "equipa":"Biologia",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Biologia",
+        "siglaE":"Biologia",
+        "siglaN":"NEB",
+        "logo":"logosNucleos/neb.jpg"
+    },
+    {
+        "equipa":"Engenharia Eletrónica e Telecomunicações",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto",
+            "Voleibol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Eletrónica e Telecomunicações",
+        "siglaE":"EET",
+        "siglaN":"NEEET",
+        "logo":"logosNucleos/neeet.jpg"
+    },
+    {
+        "equipa":"Engenharia Biomédica",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Física",
+        "siglaE":"Engenharia Biomédica",
+        "siglaN":"NEEF",
+        "logo":"logosNucleos/neef.jpg"
+    },
+    {
+        "equipa":"Engenharia Mecânica",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Mecânica",
+        "siglaE":"EMec",
+        "siglaN":"NEEMEc",
+        "logo":"logosNucleos/neemec.jpg"
+    },
+    {
+        "equipa":"Engenharia Química",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Química",
+        "siglaE":"EQ",
+        "siglaN":"NEEQu",
+        "logo":"logosNucleos/neequ.jpg"
+    },
+    {
+        "equipa":"Meteorologia, Oceonografia e Geofísica",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Meteorologia, Oceonografia e Geofísica",
+        "siglaE":"MOG",
+        "siglaN":"NEMOG",
+        "logo":"logosNucleos/nemog.jpg"
+    },
+    {
+        "equipa":"Música",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Música",
+        "siglaE":"Música",
+        "siglaN":"NEMu",
+        "logo":"logosNucleos/nemu.jpg"
+    },
+    {
+        "equipa":"Fisioterapia",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes da ESSUA",
+        "siglaE":"Fisioterapia",
+        "siglaN":"NAE-ESSUA",
+        "logo":"logosNucleos/naeessua.jpg"
+    },
+    {
+        "equipa":"Línguas e Relações Empresariais",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Línguas e Relações Empresariais",
+        "siglaE":"LRE",
+        "siglaN":"NELRE",
+        "logo":"logosNucleos/nelre.jpg"
+    },
+    {
+        "equipa":"Design",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Design",
+        "siglaE":"Design",
+        "siglaN":"NED",
+        "logo":"logosNucleos/ned.jpg"
+    },
+    {
+        "equipa":"Economia",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Economia",
+        "siglaE":"Economia",
+        "siglaN":"NEEC",
+        "logo":"logosNucleos/neec.jpg"
+    },
+    {
+        "equipa":"Ciências Biomédicas",
+        "modalidades":[
+            "Voleibol Feminino",
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Ciências Biomédicas",
+        "siglaE":"CBM",
+        "siglaN":"NECiB",
+        "logo":"logosNucleos/necib.jpg"
+    },
+    {
+        "equipa":"Biologia/Geologia",
+        "modalidades":[
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Biologia e Geologia",
+        "siglaE":"BG",
+        "siglaN":"NEBG",
+        "logo":"logosNucleos/nebg.jpg"
+    },
+    {
+        "equipa":"Engenharia do Ambiente",
+        "modalidades":[
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia do Ambiente",
+        "siglaE":"EA",
+        "siglaN":"NEEA",
+        "logo":"logosNucleos/neea.jpg"
+    },
+    {
+        "equipa":"Psicologia",
+        "modalidades":[
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Psicologia",
+        "siglaE":"Psicologia",
+        "siglaN":"NEP",
+        "logo":"logosNucleos/nep.jpg"
+    },
+    {
+        "equipa":"Enfermagem",
+        "modalidades":[
+            "Basquetebol Feminino",
+            "Futsal Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes da ESSUA",
+        "siglaE":"Enfermagem",
+        "siglaN":"NAE-ESSUA",
+        "logo":"logosNucleos/naeessua.jpg"
+    },
+    {
+        "equipa":"Engenharia Informática",
+        "modalidades":[
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo de Estudantes de Informática",
+        "siglaE":"EI",
+        "siglaN":"NEI",
+        "logo":"logosNucleos/nei.jpg"
+    },
+    {
+        "equipa":"Engenharia de Materiais",
+        "modalidades":[
+            "Futsal Masculino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Materiais",
+        "siglaE":"EM",
+        "siglaN":"NEM",
+        "logo":"logosNucleos/nem.jpg"
+    },
+    {
+        "equipa":"Engenharia e Gestão Industrial B",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"EGI",
+        "siglaE":"EGI B",
+        "siglaN":"EGI",
+        "logo":"logosNucleos/egi.jpg"
+    },
+    {
+        "equipa":"Administração Pública",
+        "modalidades":[
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Administração Pública",
+        "siglaE":"AP",
+        "siglaN":"NEAP",
+        "logo":"logosNucleos/neap.jpg"
+    },
+    {
+        "equipa":"Finanças",
+        "modalidades":[
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Futsal Feminino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes do ISCA",
+        "siglaE":"Finanças",
+        "siglaN":"NAE-ISCA",
+        "logo":"logosNucleos/naeisca.jpg"
+    },
+    {
+        "equipa":"Marketing",
+        "modalidades":[
+            "Futsal Masculino",
+            "Voleibol Masculino",
+            "Basquetebol Masculino",
+            "Andebol Misto"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes do ISCA",
+        "siglaE":"Marketing",
+        "siglaN":"NAE-ISCA",
+        "logo":"logosNucleos/naeisca.jpg"
+    },
+    {
+        "equipa":"GADPT",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes do ISCA",
+        "siglaE":"GADPT",
+        "siglaN":"NAE-ISCA",
+        "logo":"logosNucleos/naeisca.jpg"
+    },
+    {
+        "equipa":"Contabilidade B",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes do ISCA",
+        "siglaE":"Contabilidade B",
+        "siglaN":"NAE-ISCA",
+        "logo":"logosNucleos/naeisca.jpg"
+    },
+    {
+        "equipa":"Química",
+        "modalidades":[
+            "Futsal Masculino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Química",
+        "siglaE":"Química",
+        "siglaN":"NEQ",
+        "logo":"logosNucleos/neq.jpg"
+    },
+    {
+        "equipa":"Novas Tecnologias da Comunicação",
+        "modalidades":[
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Novas Tecnologias da Comunicação",
+        "siglaE":"NTC",
+        "siglaN":"NENTC",
+        "logo":"logosNucleos/ntc.jpg"
+    },
+    {
+        "equipa":"Engenharia Física",
+        "modalidades":[
+            "Futsal Masculino",
+            "Futebol 7 Masculino",
+            "Voleibol Masculino",
+            "Futsal Feminino",
+            "Basquetebol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Física",
+        "siglaE":"Engenharia Física",
+        "siglaN":"NEEF",
+        "logo":"logosNucleos/neef.jpg"
+    },
+    {
+        "equipa":"Engenharia Computacional",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Física",
+        "siglaE":"Engenharia Computacional",
+        "siglaN":"NEEF",
+        "logo":"logosNucleos/neef.jpg"
+    },
+    {
+        "equipa":"Geologia",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Geologia",
+        "siglaE":"Geologia",
+        "siglaN":"NEGeo",
+        "logo":"logosNucleos/negeo.jpg"
+    },
+    {
+        "equipa":"Gestão da Qualidade",
+        "modalidades":[
+            "Futsal Masculino"
+        ],
+        "nucleo":"Núcleo Associativo de Estudantes da ESTGA",
+        "siglaE":"Gestão da Qualidade",
+        "siglaN":"NAE_ESTGA",
+        "logo":"logosNucleos/naeestga.jpg"
+    },
+    {
+        "equipa":"Biotecnologia B",
+        "modalidades":[
+            "Voleibol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Química",
+        "siglaE":"Biotecnologia B",
+        "siglaN":"NEQ",
+        "logo":"logosNucleos/neq.jpg"
+    },
+    {
+        "equipa":"Engenharia Eletrónica e Telecomunicações B",
+        "modalidades":[
+            "Voleibol Masculino"
+        ],
+        "nucleo":"Núcleo de Estudantes de Engenharia Eletrónica e Telecomunicações",
+        "siglaE":"EET B",
+        "siglaN":"NEEET",
+        "logo":"logosNucleos/eet.jpg"
+    }
+])
+db.matches.insert([
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Gestão da Qualidade",
+        "visitante": "Engenharia do Ambiente",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Matemática",
+        "visitante": "Educação Básica",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Contabilidade B",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Música",
+        "visitante": "Biologia/Geologia",
+        "data": "21-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Economia",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Psicologia",
+        "visitante": "Ciências do Mar",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Gestão",
+        "data": "22-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Matemática",
+        "visitante": "Finanças",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Engenharia Mecânica",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "16:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Psiologia",
+        "visitante": "Biotecnologia",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "17:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Música",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "23-10-2019",
+        "divisao": "Grupo A",
+        "hora": "18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Informática",
+        "visitante": "Engenharia do Ambiente",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Novas Tecnologias da Comunicação",
+        "visitante": "Economia",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Física",
+        "visitante": "Fisioterapia",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Gestão",
+        "data": "23-10-2019",
+        "divisao": "Grupo B",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Biotecnologia",
+        "visitante": "Engenharia de Gestão Industrial B",
+        "data": "23-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Computacional",
+        "visitante": "Engenharia de Materiais",
+        "data": "24-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Gestão Industrial A",
+        "visitante": "Engenharia Física",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Administração Pública",
+        "visitante": "Marketing",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Fisioterapia",
+        "visitante": "Turismo",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Finanças",
+        "visitante": "Contabilidade A",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Biologia",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Novas Tecnologias da Comunicação",
+        "visitante": "Engenharia Informática",
+        "data": "27-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Contabilidade",
+        "visitante": "Música",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Biologia",
+        "visitante": "Biotecnologia A",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Economia",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Turismo",
+        "visitante": "Engenharia Química",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Engenharia Eletrónica e Telecomunicações A",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Música",
+        "visitante": "Ciências Biomédicas",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Biotecnologia A",
+        "visitante": "Contabilidade",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Economia",
+        "visitante": "Biologia",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Química",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Turismo",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Masculino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações A",
+        "visitante": "Engenharia Mecânica",
+        "data": "28-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Engenharia Mecânica",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Ciências do Mar",
+        "visitante": "Gestão",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "22:15",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Contabilidade",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Metereologia, Oceanografia e Geofísica",
+        "visitante": "Biotecnologia",
+        "data": "29-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "23:45",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Química",
+        "visitante": "Engenharia Mecânica",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Contabilidade",
+        "visitante": "Bioquímica",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Fisioterapia",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "15:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Biologia",
+        "visitante": "Turismo",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Gestão",
+        "visitante": "Psicologia A",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Contabilidade",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "16:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Psicologia A",
+        "visitante": "Engenharia Química",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Bioquímica",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Fisioterapia",
+        "visitante": "Biologia",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "17:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Turismo",
+        "visitante": "Gestão",
+        "data": "30-10-2019",
+        "divisao": "1ª Divisão",
+        "hora": "18:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Economia",
+        "visitante": "Educação Básica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "18:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Biomédica",
+        "visitante": "Biotecnologia",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "18:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Psicologia B",
+        "visitante": "Ciências do Mar",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Design",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Educação Básica",
+        "visitante": "Engenharia Biomédica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Design",
+        "visitante": "Economia",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Biotecnologia",
+        "visitante": "Psicologia B",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Ciências do Mar",
+        "visitante": "Engenharia de Computadores e Telemática",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Música",
+        "visitante": "Ciências Biomédicas",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Línguas e Relações Empresariais",
+        "visitante": "Matemática",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Civil",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Ciências Biomédicas",
+        "visitante": "Línguas e Relações Empresariais",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Matemática",
+        "visitante": "Engenharia Civil",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Engenharia Eletrónica e Telecomunicações",
+        "visitante": "Metereologia, Oceanografia e Geofísica",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Voleibol Feminino",
+        "visitada": "Design",
+        "visitante": "GADPT",
+        "data": "30-10-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Enfermagem",
+        "visitante": "Geologia",
+        "data": "31-10-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia do Ambiente",
+        "visitante": "Engenharia Civil",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Educação Básica",
+        "visitante": "Gestão da Qualidade",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Computadores e Telemática",
+        "visitante": "Matemática",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Biologia/Geologia",
+        "visitante": "Contabilidade B",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Línguas e Relações Empresariais",
+        "visitante": "Música",
+        "data": "03-11-2019",
+        "divisao": "2ª Divisão - Grupo A",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Enfermagem",
+        "visitante": "Turismo",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Economia",
+        "visitante": "Marketing",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "22:15",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Biologia/Geologia",
+        "visitante": "Biologia",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Andebol Misto",
+        "visitada": "Engenharia Informática",
+        "visitante": "Engenharia de Gestão Industrial",
+        "data": "04-11-2019",
+        "divisao": "Grupo B",
+        "hora": "23:45",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Ciências do Mar",
+        "visitante": "Economia",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Gestão",
+        "visitante": "Psicologia",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia de Gestão Industrial B",
+        "visitante": "Ciências Biomédicas",
+        "data": "05-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Badminton",
+        "visitada": "-",
+        "visitante": "-",
+        "data": "06-11-2019",
+        "divisao": "-",
+        "hora": "15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Ténis de Mesa",
+        "visitada": "-",
+        "visitante": "-",
+        "data": "06-11-2019",
+        "divisao": "-",
+        "hora": "15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Materiais",
+        "visitante": "Biotecnologia",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "GADPT",
+        "visitante": "Engenharia Computacional",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Masculino",
+        "visitada": "Engenharia Química",
+        "visitante": "Design",
+        "data": "06-11-2019",
+        "divisao": "2ª Divisão - Grupo B",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Finanças",
+        "visitante": "Engenharia Eletrónica e Telecomunicações",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Psicologia",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Biotecnologia",
+        "visitante": "Música",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade": "Futsal Feminino",
+        "visitada": "Engenharia de Gestão Industrial",
+        "visitante": "Bioquímica",
+        "data": "10-11-2019",
+        "divisao": "Grupo A",
+        "hora": "22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Ciências do Mar",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Biotecnologia",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"22:15",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Gestão",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Andebol",
+        "visitada":"Contabilidade",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"11-11-2019",
+        "divisão":"Grupo A",
+        "hora":"23:45",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Matemática",
+        "visitante":"Bioquímica",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia Eletrónica e Telecomunicações B",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Civil",
+        "visitante":"Engenharia Ambiente",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Marketing",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Engenharia Física",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações B",
+        "visitante":"Matemática",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Psicologia",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Marketing",
+        "visitante":"Engenharia Civil",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Eng Física",
+        "visitante":"Gestão",
+        "data":"12-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "visitada":"Biotecnologia B",
+        "visitante":"Engenharia Informática",
+        "data":"13-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Mecânica",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Contabilidade",
+        "visitante":"Engenharia Química",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Biologia",
+        "visitante":"Bioquímica",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Gestão",
+        "visitante":"Fisioterapia",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Psicologia A",
+        "visitante":"Turismo",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Biologia",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Engenharia Química",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Contabilidade",
+        "visitante":"Psicologia A",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Bioquímica",
+        "visitante":"Gestão",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "visitada":"Fisioterapia",
+        "visitante":"Turismo",
+        "data":"13-11-2019",
+        "divisão":"1ª",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Economia",
+        "visitante":"Engenharia Física",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Fisioterapia",
+        "visitante":"Ciências Biomédicas",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Gestão",
+        "visitante":"Educação Básica",
+        "data":"17-11-2019",
+        "divisão":"Grupo B",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia e Gestão Industrial A",
+        "visitante":"Administração Pública",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Marketing",
+        "visitante":"Fisioterapia",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Turismo",
+        "visitante":"Finanças",
+        "data":"18-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Contabilidade A",
+        "visitante":"Engenharia Mecânica",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Biologia",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia Informática",
+        "data":"19-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Economia",
+        "visitante":"Biotecnologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Matemática",
+        "visitante":"Enfermagem",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Bioquímica",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Fisioterapia",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Biotecnologia",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"15:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Bioquímica",
+        "visitante":"Ciências Biomédicas",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"16:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino ",
+        "visitada":"Fisioterapia",
+        "visitante":"Engenharia Biomédica",
+        "data":"20-11-2019",
+        "divisão":"Grupo A",
+        "hora":"16:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia Ambiente",
+        "visitante":"Psicologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Biologia",
+        "visitante":"Gestão",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Biologia/Geologia",
+        "visitante":"Turismo",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Gestão",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "visitada":"Turismo",
+        "visitante":"Educação Básica",
+        "data":"20-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Economia",
+        "visitante":"Química",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"17:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Marketing",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"17:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Quimíca",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"EngenhariaAmbiente",
+        "visitante":"Engenharia Física",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Química",
+        "visitante":"Gestão",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Marketing",
+        "visitante":"Economia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"18:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Administração Pública",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Engenharia Quimíca",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia e Gestão Industrial",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Matemática",
+        "visitante":"Engenharia Ambiente",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Química",
+        "visitante":"Marketing",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Economia",
+        "visitante":"Engenharia Mecânica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"19:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Engenharia Eletrónica e Telecomunicações",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Quimíca",
+        "visitante":"Engenharia Física",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia e Gestão Industrial",
+        "visitante":"Matemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Gestão",
+        "visitante":"Engenharia Ambiente",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Engenharia Biomédica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia Informática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Ciências do Mar",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"Engenharia Materiais",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biologia/Geologia",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Biomédica",
+        "visitante":"Ciências Biomédicas",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências do Mar",
+        "visitante":"Enfermagem",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Materiais",
+        "visitante":"Novas Tecnologias da Comunicação",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biologia",
+        "visitante":"Biotecnologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Meteorologia, Oceonografia e Geofísica",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia Biomédica",
+        "visitante":"Engenharia Informática",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Engenharia de Computadores e de Telemática",
+        "visitante":"Ciências do Mar",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:40",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Enfermagem",
+        "visitante":"Engenharia Materiais",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Biologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"Meteorologia, Oceonografia e Geofísica",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Biologia/Geologia",
+        "data":"20-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:20",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Ciências do Mar",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Economia",
+        "visitante":"Gestão",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Psicologia",
+        "visitante":"Engenharia e Gestão Industrial B",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Engenharia Materiais",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Biotecnologia",
+        "visitante":"GADPT",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Computacional",
+        "visitante":"Engenharia Química",
+        "data":"24-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Química",
+        "visitante":"Enfermagem",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Geologia",
+        "visitante":"Engenharia Ambiente",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Civil",
+        "visitante":"Educação Básica",
+        "data":"25-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Gestão Qualidade",
+        "visitante":"Engenharia de Computadores e de Telemática",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"21:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Matemática",
+        "visitante":"Biologia/Geologia",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"22:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Contabilidade B",
+        "visitante":"Línguas e Relações Empresariais",
+        "data":"26-11-2019",
+        "divisão":"2ª Divisão",
+        "hora":"23:30",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Engenharia Física",
+        "visitante":"Engenharia Ambiente",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"15:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Engenharia Informática",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"16:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Ciências Biomédicas",
+        "visitante":"Economia",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"17:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "visitada":"Educação Básica",
+        "visitante":"Fisioterapia",
+        "data":"27-11-2019",
+        "divisão":"Grupo B",
+        "hora":"18:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Psicologia",
+        "visitante":"Finanças",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"19:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Engenharia Eletrónica e Telecomunicações",
+        "visitante":"Matemática",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Música",
+        "visitante":"Engenharia Mecânica",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Feminin",
+        "visitada":"Bioquímica",
+        "visitante":"Biotecnologia",
+        "data":"27-11-2019",
+        "divisão":"Grupo A",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Informática",
+        "visitante":"Biologia",
+        "data":"27-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Fisioterapia",
+        "visitante":"Engenharia e Gestão Industrial A",
+        "data":"28-11-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Administração Pública",
+        "visitante":"Engenharia Física",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"23:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Finanças",
+        "visitante":"Marketing",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"20:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Engenharia Mecânica",
+        "visitante":"Turismo",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"21:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "visitada":"Novas Tecnologias da Comunicação",
+        "visitante":"Contabilidade A",
+        "data":"2-12-2019",
+        "divisão":"1ª Divisão",
+        "hora":"22:00",
+        "visitada_score" : "0",
+        "visitante_score" : "0",
+        "obs" : "-"
+    },
+    {
+        "modalidade" : "Futsal Masculino", 
+        "visitada": "Engenharia Mecânica",
+        "visitante": "Engenharia Informática",
+        "data": "14-10-2019",
+        "divisao": "1ª Divisão",
+        "hora" : "22:30",
+        "visitada_score" : "3",
+        "visitante_score" : "2"
+    }
+])
+db.modalidades.insert([
+    {
+        "modalidade":"Andebol Misto",
+        "tipo":'Coletiva',
+        "logo":"modalidades/andebol.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Basquetebol Feminino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/basquetebolf.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Basquetebol Masculino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/basquetebolm.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Futsal Feminino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/futsalf.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Futsal Masculino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/futsalm.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Futebol 7 Masculino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/futbol7m.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Voleibol Feminino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/voleif.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Voleibol Masculino',
+        "tipo":'Coletiva',
+        "logo":"modalidades/voleim.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Corfebol',
+        "tipo":'Coletiva',
+        "logo":"modalidades/corfebol.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Ultimate Frisbee',
+        "tipo":'Coletiva',
+        "logo":"modalidades/ultimate.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Bilhar',
+        "tipo":'Pares',
+        "logo":"modalidades/bilhar.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Matraquilhos',
+        "tipo":'Pares',
+        "logo":"modalidades/matraquilhos.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Badminton',
+        "tipo":'Individual',
+        "logo":"modalidades/badminton.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Atletismo',
+        "tipo":'Individual',
+        "logo":"modalidades/atletismo.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Natação',
+        "tipo":'Individual',
+        "logo":"modalidades/natacao.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Squash',
+        "tipo":'Individual',
+        "logo":"modalidades/squash.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Ténis de Mesa',
+        "tipo":'Individual',
+        "logo":"modalidades/tenismesa.png",
+        "ano":"2019"
+    },
+    {
+        "modalidade":'Xadrez',
+        "tipo":'Individual',
+        "logo":"modalidades/xadrez.png",
+        "ano":"2019"
+    }
+])
+db.pontos.insert([
+    {
+        modalidade:"Futsal",
+        ganhar:3,
+        perder:0,
+        empate:1,
+        falta:0
+    },
+    {
+        modalidade:"Andebol",
+        ganhar:3,
+        perder:1,
+        empate:2,
+        falta:0
+    },
+    {
+        modalidade:"Basquetebol",
+        ganhar:2,
+        perder:1,
+        falta:0
+    },
+    {
+        modalidade:"Voleibol",
+        ganhar:2,
+        perder:1,
+        falta:0
+    },
+    {
+        modalidade:"Futebol 7",
+        ganhar:3,
+        perder:0,
+        empate:1,
+        falta:0
+    }
+])
