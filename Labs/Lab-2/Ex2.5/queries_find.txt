@@ -7,8 +7,11 @@ db.calendario.find({ "data":"21-10-2019"}, {"equipa":"*", "visitada":"*", "visit
 #3 - Mostrar todos os jogos em que a equipa visitada ganhou
 db.matches.find({"$where": "this.visitada_score > this.visitante_score" }, {"visitada":"*", "_id":0})
 
-#4 - 
-db.collection.aggregate( [
-{ $match : { visitada_score : { $gt : 0, $lte : 3 } } },
-{ $group: { _id: visitada, count: { $sum: 1 } } }
-] );
+#4 - Mostrar todas as equipas que são de Engenharia
+db.equipas.find({equipa:/^Engenharia/}, {"equipa":"*", "_id":0})
+
+#5 - Mostrar todas as datas em que a equipa de Andebol de Engenharia Informática joga
+db.calendario.find({"modalidade":"Andebol Misto", $or : [{"visitada":"Engenharia Informática"}, {"visitante":"Engenharia Informática"}]}, {"data":"*", "_id":0})
+
+#6 - Mostrar todos os jogos de Futsal Masculino ordenada por ordem decrescente da equipa visitada
+db.calendario.find({"modalidade":"Futsal Masculino"}, {"data":"*", "visitada":"*", "visitante":"*", "_id":0}).sort({"visitada":-1})
