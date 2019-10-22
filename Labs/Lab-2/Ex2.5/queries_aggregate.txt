@@ -4,7 +4,8 @@ db.matches.aggregate( [ { $match : { visitada_score : { $gt : "0", $lte : "3" } 
 # 2 - Mostrar todos os jogos em que ambas as equipas marcaram
 db.matches.aggregate( [ { $match : { visitada_score : { $gt : "0" }, visitante_score: {$gt : "0"} } }, { $group: { _id:{"visitada":"$visitada", "visitante":"$visitante"}} } ] )
 
-# 3 - 
+# 3 - Mostrar a soma de todos os golos marcados pela equipa visitada
+db.matches.aggregate({$group:{_id:null, total:{ $sum: {"$toInt" : "$visitada_score"}}}})
 
 # 4 -
 
