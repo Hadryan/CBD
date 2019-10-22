@@ -10,9 +10,11 @@ db.matches.aggregate({$group:{_id:1, total:{ $sum: {"$toInt" : "$visitada_score"
 # 4 - Mostrar cada modalidade individualmente por equipa
 db.equipas.aggregate([{$unwind : "$modalidades"}])
 
-# 5 -
+# 5 - Adicionar a localização Aristides Hall em toda a coleção calendario
+db.calendario.aggregate([{$addFields: {"Localização": "Pavilhão Aristides Hall"}}])
 
-# 6 -
+# 6 - Nos últimos 9 documentos da coleção matches procurar as equipas visitadas com um score igual a 0
+db.matches.aggregate([{$skip: 190}, {$match:{visitada_score : { $eq : "0" }}}])
 
 # 7 -
 
