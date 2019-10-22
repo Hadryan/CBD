@@ -4509,3 +4509,310 @@ db.pontos.insert([
         falta:0
     }
 ])
+db.equipasMod.insert([
+    {
+        "modalidade":"Voleibol Feminino",
+        "divisão":2,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Ciências do Mar",
+            "Educação Básica",
+            "Psicologia B",
+            "Biotecnologia",
+            "Engenharia Biomédica",
+            "Design",
+            "Economia"
+        ]
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "divisão":1,
+        "grupo":"",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Contabilidade",
+            "Turismo",
+            "Psicologia A",
+            "Gestão",
+            "Bioquímica",
+            "Biologia",
+            "Engenharia Mecânica",
+            "Engenharia Química",
+            "Fisioterapia"
+        ]
+    },
+    {
+        "modalidade":"Voleibol Feminino",
+        "divisão":2,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia Civil",
+            "Matemática",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Meteorologia, Oceonografia e Geofísica",
+            "Música",
+            "Línguas e Relações Empresariais",
+            "Ciências Biomédicas"
+        ]
+    },
+    {
+        "modalidade":"Andebol Misto",
+        "divisão":1,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Engenharia Informática",
+            "Biologia/Geologia",
+            "Marketing",
+            "Biologia",
+            "Turismo",
+            "Enfermagem",
+            "Economia"
+        ]
+    },
+    {
+        "modalidade":"Andebol Misto",
+        "divisão":1,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Meteorologia, Oceonografia e Geofísica",
+            "Contabilidade",
+            "Gestão",
+            "Biotecnologia",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Engenharia Mecânica",
+            "Ciências do Mar"
+        ]
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "divisão":1,
+        "grupo":"",
+        "equipas":[
+            "Engenharia Informática",
+            "Engenharia e Gestão Industrial A",
+            "Administração Pública",
+            "Finanças",
+            "Marketing",
+            "Contabilidade",
+            "Turismo",
+            "Biologia",
+            "Novas Tecnologias da Comunicação",
+            "Engenharia Física",
+            "Engenharia Mecânica",
+            "Fisioterapia"
+        ]
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "divisão":2,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Biologia/Geologia",
+            "Engenharia Civil",
+            "Engenharia do Ambiente",
+            "Educação Básica",
+            "Contabilidade",
+            "Música",
+            "Química",
+            "Matemática",
+            "Geologia",
+            "Gestão da Qualidade",
+            "Enfermagem",
+            "Línguas e Relações Empresariais"
+        ]
+    },
+    {
+        "modalidade":"Futsal Masculino",
+        "divisão":2,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia de Materiais",
+            "Engenharia e Gestão Industrial B",
+            "Ciências do Mar",
+            "GADPT",
+            "Psicologia",
+            "Gestão",
+            "Biotecnologia",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Engenharia Computacional",
+            "Engenharia Química",
+            "Design",
+            "Economia",
+            "Ciências Biomédicas"
+        ]
+    },
+    {
+        "modalidade":"Futebol 7 Masculino",
+        "divisão":1,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Engenharia Civil",
+            "Finanças",
+            "Música",
+            "Gestão",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Engenharia Mecânica",
+            "Economia"
+        ]
+    },
+    {
+        "modalidade":"Futebol 7 Masculino",
+        "divisão":1,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Engenharia Informática",
+            "Ciências do Mar",
+            "Administração Pública",
+            "Contabilidade",
+            "Design",
+            "Biotecnologia",
+            "Novas Tecnologias da Comunicação",
+            "Engenharia Física"
+        ]
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "divisão":1,
+        "grupo":"",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Engenharia e Gestão Industrial",
+            "Contabilidade",
+            "Turismo",
+            "Música",
+            "Biologia",
+            "Biotecnologia A",
+            "Engenharia Eletrónica e Telecomunicações A",
+            "Engenharia Mecânica",
+            "Engenharia Química",
+            "Economia",
+            "Ciências Biomédicas"
+        ]
+    },
+    {
+        "modalidade":"Voleibol Masculino",
+        "divisão":2,
+        "grupo":"",
+        "equipas":[
+            "Engenharia Informática",
+            "Engenharia Civil",
+            "Marketing",
+            "Engenharia do Ambiente",
+            "Psicologia",
+            "Gestão",
+            "Bioquímica",
+            "Matemática",
+            "Biotecnologia B",
+            "Engenharia Eletrónica e Telecomunicações B",
+            "Engenharia Física"
+        ]
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "divisão":1,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia Informática",
+            "Educação Básica",
+            "Gestão",
+            "Novas Tecnologias da Comunicação",
+            "Engenharia Física",
+            "Engenharia do Ambiente",
+            "Fisioterapia",
+            "Economia",
+            "Ciências Biomédicas"
+        ]
+    },
+    {
+        "modalidade":"Futsal Feminino",
+        "divisão":1,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Finanças",
+            "Música",
+            "Psicologia",
+            "Bioquímica",
+            "Biotecnologia",
+            "Matemática",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Engenharia Mecânica"
+        ]
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "divisão":1,
+        "grupo":"",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Engenharia do Ambiente",
+            "Administração Pública",
+            "Marketing",
+            "Gestão",
+            "Química",
+            "Matemática",
+            "Engenharia Eletrónica e Telecomunicações",
+            "Engenharia Física",
+            "Engenharia Mecânica",
+            "Engenharia Química",
+            "Economia"
+        ]
+    },
+    {
+        "modalidade":"Basquetebol Masculino",
+        "divisão":2,
+        "grupo":"",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Engenharia Informática",
+            "Engenharia de Materiais",
+            "Biologia/Geologia",
+            "Ciências do Mar",
+            "Meteorologia, Oceonografia e Geofísica",
+            "Biotecnologia",
+            "Biologia",
+            "Novas Tecnologias da Comunicação",
+            "Engenharia Biomédica",
+            "Enfermagem",
+            "Ciências Biomédicas"
+        ]
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "divisão":1,
+        "grupo":"Grupo B",
+        "equipas":[
+            "Engenharia e Gestão Industrial",
+            "Biologia/Geologia",
+            "Engenharia do Ambiente",
+            "Educação Básica",
+            "Turismo",
+            "Biologia",
+            "Psicologia",
+            "Gestão",
+            "Engenharia Mecânica"
+        ]
+    },
+    {
+        "modalidade":"Basquetebol Feminino",
+        "divisão":1,
+        "grupo":"Grupo A",
+        "equipas":[
+            "Engenharia de Computadores e de Telemática",
+            "Biotecnologia",
+            "Bioquímica",
+            "Matemática",
+            "Engenharia Biomédica",
+            "Fisioterapia",
+            "Enfermagem",
+            "Economia",
+            "Ciências Biomédicas"
+        ]
+    }
+)]
