@@ -16,6 +16,8 @@ db.calendario.aggregate([{$addFields: {"Localização": "Pavilhão Aristides Hal
 # 6 - Nos últimos 9 documentos da coleção matches procurar as equipas visitadas com um score igual a 0
 db.matches.aggregate([{$skip: 190}, {$match:{visitada_score : { $eq : "0" }}}])
 
-# 7 -
+# 7 - Selecionar uma amostra de 20 documentos e ordená-los por ordem decrescente de divisão
+db.macthes.aggregate([{$sample: {size: 20}}, {$sort: {divisao: -1}}])
 
-# 8-
+# 8- Separar as modalidades de todas as equipas que começam por engenharia e ordená-las pelo nome da equipa
+db.equipas.aggregate([{$match: {equipa : /^Engenharia/}}, {$unwind: "$modalidades"}, {$sort: {equipa: 1}}])

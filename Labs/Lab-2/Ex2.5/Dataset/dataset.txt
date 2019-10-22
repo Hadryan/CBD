@@ -4815,4 +4815,38 @@ db.equipasMod.insert([
             "Ciências Biomédicas"
         ]
     }
-)]
+)]db.pontos.insert([
+    {
+        modalidade:"Futsal",
+        ganhar:3,
+        perder:0,
+        empate:1,
+        falta:0
+    },
+    {
+        modalidade:"Andebol",
+        ganhar:3,
+        perder:1,
+        empate:2,
+        falta:0
+    },
+    {
+        modalidade:"Basquetebol",
+        ganhar:2,
+        perder:1,
+        falta:0
+    },
+    {
+        modalidade:"Voleibol",
+        ganhar:2,
+        perder:1,
+        falta:0
+    },
+    {
+        modalidade:"Futebol 7",
+        ganhar:3,
+        perder:0,
+        empate:1,
+        falta:0
+    }
+])
