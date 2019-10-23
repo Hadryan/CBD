@@ -98,4 +98,11 @@ db.rest.aggregate([{$skip: 190}, {$match:{nome : /.*a.*/}}])
 db.rest.aggregate([{$addFields: {"Obs": "-"}}])
 
 #30 - Apresentar todos os scores por resturante
-db.ag
+db.rest.aggregate{
+  _id: {
+    "nome":"$nome"
+  }, 
+  uniqueRest: {
+    $addToSet: "$grades.score"
+  }
+}
