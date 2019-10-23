@@ -67,3 +67,42 @@ db.rest.aggregate([{ '$group': {'_id': '$nome','avg': {'$avg': {'$avg': {'$map':
 
 #23
 db.rest.find({$and:[{"gastronomia" : {"$ne" :"American "}},{"grades.score" : {"$gt" : 70}},{"address.coord" : {"$lt" : -65}}]}).pretty()
+
+#24
+db.rest.aggregate([{$group: {
+  _id: {
+    "gastronomia":"$gastronomia", 
+    "localidade":"$localidade"
+  }, 
+  uniqueGastronomia: {$addToSet: "$gastronomia"}
+}}, {$group: {
+  _id: "$uniqueGastronomia",
+  number: {
+    "$sum": 1
+  }
+}}])
+
+#25
+db.rest.aggregate([{$group: {
+  _id: {
+    "localidade":"$address.rua"
+  }, 
+  uniqueRest: {
+    $addToSet: "$nome"
+  }
+}}, {$project: {
+  rua : {"$size" : "$uniqueRest"}
+}}])
+
+#26 - Mostrar dos resturantes contendo Grill no nome, apresentando apenas o nome e a rua
+db.rest.find({"nome":/.*Grill.*/}, {"nome":"*", "address.rua":"*", "_id":0})
+
+#27 - Selecionar 20 documentos à sorte ordená-los por ordem decrescente de nome
+db.macthes.aggregate([{$sample: {size: 20}}, {$sort: {nome: -1}}])
+
+#28 - Ver os últimos 50 documentos inseridos ver os que têm um "A" no nome
+db.matches.aggregate([{$skip: 190}, {$match:{nome : /.*a.*/}}])
+
+#29 - 
+
+#30 - 
