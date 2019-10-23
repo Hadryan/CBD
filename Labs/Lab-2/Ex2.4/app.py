@@ -19,24 +19,39 @@ def insert():
 @app.route('/insertProcess', methods=['POST'])
 def insert_document():
     if request.method == 'POST':
-      name = request.form['first_name']
-      last = request.form['last_name']
-      bio = request.form['biografia']
-      return mongo.insertInfo(name, last, bio)
+        building = request.form['building']
+        coord = request.form['coord']
+        rua = request.form['rua']
+        zipcode = request.form['zipcode']
+        localidade = request.form['localidade']
+        gastronomia = request.form['gastronomia']
+        date = request.form['date']
+        grade = request.form['grade']
+        score = request.form['score']
+        nome = request.form['nome']
+        restaurant_id = request.form['restaurant_id']
+    return mongo.insertInfo(building, coord, rua, zipcode, localidade, gastronomia, date, grade, score, nome, restaurant_id)
 @app.route('/search')
 def pesquisar():
     return jsonify(mongo.pesquisarInfo())
 
-@app.route('/edit')
-def editar():
-    return render_template('formEdit.html')
+@app.route('/edit/<rest>')
+def editar(rest):
+    updates = mongo.getInfo(rest)
+    return render_template('formEdit.html', paths=updates)
 
 @app.route('/editProcess', methods=['POST'])
 def editarBio():
     if request.method == 'POST':
-        name = request.form['first_name']
-        bio = request.form['biografia']
-        return mongo.updateBio(name, bio)
+        building = request.form['building']
+        coord = request.form['coord']
+        rua = request.form['rua']
+        zipcode = request.form['zipcode']
+        localidade = request.form['localidade']
+        gastronomia = request.form['gastronomia']
+        nome = request.form['nome']
+        restaurant_id = request.form['restaurant_id']
+        return mongo.updateBio(building, coord, rua, zipcode, localidade, gastronomia, nome, restaurant_id)
 
 if __name__ == '__main__':
     app.run()

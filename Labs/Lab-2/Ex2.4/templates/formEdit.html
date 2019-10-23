@@ -1,14 +1,35 @@
 <html>
-<head><title>Inserir Nome</title></head>
+<head><title>Inserir Pessoa</title></head>
 <body>
     <form action="/editProcess" method="POST" enctype='application/json' name="myForm">
-        <p><label for="first_name">First Name:</label>
-        <input type="text" name="first_name" id="fname" required></p>
-        
-        <p><label for="biografia">Biografia:</label>
-        <input type="text" name="biografia" id="bio" required></p>
+        {% for i in paths %}.
+            <p><label for="building">Builing:</label>
+            <input type="text" name="building" id="fname" value = {{ i.address.building }} required></p>
 
-        <input value="Submit" type="submit"">
+            <p><label for="coord">Coord:</label>
+            <input type="text" name="coord" id="lname" value = {{ i.address.coord }} required></p>
+
+            <p><label for="rua">Rua:</label>
+            <input type="text" name="rua" id="bio" value = {{ i.address.rua }} required></p>
+
+            <p><label for="zipcode">Zip Code:</label>
+            <input type="text" name="zipcode" id="bio" value = {{ i.address.zipcode }} required></p>
+
+            <p><label for="localidade">Localidade:</label>
+            <input type="text" name="localidade" id="bio" value = {{ i.localidade}} required></p>
+
+            <p><label for="gastronomia">Gastronomia:</label>
+            <input type="text" name="gastronomia" id="bio" value = {{ i.gastronomia }} required></p>
+
+
+            <p><label for="nome">Nome:</label>
+            <input type="text" name="nome" id="bio" value = {{ i.nome }} required></p>
+            <div hidden>
+            <p><label for="restaurant_id">Restaurant ID:</label>
+            <input type="text" name="restaurant_id" id="bio" value = {{ i.restaurant_id }} required></p>
+            </div>
+        {% endfor %}
+        <input value="Submit" type="submit">
     </form>
 </body>
 </html>
