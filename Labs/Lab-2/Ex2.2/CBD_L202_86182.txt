@@ -83,26 +83,19 @@ db.rest.aggregate([{$group: {
 }}])
 
 #25
-db.rest.aggregate([{$group: {
-  _id: {
-    "localidade":"$address.rua"
-  }, 
-  uniqueRest: {
-    $addToSet: "$nome"
-  }
-}}, {$project: {
-  rua : {"$size" : "$uniqueRest"}
-}}])
+db.rest.aggregate([{$group: {_id: {"localidade":"$address.rua"}, uniqueRest: {$addToSet: "$nome"}}},{$project: {rua : {"$size" : "$uniqueRest"}}}])
 
 #26 - Mostrar dos resturantes contendo Grill no nome, apresentando apenas o nome e a rua
 db.rest.find({"nome":/.*Grill.*/}, {"nome":"*", "address.rua":"*", "_id":0})
 
 #27 - Selecionar 20 documentos à sorte ordená-los por ordem decrescente de nome
-db.macthes.aggregate([{$sample: {size: 20}}, {$sort: {nome: -1}}])
+db.rest.aggregate([{$sample: {size: 20}}, {$sort: {nome: -1}}])
 
 #28 - Ver os últimos 50 documentos inseridos ver os que têm um "A" no nome
-db.matches.aggregate([{$skip: 190}, {$match:{nome : /.*a.*/}}])
+db.rest.aggregate([{$skip: 190}, {$match:{nome : /.*a.*/}}])
 
-#29 - 
+#29 - Adicionar o campo observações em todos os restaurantes
+db.rest.aggregate([{$addFields: {"Obs": "-"}}])
 
-#30 - 
+#30 - Apresentar todos os scores por resturante
+db.ag
