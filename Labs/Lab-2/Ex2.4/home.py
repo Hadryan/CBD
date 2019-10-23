@@ -42,9 +42,15 @@ class Home():
             },
             {
                 'titulo': 'Matches',
-                'definicao': 'Nome de restaurantes contendo XXXX no nome:',
+                'definicao': 'Nome de restaurantes contendo XXXX no nome',
                 'link': '/matches/<name>',
                 'argumento': "Nome que queremos ver quais restaurantes contêm, p.e, Park"
+            },
+            {
+                'titulo': 'Índices',
+                'definicao': 'Gerar indíces',
+                'link': '/genIndex',
+                'argumento': "None"
             },
         ]
         return paths

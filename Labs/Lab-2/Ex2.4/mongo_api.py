@@ -78,3 +78,8 @@ class MongoAPI():
         for i in self.cbd.find({"nome": regx }, {"nome":"*"}):
             lista.append(json.loads(json_util.dumps(i)))
         return lista
+    def genIndex(self):
+        self.cbd.ensure_index({"gastronomia":1})
+        self.cbd.ensure_index({"localidade":1})
+        self.cbd.ensure_index({"nome":1})
+        return "<p>Índices criados com sucesso <a href='/'>retornar à página principal</a><p>"

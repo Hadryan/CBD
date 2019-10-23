@@ -69,5 +69,9 @@ def countRestByLocalidadeByGastronomia():
 def containsName(name):
     return jsonify(mongo.getRestWithNameCloserTo(name))
 
+@app.route('/genIndex')
+def genIndex():
+    return mongo.genIndex()
+
 if __name__ == '__main__':
     app.run()
