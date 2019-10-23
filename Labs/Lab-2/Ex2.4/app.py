@@ -57,5 +57,17 @@ def editarBio():
 def countLocalidades():
     return jsonify(mongo.getCountLocalidades())
 
+@app.route('/localidades/restaurantes')
+def countRestByLocalidades():
+    return jsonify(mongo.getRestaurantesLocalidade())
+
+@app.route('/gastronomia/localidade')
+def countRestByLocalidadeByGastronomia():
+    return jsonify(mongo.getGatronomiaLocalidade())
+
+@app.route('/matches/<name>')
+def containsName(name):
+    return jsonify(mongo.getRestWithNameCloserTo(name))
+
 if __name__ == '__main__':
     app.run()

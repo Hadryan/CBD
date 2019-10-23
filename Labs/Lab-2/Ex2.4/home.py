@@ -28,5 +28,23 @@ class Home():
                 'link': '/localidades/distintas',
                 'argumento': "None"
             },
+            {
+                'titulo': 'Restaurantes',
+                'definicao': 'Ver número de restaurantes por localidade',
+                'link': '/localidades/restaurantes',
+                'argumento': "None"
+            },
+            {
+                'titulo': 'Gastronomia',
+                'definicao': 'Ver número de restaurantes por gastronomia numa localidade',
+                'link': '/gastronomia/localidade',
+                'argumento': "None"
+            },
+            {
+                'titulo': 'Matches',
+                'definicao': 'Nome de restaurantes contendo XXXX no nome:',
+                'link': '/matches/<name>',
+                'argumento': "Nome que queremos ver quais restaurantes contêm, p.e, Park"
+            },
         ]
         return paths

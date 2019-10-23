@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import json
 from bson import json_util
 import settings
-
+import re
 
 class MongoAPI():
     """
@@ -56,3 +56,25 @@ class MongoAPI():
 
     def getCountLocalidades(self):
         return len(self.cbd.distinct('localidade'))
+
+    def getRestaurantesLocalidade(self):
+        lista = []
+        lista.append(json.loads(json_util.dumps(self.cbd.aggregate([{"$group" : {"_id":"$localidade", "count_1":{"$sum":1}}}]))))
+        return lista
+
+    def getGatronomiaLocalidade(self):
+        lista = []
+        lista.append(json.loads(json_util.dumps(
+            self.cbd.aggregate([{"$group" : {"_id":{"gastronomia":"$gastronomia", "localidade":"$localidade"}, "count":{"$sum":1}}}]
+                               ))))
+        return lista
+
+    def getRestWithNameCloserTo(self, name):
+        lista = []
+        rgx = '.*' + name + '.*'
+
+        regx = re.compile(rgx, re.IGNORECASE)
+
+        for i in self.cbd.find({"nome": regx }, {"nome":"*"}):
+            lista.append(json.loads(json_util.dumps(i)))
+        return lista
