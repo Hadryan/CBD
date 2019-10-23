@@ -53,5 +53,9 @@ def editarBio():
         restaurant_id = request.form['restaurant_id']
         return mongo.updateBio(building, coord, rua, zipcode, localidade, gastronomia, nome, restaurant_id)
 
+@app.route('/localidades/distintas')
+def countLocalidades():
+    return jsonify(mongo.getCountLocalidades())
+
 if __name__ == '__main__':
     app.run()

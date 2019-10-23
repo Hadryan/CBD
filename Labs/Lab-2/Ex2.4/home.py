@@ -19,7 +19,13 @@ class Home():
             {
                 'titulo': 'Atualizar',
                 'definicao': 'Atualizar biografia de uma pessoa',
-                'link': '/edit',
+                'link': '/edit/<nome>',
+                'argumento': "Nome do restaurante"
+            },
+            {
+                'titulo': 'Localidades',
+                'definicao': 'Ver número de localidades distintas',
+                'link': '/localidades/distintas',
                 'argumento': "None"
             },
         ]

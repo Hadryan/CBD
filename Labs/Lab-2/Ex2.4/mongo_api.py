@@ -53,3 +53,6 @@ class MongoAPI():
             del i['_id']
             lista.append(json.loads(json_util.dumps(i)))
         return lista
+
+    def getCountLocalidades(self):
+        return len(self.cbd.distinct('localidade'))
