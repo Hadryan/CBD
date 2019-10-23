@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>NEI Desporto - API</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+     <table style="width:100%">
+      <tr>
+          <th>Título</th>
+          <th>Descrição</th>
+          <th>Link</th>
+          <th>Argumentos</th>
+      </tr>
+    {% for i in paths %}
+        <tr>
+            <th>{{ i.titulo }}</th>
+            <th>{{ i.definicao }}</th>
+            <th><a href="{{ i.link }}" target="_blank">{{ i.link }}</a></th>
+            <th>{{ i.argumento }}</th>
+        </tr>
+    {% endfor %}
+     </table>
+</body>
+</html>
