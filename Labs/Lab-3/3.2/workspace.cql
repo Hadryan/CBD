@@ -311,16 +311,16 @@ SELECT nome, max(rating)
 FROM ratings;
 --10)
 /**
-Nenhuma das soluções a que cheguei me agradou por isso vou optar por dar a entender aquilo que é o meu raciocínio sobre esta questão.
-Numa primeira fase ao inserir tudo, como estava a usar o dateof(now()) não estava a conseguir perceber muito bem a ordenação.
-Fiz drop da base de dados mas decidi inserir os dados com algum intervalo entre eles.
-Inserindo manualmente verifiquei que a ordenação depende da chave primária que defini, ou seja, depende da composição de (user, nome, upload).
-Numa primeira fase podemos verificar que ao inserir linhas com o user sempre diferente dos que já existem ele ordena os mesmos por
-ordem decrescente.
-Quando passamos a inserir valores que ele já conhece, Cassandra olha para a segunda coluna mantendo o mesmo mecanismo de ordenação,
-isto é, ordena por (user, nome).
-Quando já existe alguma coisa com (user,nome) igual ao que estamos a inserir ele tem em atenção o terceiro campo,
-fazendo a ordenação por (user, nome, upload.)
+  Nenhuma das soluções a que cheguei me agradou por isso vou optar por dar a entender aquilo que é o meu raciocínio sobre esta questão.
+  Numa primeira fase ao inserir tudo, como estava a usar o dateof(now()) não estava a conseguir perceber muito bem a ordenação.
+  Fiz drop da base de dados mas decidi inserir os dados com algum intervalo entre eles.
+  Inserindo manualmente verifiquei que a ordenação depende da chave primária que defini, ou seja, depende da composição de (user, nome, upload).
+  Numa primeira fase podemos verificar que ao inserir linhas com o user sempre diferente dos que já existem ele ordena os mesmos por
+  ordem decrescente.
+  Quando passamos a inserir valores que ele já conhece, Cassandra olha para a segunda coluna mantendo o mesmo mecanismo de ordenação,
+  isto é, ordena por (user, nome).
+  Quando já existe alguma coisa com (user,nome) igual ao que estamos a inserir ele tem em atenção o terceiro campo,
+  fazendo a ordenação por (user, nome, upload.)
 */
 SELECT *
 FROM videos_nome;
