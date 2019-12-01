@@ -1,32 +1,32 @@
 [
   {
-    "[json]": "{\"user\": \"u3\", \"nome\": \"D\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 50, \"tipo\": \"pause\"}"
+    "[json]": "{\"user\": \"u3\", \"nome\": \"D\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 50, \"tipo\": \"pause\"}"
   },
   {
-    "[json]": "{\"user\": \"u7\", \"nome\": \"E\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 150, \"tipo\": \"stop\"}"
+    "[json]": "{\"user\": \"u7\", \"nome\": \"E\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 150, \"tipo\": \"stop\"}"
   },
   {
-    "[json]": "{\"user\": \"u8\", \"nome\": \"B\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 65, \"tipo\": \"pause\"}"
+    "[json]": "{\"user\": \"u8\", \"nome\": \"B\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 65, \"tipo\": \"pause\"}"
   },
   {
-    "[json]": "{\"user\": \"u5\", \"nome\": \"F\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 30, \"tipo\": \"stop\"}"
+    "[json]": "{\"user\": \"u5\", \"nome\": \"F\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 30, \"tipo\": \"stop\"}"
   },
   {
-    "[json]": "{\"user\": \"u4\", \"nome\": \"E\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 100, \"tipo\": \"play\"}"
+    "[json]": "{\"user\": \"u4\", \"nome\": \"E\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 100, \"tipo\": \"play\"}"
   },
   {
-    "[json]": "{\"user\": \"u2\", \"nome\": \"B\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 80, \"tipo\": \"stop\"}"
+    "[json]": "{\"user\": \"u2\", \"nome\": \"B\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 80, \"tipo\": \"stop\"}"
   },
   {
-    "[json]": "{\"user\": \"u9\", \"nome\": \"D\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 45, \"tipo\": \"play\"}"
+    "[json]": "{\"user\": \"u9\", \"nome\": \"D\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 45, \"tipo\": \"play\"}"
   },
   {
-    "[json]": "{\"user\": \"u1\", \"nome\": \"A\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 60, \"tipo\": \"play\"}"
+    "[json]": "{\"user\": \"u1\", \"nome\": \"A\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 60, \"tipo\": \"play\"}"
   },
   {
-    "[json]": "{\"user\": \"u10\", \"nome\": \"F\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 120, \"tipo\": \"play\"}"
+    "[json]": "{\"user\": \"u10\", \"nome\": \"F\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 120, \"tipo\": \"play\"}"
   },
   {
-    "[json]": "{\"user\": \"u6\", \"nome\": \"A\", \"ocorrencia\": \"2019-12-01 16:01:26.801Z\", \"tempo_video\": 20, \"tipo\": \"pause\"}"
+    "[json]": "{\"user\": \"u6\", \"nome\": \"A\", \"ocorrencia\": \"2019-12-01 20:36:11.579Z\", \"tempo_video\": 20, \"tipo\": \"pause\"}"
   }
 ]
