@@ -1,0 +1,26 @@
+[
+  {
+    "[json]": "{\"nome\": \"C\", \"rating\": 2}"
+  },
+  {
+    "[json]": "{\"nome\": \"B\", \"rating\": 1}"
+  },
+  {
+    "[json]": "{\"nome\": \"B\", \"rating\": 4}"
+  },
+  {
+    "[json]": "{\"nome\": \"A\", \"rating\": 3}"
+  },
+  {
+    "[json]": "{\"nome\": \"E\", \"rating\": 3}"
+  },
+  {
+    "[json]": "{\"nome\": \"E\", \"rating\": 4}"
+  },
+  {
+    "[json]": "{\"nome\": \"D\", \"rating\": 4}"
+  },
+  {
+    "[json]": "{\"nome\": \"D\", \"rating\": 5}"
+  }
+]
