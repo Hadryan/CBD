@@ -189,6 +189,7 @@ BEGIN
     INSERT INTO categorias (categoria, livros) VALUES ('Romance', {1:'9789898868489'});
     APPLY BATCH;
 
+-- Criar indíces
 CREATE INDEX livrosNomes ON livros (titulo);
 CREATE INDEX funcoesNome ON funcionarios (funcoes);
 
@@ -297,6 +298,14 @@ Obter os livros de um autor ordenador por ordem decrescente do título.
 SELECT *
 FROM livros_nome
 WHERE autor = 'Taro Gomi'
-ORDER BY titulo DESC
+ORDER BY titulo DESC;
 
 -- 10)
+/**
+  Obter o número de obras começadas por 'Para*', agrupadas por autor
+ */
+CREATE CUSTOM INDEX lnomes ON livros_nome (titulo) USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'mode': 'CONTAINS', 'analyzer_class': 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer', 'case_sensitive': 'false'};
+SELECT autor, count(titulo) as num_obras
+FROM livros_nome
+WHERE titulo LIKE 'Para*'
+GROUP by autor;
