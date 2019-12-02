@@ -20,7 +20,6 @@ def update():
     localidade = input("Nova localidade: ")
     
     session.execute("UPDATE casas SET localidade = '" + localidade + "' WHERE numero = " + numero_atual + " AND rua='" + rua_atual+"' AND codigo_postal ='" + codigo_postal + "'")
-    
 
 
 def pesquisar():
