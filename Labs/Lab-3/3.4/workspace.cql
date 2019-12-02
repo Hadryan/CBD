@@ -13,6 +13,17 @@ CREATE TABLE livros
     PRIMARY KEY (isbn)
 );
 
+CREATE TABLE livros_nome
+(
+    autor      text,
+    titulo     text,
+    isbn       text,
+    editora    text,
+    ano        timestamp,
+    quantidade int,
+    PRIMARY KEY (autor, titulo)
+);
+
 CREATE TABLE utilizadores
 (
     nome   text,
@@ -70,6 +81,34 @@ BEGIN
     INSERT INTO livros(titulo, isbn, autor, editora, ano, quantidade)
     VALUES ('Para lá do António', '9789898868494', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
     INSERT INTO livros(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Lágrima derramada', '9789898868474', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    APPLY BATCH;
+
+BEGIN
+    BATCH
+    INSERT INTO livros_nome (titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do oceano', '9789898868480', 'Taro Gomi', 'Orfeu Negro', '2019-06-01 12:52:49.000', 4);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá da areia', '9789898868481', 'Taro Gomi', 'Orfeu Negro', '2019-06-02 12:52:49.000', 3);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá da terra', '9789898868482', 'Taro Gomi', 'Orfeu Negro', '2019-06-03 12:52:49.000', 5);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do céu', '9789898868483', 'Taro Gomi', 'Orfeu Negro', '2019-06-04 12:52:49.000', 1);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do inferno', '9789898868484', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá dos gigantes', '9789898868485', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do mato', '9789898868486', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do matagal', '9789898868487', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá dos cavalos azuis', '9789898868488', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do Ipiranga', '9789898868489', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
+    VALUES ('Para lá do António', '9789898868494', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
+    INSERT INTO livros_nome(titulo, isbn, autor, editora, ano, quantidade)
     VALUES ('Lágrima derramada', '9789898868474', 'Taro Gomi', 'Orfeu Negro', '2019-06-05 12:52:49.000', 6);
     APPLY BATCH;
 
@@ -233,17 +272,31 @@ FROM livros ALLOW FILTERING;
 /**
   Selecionar todos os funcionários que contém funções de limpeza
  */
-select *
-from funcionarios
-where funcoes contains 'Limpeza';
+SELECT *
+FROM funcionarios
+WHERE funcoes CONTAINS 'Limpeza';
 -- 7)
 /**
     Selecionar todos os titulos de livros começados por "Para"
  */
- CREATE CUSTOM INDEX nomes ON livros (titulo) USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'mode': 'CONTAINS', 'analyzer_class': 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer', 'case_sensitive': 'false'};
- select titulo from livros where titulo like 'Para*';
+CREATE CUSTOM INDEX nomes ON livros (titulo) USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'mode': 'CONTAINS', 'analyzer_class': 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer', 'case_sensitive': 'false'};
+SELECT titulo
+FROM livros
+WHERE titulo LIKE 'Para*';
 -- 8)
+/**
+  Obter o livro com menos
+ */
+SELECT titulo, min(quantidade) as quantidade
+FROM livros;
 
 -- 9)
+/**
+Obter os livros de um autor ordenador por ordem decrescente do título.
+ */
+SELECT *
+FROM livros_nome
+WHERE autor = 'Taro Gomi'
+ORDER BY titulo DESC
 
 -- 10)
