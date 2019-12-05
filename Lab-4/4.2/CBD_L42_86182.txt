@@ -1,0 +1,4 @@
+#1
+MATCH (p:Person)-[DIRECTED]->(m:Movie)<-[ACTED_IN]-(p:Person) RETURN DISTINCT p.name as Nome, m.title as Titulo;
+#2
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.released >=2005  RETURN p.name as Nome, m.title as Titulo;
