@@ -3,21 +3,60 @@ MATCH (p:Person)-[DIRECTED]->(m:Movie)<-[ACTED_IN]-(p:Person) RETURN DISTINCT p.
 #2
 MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.released >=2005  RETURN p.name as Nome, m.title as Titulo;
 #3
-MATCH (p)-[r]-(m) WITH DISTINCT p, m, COUNT(r) as number_of_relations where number_of_relations > 1 return p as Pessoa,m as Filme, number_of_relations as Relações
+MATCH (p)-[r]-(m) WITH DISTINCT p, m, COUNT(r) as number_of_relations where number_of_relations > 1 RETURN p as Pessoa,m as Filme, number_of_relations as Relações
 #4
-match (p1:Person)-[r1:REVIEWED]-(m:Movie)-[r2:REVIEWED]-(p2:Person) where id(p1)<id(p2) return p1.name as Pessoa1, p2.name as Pessoa2, m.title as Filme
+match (p1:Person)-[r1:REVIEWED]-(m:Movie)-[r2:REVIEWED]-(p2:Person) where id(p1)<id(p2) RETURN p1.name as Pessoa1, p2.name as Pessoa2, m.title as Filme
 #5
-MATCH (ator1:Person)-[r:ACTED_IN]-(m:Movie)-[r2:ACTED_IN]-(ator2:Person) WHERE id(ator1) < id(ator2) with ator1, ator2, count(m) as number_of_movies return ator1.name as Ator1, ator2.name as Ator2, number_of_movies as NFilmes
+MATCH (ator1:Person)-[r:ACTED_IN]-(m:Movie)-[r2:ACTED_IN]-(ator2:Person) WHERE id(ator1) < id(ator2) with ator1, ator2, count(m) as number_of_movies RETURN ator1.name as Ator1, ator2.name as Ator2, number_of_movies as NFilmes
 #6
 // Obter relação base;
-// Definir título = "Appolo13"
+// Definir título = "Apollo 13"
 // Verificar a idade pessoa 
 // Retornar o título do filme, média de idades usando o avg()
-MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WHERE m.title = "Apollo 13" WITH m, m.released-atores.born as idades return m.title as Filme, avg(idades) as Media
+MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WHERE m.title = "Apollo 13" WITH m, m.released-atores.born as idades RETURN m.title as Filme, avg(idades) as Media
 #7
+// Obter relação base;
+// Como são 10 filmes podemos usar o LIMIT 10 para esse efeito;
+// Obter as idades na data de lançamento como na query anterior
+// Ordenar por ordem decrescente
+// Retornar nome do filme
+// Retornar a média com duas casas decimais e de forma inversa - ORDER BY XPTO DESC
+// Para termos 2 casas decimais multiplicamos a média por 100 e dividimos pelo mesmo valor
+// Ex: round(100*avg(idades))/100
+MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WITH m, m.released-atores.born as idades RETURN m.title as Filme, round(100*avg(idades))/100 as Media ORDER BY Media DESC LIMIT 10
 #8
+// Obter relação base;
+MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WITH m, m.released-atores.born as idades RETURN m.title as Filme, avg(idades) AS Media ORDER BY Media ASC LIMIT 1
+
 #9
+// Para esta questão encontrei várias soluções
+// Inicialmente usei esta, contudo, demorou imenso a correr
+
+MATCH path = (ator1:Person {name:"John Cusack"})-[relationships*..10]-(ator2:Person {name:"Demi Moore"})
+WHERE SIZE( FILTER(n IN NODES(path) WHERE 'Person' IN LABELS(n)) ) > 3
+RETURN ator1, relationships, ator2
+
+// Decidi limitar a query
+MATCH path = (ator1:Person {name:"John Cusack"})-[relationships*..10]-(ator2:Person {name:"Demi Moore"})
+WHERE SIZE( FILTER(n IN NODES(path) WHERE 'Person' IN LABELS(n)) ) > 3
+RETURN ator1, relationships, ator2
+LIMIT 5
+
+// Nenhuma delas gerou um grafo que aparentasse ser o shortest path. Após isso lembrei-me que existia uma função shortestPath() que nos permite fazer isso.
+// A minha primeira abordagem foi:
+
+MATCH path = shortestPath((begin:Person {name:"John Cusack"})-[*]-(end:Person {name:"Demi Moore"})) RETURN path
+// Contudo foi dado um warning a dizer:
+// The provided pattern is unbounded, consider adding an upper limit to the number of node hops.
+
+// Tentei colmatar isto com:
+MATCH path=shortestPath((begin:Person {name:"John Cusack"})-[relationships*..10]-(end:Person {name:"Demi Moore"})) RETURN path
+// Contudo foi dado um novo warning
+// This feature is deprecated and will be removed in future versions.
+// Não consegui chegar a uma versão em que não fossem dados warnings.
+
 #10
+
 #11
 #12
 #13
