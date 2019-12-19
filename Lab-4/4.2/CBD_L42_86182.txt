@@ -3,9 +3,17 @@ MATCH (p:Person)-[DIRECTED]->(m:Movie)<-[ACTED_IN]-(p:Person) RETURN DISTINCT p.
 #2
 MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.released >=2005  RETURN p.name as Nome, m.title as Titulo;
 #3
+MATCH (p)-[r]-(m) WITH DISTINCT p, m, COUNT(r) as number_of_relations where number_of_relations > 1 return p as Pessoa,m as Filme, number_of_relations as Relações
 #4
+match (p1:Person)-[r1:REVIEWED]-(m:Movie)-[r2:REVIEWED]-(p2:Person) where id(p1)<id(p2) return p1.name as Pessoa1, p2.name as Pessoa2, m.title as Filme
 #5
+MATCH (ator1:Person)-[r:ACTED_IN]-(m:Movie)-[r2:ACTED_IN]-(ator2:Person) WHERE id(ator1) < id(ator2) with ator1, ator2, count(m) as number_of_movies return ator1.name as Ator1, ator2.name as Ator2, number_of_movies as NFilmes
 #6
+// Obter relação base;
+// Definir título = "Appolo13"
+// Verificar a idade pessoa 
+// Retornar o título do filme, média de idades usando o avg()
+MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WHERE m.title = "Apollo 13" WITH m, m.released-atores.born as idades return m.title as Filme, avg(idades) as Media
 #7
 #8
 #9
