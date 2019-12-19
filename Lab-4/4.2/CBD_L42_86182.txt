@@ -3,7 +3,7 @@ MATCH (p:Person)-[DIRECTED]->(m:Movie)<-[ACTED_IN]-(p:Person) RETURN DISTINCT p.
 #2
 MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.released >=2005  RETURN p.name as Nome, m.title as Titulo;
 #3
-MATCH (p)-[r]-(m) WITH DISTINCT p, m, COUNT(r) as number_of_relations where number_of_relations > 1 RETURN p as Pessoa,m as Filme, number_of_relations as Relações
+MATCH (p:Person)-[r]-(m:Movie) WITH DISTINCT p, m, COUNT(r) as number_of_relations where number_of_relations > 1 RETURN p as Pessoa,m as Filme, number_of_relations as Relações
 #4
 match (p1:Person)-[r1:REVIEWED]-(m:Movie)-[r2:REVIEWED]-(p2:Person) where id(p1)<id(p2) RETURN p1.name as Pessoa1, p2.name as Pessoa2, m.title as Filme
 #5
@@ -25,11 +25,19 @@ MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WHERE m.title = "Apollo 13" WITH m,
 // Ex: round(100*avg(idades))/100
 MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WITH m, m.released-atores.born as idades RETURN m.title as Filme, round(100*avg(idades))/100 as Media ORDER BY Media DESC LIMIT 10
 #8
-// Obter relação base;
-MATCH (atores:Person)-[r:ACTED_IN]-(m:Movie) WITH m, m.released-atores.born as idades RETURN m.title as Filme, avg(idades) AS Media ORDER BY Media ASC LIMIT 1
+// Este exercício temos de dividir em duas parte:
+// 1ª Parte: Obter o filme com menor média de idades
+MATCH (p:Person)-[r]->(m:Movie) WITH m.title as Titulo, avg(m.released-p.born) as media ORDER BY media ASC LIMIT 1 RETURN Titulo
+// O return Titulo foi só para testar se a query funciona;
+
+// Após isso temos que ligar os atores ao filme obtido:
+MATCH (p:Person)-[r]->(m:Movie) WITH m.title as Titulo, avg(m.released-p.born) as media ORDER BY media ASC LIMIT 1
+MATCH (p:Person)-[r:ACTED_IN]->(m:Movie)
+WHERE m.title = Titulo
+RETURN p, m
 
 #9
-// Para esta questão encontrei várias soluções
+// Para chegar à solução final desta questão passei por várias respostas
 // Inicialmente usei esta, contudo, demorou imenso a correr
 
 MATCH path = (ator1:Person {name:"John Cusack"})-[relationships*..10]-(ator2:Person {name:"Demi Moore"})
@@ -45,24 +53,24 @@ LIMIT 5
 // Nenhuma delas gerou um grafo que aparentasse ser o shortest path. Após isso lembrei-me que existia uma função shortestPath() que nos permite fazer isso.
 // A minha primeira abordagem foi:
 
-MATCH path = shortestPath((begin:Person {name:"John Cusack"})-[*]-(end:Person {name:"Demi Moore"})) RETURN path
+MATCH path = shortestPath((p:Person {name:"John Cusack"})-[*]-(p1:Person {name:"Demi Moore"})) RETURN path
 // Contudo foi dado um warning a dizer:
 // The provided pattern is unbounded, consider adding an upper limit to the number of node hops.
 
 // Tentei colmatar isto com:
-MATCH path=shortestPath((begin:Person {name:"John Cusack"})-[relationships*..10]-(end:Person {name:"Demi Moore"})) RETURN path
+MATCH path=shortestPath((p:Person {name:"John Cusack"})-[relationships*..10]-(p1:Person {name:"Demi Moore"})) RETURN path
 // Contudo foi dado um novo warning
 // This feature is deprecated and will be removed in future versions.
 
 // Novamente tento encontrar solução para isto;
 // Tentei uma definição de início do início e do fim, deste modo, o warning desapareceu, sendo a query final
-MATCH path=shortestPath((begin:Person {name:"John Cusack"})-[*0..10]-(end:Person {name:"Demi Moore"})) RETURN path
+MATCH path=shortestPath((p:Person {name:"John Cusack"})-[*0..10]-(p1:Person {name:"Demi Moore"})) RETURN path
 
 #10
 // O princípio de funcionamento é o mesmo da query anterior
 // Contudo, desta vez apenas temos de aplicar a função size()
 // Nota: Existe também a função length() contudo já está deprecated or isso deve ser usado size() em vez dessa.
-MATCH path=shortestPath((begin:Person {name:"Keanu Reeves"})-[*0..10]-(end:Person {name:"Tom Cruise"})) RETURN path, size(nodes(path)) as Tamanho
+MATCH path=shortestPath((p:Person {name:"Keanu Reeves"})-[*0..10]-(p1:Person {name:"Tom Cruise"})) RETURN size(nodes(path)) as Tamanho
 
 #11
 // O princípio de funcionamento é o mesmo das queries anteriores;
@@ -84,6 +92,46 @@ MATCH path=shortestPath((p:Person{name:"Jim Cash"})-[*0..2]-(p1:Person)) RETURN 
 MATCH path=shortestPath((p:Person{name:"Jim Cash"})-[*0..2]-(p1:Person)) WHERE p.name <> p1.name RETURN p1.name as Jim, p.name as Pessoas, length(path) as Comprimento
 
 #13
+// Para encontrarmos o caminho com maior valor temos de recorrer ao allShortestPaths
+// Como o algorítmo se baseia no peso de deslocamento entre nodes, se atribuirmos peso de 1 a todos será dado o caminho mais rápido
+// https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm
+// Após isso podemos usar o LIMIT 1 para retornar apenas um único registo
+// Para retornar o valor mais alto podemos ordenar por ordem decrescente ORDER BY tamanho DESC
+// Deste modo, realizei a seguinte query
+MATCH path=allshortestPaths((p:Person {name:"Kevin Bacon"})-[*1..]-(p1:Person)) WITH size(nodes(path)) as tamanho RETURN tamanho as Distancia ORDER BY tamanho DESC LIMIT 1
+
+// Contudo não funcionou, uma vez que ele considera o path (Kevin Bacon, Kevin Bacon)
+// Assim temos de excluir esse path usando a cláusula WHERE
+MATCH path=allshortestPaths((p:Person {name:"Kevin Bacon"})-[*1..]-(p1:Person)) WHERE p<>p1 WITH size(nodes(path)) as tamanho RETURN tamanho as Distancia ORDER BY tamanho DESC LIMIT 1
+
+// Uma outra forma de realizar esta query sem usar o order by seria usando o max()
+MATCH path=allshortestPaths((p:Person {name:"Kevin Bacon"})-[*1..]-(p1:Person)) WHERE p<>p1 WITH max(size(nodes(path))) as tamanho RETURN tamanho as Distancia LIMIT 1
+
 #14
+// A lógica desta query é a mesma que a anterior
+// Colocamos o peso da viagem a 1;
+// Removemos a relacao (p,p)
+
+MATCH path=allshortestPaths((p:Person)-[*1..]-(p1:Person)) WHERE p<>p1 WITH size(nodes(path)) as tamanho RETURN tamanho as Distancia ORDER BY tamanho DESC LIMIT 1
+
+// Uma outra forma de realizar esta query sem usar o order by seria usando o max()
+MATCH path=allshortestPaths((p:Person)-[*1..]-(p1:Person)) WHERE p<>p1 WITH max(size(nodes(path))) as tamanho RETURN tamanho as Distancia LIMIT 1
+
 #15
+// Neste caso temos de ver todas as ligações;
+// Como queremos os pares todos a começar em 1 não podemos usar a cláusula where para excluir o par (p,p)
+// O limite inferior neste caso é 0 e não limitamos de forma superior, deixamos verificar tudo
+
+MATCH path=allShortestPaths((p:Person)-[*0..]-(p1:Person)) WITH size(nodes(path)) as Distancia RETURN Distancia, count(Distancia) as Pares ORDER BY Distancia ASC
+
 #16
+// Não tenho a certeza se esta query está correta
+
+MATCH (p:Person)-[:ACTED_IN*2]-(coactor)
+WITH p + collect(DISTINCT coactor) as coactors
+UNWIND coactors as actor
+MATCH (actor)-[:ACTED_IN*2]-(coactor)
+WHERE coactor IN coactors AND id(actor)<id(coactor)
+WITH actor, coactor, count(*) as degree
+RETURN actor.name, coactor.name, degree
+ORDER BY degree ASC LIMIT 10
