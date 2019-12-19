@@ -53,12 +53,36 @@ MATCH path = shortestPath((begin:Person {name:"John Cusack"})-[*]-(end:Person {n
 MATCH path=shortestPath((begin:Person {name:"John Cusack"})-[relationships*..10]-(end:Person {name:"Demi Moore"})) RETURN path
 // Contudo foi dado um novo warning
 // This feature is deprecated and will be removed in future versions.
-// Não consegui chegar a uma versão em que não fossem dados warnings.
+
+// Novamente tento encontrar solução para isto;
+// Tentei uma definição de início do início e do fim, deste modo, o warning desapareceu, sendo a query final
+MATCH path=shortestPath((begin:Person {name:"John Cusack"})-[*0..10]-(end:Person {name:"Demi Moore"})) RETURN path
 
 #10
+// O princípio de funcionamento é o mesmo da query anterior
+// Contudo, desta vez apenas temos de aplicar a função size()
+// Nota: Existe também a função length() contudo já está deprecated or isso deve ser usado size() em vez dessa.
+MATCH path=shortestPath((begin:Person {name:"Keanu Reeves"})-[*0..10]-(end:Person {name:"Tom Cruise"})) RETURN path, size(nodes(path)) as Tamanho
 
 #11
+// O princípio de funcionamento é o mesmo das queries anteriores;
+// Neste caso em particular não definimos à priori qual é o nome, apenas definimos na clausula WHERE
+// Para verificar se o nome começa por Jim e Kevin simplesmente usamos a clausula STARTS WITH 
+// O cálculo do tamanho do path é dado pela função size()
+MATCH path= shortestPath((p1:Person)-[*0..10]-(p2:Person)) WHERE p1.name STARTS WITH "Jim" and p2.name STARTS WITH "Kevin" RETURN DISTINCT size(nodes(path)) as Tamanho, p1.name as Jim, p2.name as Kevin
+
 #12
+// Numa primeira fase tentei usar a lógica das queries anteriores, contudo, o tempo que a query demorava a executar era extenso.
+MATCH path= shortestPath((p1:Person {name: "Jim Cash"})-[*0..10]-(p2:Person)) WHERE p2.name STARTS WITH "Kevin" RETURN DISTINCT size(nodes(path))=2 as Tamanho, p1.name as Jim, p2.name as Kevin
+
+// Tive  que mudar a abordagem;
+// Limitei a relação dos nodes com [*0..2] para retornar aquelas com length(path) = 2
+MATCH path=shortestPath((p:Person{name:"Jim Cash"})-[*0..2]-(p1:Person)) RETURN p1.name as Jim, p.name as Pessoas, length(path) as Comprimento
+
+// O resultado desta query tinha um pequeno defeito, o caminho (Jim Cash, Jim Cash) era englobado
+// Assim seria necessário aplicar uma clausula where que impeça que o Jim esteja em ambos os membros
+MATCH path=shortestPath((p:Person{name:"Jim Cash"})-[*0..2]-(p1:Person)) WHERE p.name <> p1.name RETURN p1.name as Jim, p.name as Pessoas, length(path) as Comprimento
+
 #13
 #14
 #15
