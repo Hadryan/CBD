@@ -1,0 +1,39 @@
+// Uma vez que estou a usar o docker para correr o Neo4j tenho de fazer docker cp
+docker cp git_selection.csv 44ac8ec1b0e7:/var/lib/neo4j/import
+
+// É de notar que a versão docker não permite ter vários projetos, e, por isso,
+// para não perder o conteúdo do exercício anterior fiz:
+docker run -d -p 7474:7474 -p 7687:7687 neo4j:latest
+
+// Após isso executei
+LOAD CSV WITH HEADERS FROM "file:///git_selection.csv" AS row
+MERGE (dev:Developer {svn:row.svn_id, nome:row.real_name, empresa:row.organization})
+MERGE (proj:Project {nome:row.project_name, role:row.role_on_project})
+CREATE (dev)-[:works_on]->(proj)
+
+#1
+MATCH (dev:Developer) RETURN dev
+
+#2
+MATCH (dev:Developer) RETURN dev.nome
+
+#3
+MATCH(p:Project)<-[:works_on]-(dev:Developer) RETURN distinct p as Projeto
+
+#4
+MATCH(p:Project)<-[:works_on]-(dev:Developer) WITH dev, p, count(p) as Num_Projs RETURN dev.nome as Developer, Num_Projs
+
+#5
+MATCH(p:Project)<-[:works_on]-(dev:Developer) WITH dev, p, count(p) as Num_Projs RETURN dev.nome as Developer, Num_Projs ORDER BY Num_Projs DESC
+
+#6
+MATCH(p:Project)<-[:works_on]-(dev:Developer) WITH p, count(dev) as Devs return Devs, p.nome as Projeto
+
+#7
+MATCH (p:Project)<-[:works_on]-(dev:Developer) WITH p, COUNT(p.role="Committer") as Num_Committers RETURN Num_Committers, p.nome as Projeto ORDER BY Num_Committers DESC
+
+#8
+MATCH (atm:Developer {svn:"atm"})-[:works_on]->(p:Project)<-[:works_on]-(dev:Developer) WHERE atm<>dev RETURN atm.nome as Aaron_T_Myers, dev.nome as Colega, p.nome as Projeto
+
+#9
+MATCH (atm:Developer {svn:"atm"})-[:works_on]->(proj:Project)<-[:works_on]-(dev:Developer) WITH dev, proj.role="Commiter" as Role WHERE atm.nome < dev.nome RETURN DISTINCT dev.nome as Colegas
