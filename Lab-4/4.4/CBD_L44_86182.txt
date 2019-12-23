@@ -1,0 +1,29 @@
+// Retornar todos os episódios de Game of Thrones
+MATCH(ep:Episode) return ep
+
+// Retornar todos os episódios em que apareceu a personagem Viserys Targaryen
+MATCH(ep:Episode)-[:APPEARED_IN]-(p:Character {name: "Viserys Targaryen"}) return ep
+
+// Retornar os parentes de Viserys Targaryen
+MATCH(p:Character)-[:PARENT_OF]-(p1:Character {name: "Viserys Targaryen"}) RETURN p as Parente
+
+// Que pessoas têm uma distância 2 para Lord ofBones (a distância entre duas pessoas é o comprimento do caminho mais curto entre eles)
+MATCH path=shortestPath((p:Character {name:"Lord of Bones"})-[*0..2]-(p1:Character)) WHERE p.name <> p1.name RETURN p1.name as Pessoas, p.name as Lord, length(path) as Comprimento
+
+// Todas as personagens que entraram na primeira temporada
+MATCH (p:Character)-[:APPEARED_IN]->(ep:Episode) WHERE ep.season = 1  RETURN p.name as Nome
+
+// Caminho mais curto entre Meera Reed e Jojen Reed
+MATCH path=shortestPath((p:Character {name:"Meera Reed"})-[*0..10]-(p1:Character {name:"Jojen Reed"})) RETURN path
+
+// Todos os caminhos mais curtos entre Meera Reed e Jojen Reed
+MATCH path=allshortestPaths((p:Character {name:"Meera Reed"})-[*0..10]-(p1:Character {name:"Jojen Reed"})) RETURN path
+
+// Determinar todos os pais biológicos
+MATCH (p:Character)-[:PARENT_OF {type: "biological father"}]-(p1:Character) RETURN p.name as Pai, p1.name as Filho
+
+// Todas as personagens com ligação à House Tyrell
+MATCH (p:Character)-[:HAS_ALLEGIANCE_TO]-(h:House {name: "House Tyrell"}) RETURN p as Personagem
+
+// Número de vezes que cada personagem apareceu de forma decrescente
+MATCH (p:Character)-[:APPEARED_IN]->() RETURN p.name as Nome, COUNT(*) as Número ORDER BY Número DESC

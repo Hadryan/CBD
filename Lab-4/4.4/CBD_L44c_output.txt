@@ -1,0 +1,1477 @@
+Query: Retornar todos os episódios de Game of Thrones
+<Record ep=(_638:Episode {id: 1, number: 1, season: 1, title: 'Winter Is Coming'})>
+<Record ep=(_639:Episode {id: 2, number: 2, season: 1, title: 'The Kingsroad'})>
+<Record ep=(_640:Episode {id: 3, number: 3, season: 1, title: 'Lord Snow'})>
+<Record ep=(_641:Episode {id: 4, number: 4, season: 1, title: 'Cripples, Bastards, and Broken Things'})>
+<Record ep=(_642:Episode {id: 5, number: 5, season: 1, title: 'The Wolf and the Lion'})>
+<Record ep=(_643:Episode {id: 6, number: 6, season: 1, title: 'A Golden Crown'})>
+<Record ep=(_644:Episode {id: 7, number: 7, season: 1, title: 'You Win or You Die'})>
+<Record ep=(_645:Episode {id: 8, number: 8, season: 1, title: 'The Pointy End'})>
+<Record ep=(_646:Episode {id: 9, number: 9, season: 1, title: 'Baelor'})>
+<Record ep=(_647:Episode {id: 10, number: 10, season: 1, title: 'Fire and Blood'})>
+<Record ep=(_648:Episode {id: 11, number: 1, season: 2, title: 'The North Remembers'})>
+<Record ep=(_649:Episode {id: 12, number: 2, season: 2, title: 'The Night Lands'})>
+<Record ep=(_650:Episode {id: 13, number: 3, season: 2, title: 'What Is Dead May Never Die'})>
+<Record ep=(_651:Episode {id: 14, number: 4, season: 2, title: 'Garden of Bones'})>
+<Record ep=(_652:Episode {id: 15, number: 5, season: 2, title: 'The Ghost of Harrenhal'})>
+<Record ep=(_653:Episode {id: 16, number: 6, season: 2, title: 'The Old Gods and the New'})>
+<Record ep=(_654:Episode {id: 17, number: 7, season: 2, title: 'A Man Without Honor'})>
+<Record ep=(_655:Episode {id: 18, number: 8, season: 2, title: 'The Prince of Winterfell'})>
+<Record ep=(_656:Episode {id: 19, number: 9, season: 2, title: 'Blackwater'})>
+<Record ep=(_657:Episode {id: 20, number: 10, season: 2, title: 'Valar Morghulis'})>
+<Record ep=(_658:Episode {id: 21, number: 1, season: 3, title: 'Valar Dohaeris'})>
+<Record ep=(_659:Episode {id: 22, number: 2, season: 3, title: 'Dark Wings, Dark Words'})>
+<Record ep=(_660:Episode {id: 23, number: 3, season: 3, title: 'Walk of Punishment'})>
+<Record ep=(_661:Episode {id: 24, number: 4, season: 3, title: 'And Now His Watch Is Ended'})>
+<Record ep=(_662:Episode {id: 25, number: 5, season: 3, title: 'Kissed by Fire'})>
+<Record ep=(_663:Episode {id: 26, number: 6, season: 3, title: 'The Climb'})>
+<Record ep=(_664:Episode {id: 27, number: 7, season: 3, title: 'The Bear and the Maiden Fair'})>
+<Record ep=(_665:Episode {id: 28, number: 8, season: 3, title: 'Second Sons'})>
+<Record ep=(_666:Episode {id: 29, number: 9, season: 3, title: 'The Rains of Castamere'})>
+<Record ep=(_667:Episode {id: 30, number: 10, season: 3, title: 'Mhysa'})>
+<Record ep=(_668:Episode {id: 31, number: 1, season: 4, title: 'Two Swords'})>
+<Record ep=(_669:Episode {id: 32, number: 2, season: 4, title: 'The Lion and the Rose'})>
+<Record ep=(_670:Episode {id: 33, number: 3, season: 4, title: 'Breaker of Chains'})>
+<Record ep=(_671:Episode {id: 34, number: 4, season: 4, title: 'Oathkeeper'})>
+<Record ep=(_672:Episode {id: 35, number: 5, season: 4, title: 'First of His Name'})>
+<Record ep=(_673:Episode {id: 36, number: 6, season: 4, title: 'The Laws of Gods and Men'})>
+<Record ep=(_674:Episode {id: 37, number: 7, season: 4, title: 'Mockingbird'})>
+<Record ep=(_675:Episode {id: 38, number: 8, season: 4, title: 'The Mountain and the Viper'})>
+<Record ep=(_676:Episode {id: 39, number: 9, season: 4, title: 'The Watchers on the Wall'})>
+<Record ep=(_677:Episode {id: 40, number: 10, season: 4, title: 'The Children'})>
+<Record ep=(_678:Episode {id: 41, number: 1, season: 5, title: 'The Wars to Come'})>
+<Record ep=(_679:Episode {id: 42, number: 2, season: 5, title: 'The House of Black and White'})>
+<Record ep=(_680:Episode {id: 43, number: 3, season: 5, title: 'High Sparrow'})>
+<Record ep=(_681:Episode {id: 44, number: 4, season: 5, title: 'Sons of the Harpy'})>
+<Record ep=(_682:Episode {id: 45, number: 5, season: 5, title: 'Kill the Boy'})>
+<Record ep=(_683:Episode {id: 46, number: 6, season: 5, title: 'Unbowed, Unbent, Unbroken'})>
+<Record ep=(_684:Episode {id: 47, number: 7, season: 5, title: 'The Gift'})>
+<Record ep=(_685:Episode {id: 48, number: 8, season: 5, title: 'Hardhome'})>
+<Record ep=(_686:Episode {id: 49, number: 9, season: 5, title: 'The Dance of Dragons'})>
+<Record ep=(_687:Episode {id: 50, number: 10, season: 5, title: "Mother's Mercy"})>
+<Record ep=(_688:Episode {id: 51, number: 1, season: 6, title: 'The Red Woman'})>
+<Record ep=(_689:Episode {id: 52, number: 2, season: 6, title: 'Home'})>
+<Record ep=(_690:Episode {id: 53, number: 3, season: 6, title: 'Oathbreaker'})>
+<Record ep=(_691:Episode {id: 54, number: 4, season: 6, title: 'Book of the Stranger'})>
+<Record ep=(_692:Episode {id: 55, number: 5, season: 6, title: 'The Door'})>
+<Record ep=(_693:Episode {id: 56, number: 6, season: 6, title: 'Blood of My Blood'})>
+<Record ep=(_694:Episode {id: 57, number: 7, season: 6, title: 'The Broken Man'})>
+<Record ep=(_695:Episode {id: 58, number: 8, season: 6, title: 'No One'})>
+<Record ep=(_696:Episode {id: 59, number: 9, season: 6, title: 'Battle of the Bastards'})>
+<Record ep=(_697:Episode {id: 60, number: 10, season: 6, title: 'The Winds of Winter'})>
+
+
+
+
+
+
+Query: Retornar todos os episódios em que apareceu a personagem Viserys Targaryen
+<Record ep=(_638:Episode {id: 1, number: 1, season: 1, title: 'Winter Is Coming'})>
+<Record ep=(_640:Episode {id: 3, number: 3, season: 1, title: 'Lord Snow'})>
+<Record ep=(_641:Episode {id: 4, number: 4, season: 1, title: 'Cripples, Bastards, and Broken Things'})>
+<Record ep=(_639:Episode {id: 2, number: 2, season: 1, title: 'The Kingsroad'})>
+<Record ep=(_643:Episode {id: 6, number: 6, season: 1, title: 'A Golden Crown'})>
+
+
+
+
+
+
+Query: Retornar os parentes de Viserys Targaryen
+<Record Parente=(_132:Character {id: '/wiki/Aerys_II_Targaryen', name: 'Aerys II Targaryen'})>
+<Record Parente=(_619:Character {id: '/wiki/Rhaella_Targaryen', name: 'Rhaella Targaryen'})>
+
+
+
+
+
+
+Query: Que pessoas têm uma distância 2 para Lord ofBones (a distância entre duas pessoas é o comprimento do caminho mais curto entre eles)
+<Record Pessoas='Boat commander' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Mance Rayder' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Barristan Selmy' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Bran Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Tormund' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Robb Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Joffrey Baratheon' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Stark soldier (Valar Morghulis)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas="Margaery's handmaiden" Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Unidentified Warlock' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Mirelle' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Gendry' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Drogo' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Xaro Xhoan Daxos' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Willa' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Lannister soldier (The Prince of Winterfell)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Lorren' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Rast' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Margaery Tyrell' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Septon (Valar Morghulis)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Johnna' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Yezzan zo Qaggaz' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Rhaego' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Kraznys mo Nakloz' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Talisa Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Kevan Lannister' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Gilly' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Theon Greyjoy' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Melisandre' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Yara Greyjoy' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Loboda' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Osha' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Ygritte' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Ramsay Bolton' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Stark guard (A Man Without Honor)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Tyrion Lannister' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Bronn' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Talisa Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Shae' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Dagmer' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Varys' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='White Walker (Valar Morghulis)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Ros' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas="Jaqen H'ghar" Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Biter' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Missandei' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Jorah Mormont' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Rickard Karstark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Orphan kid' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Rorge' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Podrick Payne' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Gregor Clegane' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Matthos Seaworth' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Eddison Tollett' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Tywin Lannister' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Waif' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Stannis Baratheon' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Todder' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Qyburn' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Jeor Mormont' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Dim Dalba' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Brienne of Tarth' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Roose Bolton' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Luwin' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Daenerys Targaryen' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Arya Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Davos Seaworth' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Rickon Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Lhara' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Salladhor Saan' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Kovarro' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Lannister captain' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Tom' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Hodor' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Doreah' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='White Walker (Hardhome)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Jaime Lannister' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Dongo' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Lannister torturer' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Stark messenger' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Qhorin' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Catelyn Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Wun Weg Wun Dar Wun' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Samwell Tarly' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Cersei Lannister' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Theon Greyjoy' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Jon Snow' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Meryn Trant' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Unella' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Grenn' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Unsullied 1 (Valar Dohaeris)' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Hot Pie' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Olly' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Karsi' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Night King' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Sansa Stark' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Loras' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Braavosi captain' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Petyr Baelish' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Thin man' Lord='Lord of Bones' Comprimento=2>
+<Record Pessoas='Pyat Pree' Lord='Lord of Bones' Comprimento=2>
+
+
+
+
+
+
+Query: Todas as personagens que entraram na primeira temporada
+<Record Nome='Viserys Targaryen'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Mordane'>
+<Record Nome='Gared'>
+<Record Nome='Mago'>
+<Record Nome='Benjen Stark'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Ros'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Rickon Stark'>
+<Record Nome='White Walker (Winter is Coming)'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Mikken'>
+<Record Nome='Luwin'>
+<Record Nome='Will'>
+<Record Nome='Tommy'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Illyrio Mopatis'>
+<Record Nome='Robb Stark'>
+<Record Nome='Bran Stark'>
+<Record Nome='Wildling girl'>
+<Record Nome='White Walker (Winter is Coming)'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Qotho'>
+<Record Nome='Hodor'>
+<Record Nome='Jon Snow'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Jon Arryn'>
+<Record Nome='Myrcella Baratheon'>
+<Record Nome='Waymar Royce'>
+<Record Nome='Jory Cassel'>
+<Record Nome='Pentoshi servant'>
+<Record Nome='Arya Stark'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Drogo'>
+<Record Nome='Tommen Baratheon'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Robb Stark'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Tommen Baratheon'>
+<Record Nome='Jhiqui'>
+<Record Nome='Ilyn Payne'>
+<Record Nome='Jon Snow'>
+<Record Nome='Lannister guardsman (The Kingsroad)'>
+<Record Nome='Mikken'>
+<Record Nome='Doreah'>
+<Record Nome='Viserys Targaryen'>
+<Record Nome='Mycah'>
+<Record Nome='Drogo'>
+<Record Nome='Qotho'>
+<Record Nome='Benjen Stark'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Arya Stark'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Catspaw assassin'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Rast'>
+<Record Nome='Irri'>
+<Record Nome='Jory Cassel'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Bran Stark'>
+<Record Nome='Myrcella Baratheon'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Luwin'>
+<Record Nome='Pypar'>
+<Record Nome='Goldcloak 1 (Lord Snow)'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Viserys Targaryen'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Alliser Thorne'>
+<Record Nome='Pycelle'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Aemon'>
+<Record Nome='Bran Stark'>
+<Record Nome='Lancel'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Varys'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Jon Snow'>
+<Record Nome='Robb Stark'>
+<Record Nome='Irri'>
+<Record Nome='Renly Baratheon'>
+<Record Nome='Drunk man'>
+<Record Nome='Rast'>
+<Record Nome='Yoren'>
+<Record Nome='Syrio Forel'>
+<Record Nome='Rakharo'>
+<Record Nome='Jaime Lannister'>
+<Record Nome="King's Landing whore (Lord Snow)">
+<Record Nome='Robert Baratheon'>
+<Record Nome='Grenn'>
+<Record Nome='Goldcloak 2 (Lord Snow)'>
+<Record Nome='Benjen Stark'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Arya Stark'>
+<Record Nome='Mordane'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Old Nan'>
+<Record Nome='Drogo'>
+<Record Nome='Jory Cassel'>
+<Record Nome='Jeor Mormont'>
+<Record Nome='Royal Steward'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Pycelle'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Gendry'>
+<Record Nome='Knight of House Frey'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Hodor'>
+<Record Nome='Jory Cassel'>
+<Record Nome='Renly Baratheon'>
+<Record Nome='Varys'>
+<Record Nome='Marillion'>
+<Record Nome='Gregor Clegane'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Yoren'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Old Nan'>
+<Record Nome='Jon Snow'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Bronn'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Drogo'>
+<Record Nome='Masha Heddle'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Myrcella Baratheon'>
+<Record Nome='Rast'>
+<Record Nome='Irri'>
+<Record Nome='Kurleket'>
+<Record Nome='Willis Wode'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Pypar'>
+<Record Nome='Samwell Tarly'>
+<Record Nome='Tommen Baratheon'>
+<Record Nome='Alliser Thorne'>
+<Record Nome='Hugh'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Luwin'>
+<Record Nome='Grenn'>
+<Record Nome='Robb Stark'>
+<Record Nome='Arya Stark'>
+<Record Nome='Janos Slynt'>
+<Record Nome='Viserys Targaryen'>
+<Record Nome='Lancel'>
+<Record Nome='Bran Stark'>
+<Record Nome='Doreah'>
+<Record Nome='Tobho Mott'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Mordane'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Jory Cassel'>
+<Record Nome='Arya Stark'>
+<Record Nome='Illyrio Mopatis'>
+<Record Nome='Vardis Egen'>
+<Record Nome='Lancel'>
+<Record Nome='Tommen Baratheon'>
+<Record Nome="King's Landing whore (Lord Snow)">
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Robin Arryn'>
+<Record Nome='Yoren'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Lysa Arryn'>
+<Record Nome='Myrcella Baratheon'>
+<Record Nome='Luwin'>
+<Record Nome='Renly Baratheon'>
+<Record Nome='Varys'>
+<Record Nome='Mord'>
+<Record Nome='Mhaegen'>
+<Record Nome='Pycelle'>
+<Record Nome='Mordane'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Willis Wode'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Loras'>
+<Record Nome='Marillion'>
+<Record Nome='Gregor Clegane'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Bronn'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Goldcloak 1 (The Wolf and the Lion)'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Hugh'>
+<Record Nome='Bran Stark'>
+<Record Nome='Royal Steward'>
+<Record Nome='Ros'>
+<Record Nome='Kurleket'>
+<Record Nome='Renly Baratheon'>
+<Record Nome='Dothraki crone'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Osha'>
+<Record Nome='Qotho'>
+<Record Nome='Drogo'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Bran Stark'>
+<Record Nome='Wallen'>
+<Record Nome='Syrio Forel'>
+<Record Nome='Marillion'>
+<Record Nome='Loras'>
+<Record Nome='Bronn'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Lysa Arryn'>
+<Record Nome='Mord'>
+<Record Nome='Robb Stark'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Mordane'>
+<Record Nome='Hodor'>
+<Record Nome='Irri'>
+<Record Nome='Doreah'>
+<Record Nome='Ros'>
+<Record Nome='Rakharo'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Arya Stark'>
+<Record Nome='Lancel'>
+<Record Nome='Beric Dondarrion'>
+<Record Nome='Knight of House Lynderly'>
+<Record Nome='Viserys Targaryen'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Robin Arryn'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Joss (A Golden Crown)'>
+<Record Nome='Eon Hunter'>
+<Record Nome='Stiv'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Vardis Egen'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Pycelle'>
+<Record Nome='Samwell Tarly'>
+<Record Nome='Varys'>
+<Record Nome='Alliser Thorne'>
+<Record Nome='Rakharo'>
+<Record Nome='Jon Snow'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Tywin Lannister'>
+<Record Nome='Rast'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Othell Yarwyck'>
+<Record Nome='Royal Steward'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Qotho'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Ros'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Robert Baratheon'>
+<Record Nome='Renly Baratheon'>
+<Record Nome='Jeor Mormont'>
+<Record Nome='Aemon'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Grenn'>
+<Record Nome='Irri'>
+<Record Nome='Wineseller'>
+<Record Nome='Luwin'>
+<Record Nome='Osha'>
+<Record Nome='Pypar'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Little Bird (You Win or You Die)'>
+<Record Nome='Jaremy Rykker'>
+<Record Nome='Pycelle'>
+<Record Nome='Janos Slynt'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Doreah'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome="Night's Watch Officer 2">
+<Record Nome='Tomard'>
+<Record Nome='Drogo'>
+<Record Nome='Varly'>
+<Record Nome='Armeca'>
+<Record Nome='Doreah'>
+<Record Nome='Rickon Stark'>
+<Record Nome='Rakharo'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Rast'>
+<Record Nome='Mirri Maz Duur'>
+<Record Nome='Tywin Lannister'>
+<Record Nome='Bronn'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Osha'>
+<Record Nome='Janos Slynt'>
+<Record Nome='Vayon Poole'>
+<Record Nome='Stableboy'>
+<Record Nome='Syrio Forel'>
+<Record Nome='Maege Mormont'>
+<Record Nome='Barristan Selmy'>
+<Record Nome='Jon Umber'>
+<Record Nome='Mago'>
+<Record Nome='Galbart Glover'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Shagga'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Luwin'>
+<Record Nome='Chella'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Arya Stark'>
+<Record Nome='Irri'>
+<Record Nome='Lannister messenger'>
+<Record Nome='Alliser Thorne'>
+<Record Nome='Jon Snow'>
+<Record Nome='Mordane'>
+<Record Nome='Stark guard (The Pointy End)'>
+<Record Nome='Pycelle'>
+<Record Nome='Varys'>
+<Record Nome='Meryn Trant'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Kevan Lannister'>
+<Record Nome='Robb Stark'>
+<Record Nome='Othell Yarwyck'>
+<Record Nome='Samwell Tarly'>
+<Record Nome='Grenn'>
+<Record Nome='Bran Stark'>
+<Record Nome='Jeor Mormont'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Drogo'>
+<Record Nome='Lysa Arryn'>
+<Record Nome='Pypar'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Hodor'>
+<Record Nome='Timett'>
+<Record Nome='Qotho'>
+<Record Nome="Night's Watch Officer 2">
+<Record Nome='Robin Arryn'>
+<Record Nome='Royal Steward'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome="Night's Watch messenger">
+<Record Nome='Lannister scout'>
+<Record Nome='Shagga'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Tywin Lannister'>
+<Record Nome='Shae'>
+<Record Nome='Doreah'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Joyeuse Erenford'>
+<Record Nome="King's Landing urchin">
+<Record Nome='Pycelle'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Aemon'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Qotho'>
+<Record Nome='Ryger Rivers'>
+<Record Nome='Maege Mormont'>
+<Record Nome='Bronn'>
+<Record Nome='Varys'>
+<Record Nome='Irri'>
+<Record Nome='Leo Lefford'>
+<Record Nome='Janos Slynt'>
+<Record Nome='Jon Umber'>
+<Record Nome='Robb Stark'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Stevron Frey'>
+<Record Nome='Samwell Tarly'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Ilyn Payne'>
+<Record Nome="Night's Watch messenger">
+<Record Nome='Chella'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Arya Stark'>
+<Record Nome='Drogo'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Grenn'>
+<Record Nome='Jeor Mormont'>
+<Record Nome='Petyr Baelish'>
+<Record Nome="Night's Watchman (Baelor)">
+<Record Nome="King's Landing baker">
+<Record Nome='Timett'>
+<Record Nome='Walder Frey'>
+<Record Nome='Kevan Lannister'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Jon Snow'>
+<Record Nome='Pypar'>
+<Record Nome='Rakharo'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Mirri Maz Duur'>
+<Record Nome='Rast'>
+<Record Nome='Yoren'>
+<Record Nome='Jaime Lannister'>
+<Record Nome='Eddard Stark'>
+<Record Nome='Bronn'>
+<Record Nome='Luwin'>
+<Record Nome='Meryn Trant'>
+<Record Nome='Hot Pie'>
+<Record Nome='Lommy'>
+<Record Nome='Maege Mormont'>
+<Record Nome='Sansa Stark'>
+<Record Nome='Jonos Bracken'>
+<Record Nome='Jon Snow'>
+<Record Nome='Rakharo'>
+<Record Nome='Catelyn Stark'>
+<Record Nome='Petyr Baelish'>
+<Record Nome='Tyrion Lannister'>
+<Record Nome='Drogo'>
+<Record Nome='Sandor Clegane'>
+<Record Nome='Jon Umber'>
+<Record Nome='Jeor Mormont'>
+<Record Nome='Galbart Glover'>
+<Record Nome='Jorah Mormont'>
+<Record Nome='Varys'>
+<Record Nome='Irri'>
+<Record Nome='Ilyn Payne'>
+<Record Nome='Hodor'>
+<Record Nome='Arya Stark'>
+<Record Nome='Yoren'>
+<Record Nome='Bran Stark'>
+<Record Nome='Rickard Karstark'>
+<Record Nome='Daenerys Targaryen'>
+<Record Nome='Samwell Tarly'>
+<Record Nome='Addam Marbrand'>
+<Record Nome='Ros'>
+<Record Nome='Osha'>
+<Record Nome='Tywin Lannister'>
+<Record Nome='Mirri Maz Duur'>
+<Record Nome='Theon Greyjoy'>
+<Record Nome='Shae'>
+<Record Nome='Joffrey Baratheon'>
+<Record Nome='Marillion'>
+<Record Nome='Stark guard (Fire and Blood)'>
+<Record Nome='Gendry'>
+<Record Nome='Pycelle'>
+<Record Nome='Grenn'>
+<Record Nome='Leo Lefford'>
+<Record Nome='Rodrik Cassel'>
+<Record Nome='Lancel'>
+<Record Nome='Kevan Lannister'>
+<Record Nome='Cersei Lannister'>
+<Record Nome='Robb Stark'>
+<Record Nome='Rickon Stark'>
+<Record Nome='Pypar'>
+
+
+
+
+
+
+Query: Caminho mais curto entre Meera Reed e Jojen Reed
+<Record path=(Meera Reed)<-[:PARENT_OF {type: 'biological father'}]-(Howland Reed)-[:PARENT_OF {type: 'biological father'}]->(Jojen Reed)>
+
+
+
+
+
+
+Query: Todos os caminhos mais curtos entre Meera Reed e Jojen Reed
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_672)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_659)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_677)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_663)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_664)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_666)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_667)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_669)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:APPEARED_IN {}]->(_671)<-[:APPEARED_IN {}]-(Jojen Reed)>
+<Record path=(Meera Reed)<-[:PARENT_OF {type: 'biological father'}]-(Howland Reed)-[:PARENT_OF {type: 'biological father'}]->(Jojen Reed)>
+<Record path=(Meera Reed)-[:HAS_ALLEGIANCE_TO {}]->(House Reed)<-[:HAS_ALLEGIANCE_TO {}]-(Jojen Reed)>
+<Record path=(Meera Reed)-[:HAS_ALLEGIANCE_TO {}]->(House Stark)<-[:HAS_ALLEGIANCE_TO {}]-(Jojen Reed)>
+
+
+
+
+
+
+Query: Determinar todos os pais biológicos
+<Record Pai='Nymeria Sand' Filho='Oberyn Martell'>
+<Record Pai='Bran Stark' Filho='Eddard Stark'>
+<Record Pai='Lothar Frey' Filho='Walder Frey'>
+<Record Pai='Robb Stark' Filho='Eddard Stark'>
+<Record Pai='Waymar Royce' Filho='Yohn Royce'>
+<Record Pai='Joffrey Baratheon' Filho='Jaime Lannister'>
+<Record Pai='Gendry' Filho='Robert Baratheon'>
+<Record Pai='Addam Marbrand' Filho='Damon Marbrand'>
+<Record Pai='Tyene Sand' Filho='Oberyn Martell'>
+<Record Pai='Jon Umber' Filho='Smalljon Umber'>
+<Record Pai='Lancel' Filho='Kevan Lannister'>
+<Record Pai='Drogo' Filho='Rhaego'>
+<Record Pai='Drogo' Filho='Bharbo'>
+<Record Pai='Jojen Reed' Filho='Howland Reed'>
+<Record Pai='Martyn Lannister' Filho='Kevan Lannister'>
+<Record Pai='Ghita' Filho='Joss (Unbowed, Unbent, Unbroken)'>
+<Record Pai='Sissy' Filho='Craster'>
+<Record Pai='Ramsay Bolton' Filho='Roose Bolton'>
+<Record Pai='Margaery Tyrell' Filho='Mace Tyrell'>
+<Record Pai='Rhaego' Filho='Drogo'>
+<Record Pai='Aerys II Targaryen' Filho='Viserys Targaryen'>
+<Record Pai='Aerys II Targaryen' Filho='Rhaegar Targaryen'>
+<Record Pai='Aerys II Targaryen' Filho='Aegon V Targaryen'>
+<Record Pai='Aerys II Targaryen' Filho='Daenerys Targaryen'>
+<Record Pai='Willem Lannister' Filho='Kevan Lannister'>
+<Record Pai='Meera Reed' Filho='Howland Reed'>
+<Record Pai='Kevan Lannister' Filho='Tytos Lannister'>
+<Record Pai='Kevan Lannister' Filho='Willem Lannister'>
+<Record Pai='Kevan Lannister' Filho='Martyn Lannister'>
+<Record Pai='Kevan Lannister' Filho='Lancel'>
+<Record Pai='Kevan Lannister' Filho='Lancel'>
+<Record Pai="Goatherd's son" Filho='Goatherd (The Laws of Gods and Men)'>
+<Record Pai='Gilly' Filho='Craster'>
+<Record Pai='Theon Greyjoy' Filho='Balon Greyjoy'>
+<Record Pai='Yara Greyjoy' Filho='Balon Greyjoy'>
+<Record Pai='Joss (Unbowed, Unbent, Unbroken)' Filho='Ghita'>
+<Record Pai='Walder Rivers' Filho='Walder Frey'>
+<Record Pai='Robert Baratheon' Filho='Steffon Baratheon'>
+<Record Pai='Robert Baratheon' Filho='Gendry'>
+<Record Pai='Ramsay Bolton' Filho='Roose Bolton'>
+<Record Pai='Shagga' Filho='Dolf'>
+<Record Pai='Jon Arryn' Filho='Robin Arryn'>
+<Record Pai='Jon Arryn' Filho='Jasper Arryn'>
+<Record Pai='Obara Sand' Filho='Oberyn Martell'>
+<Record Pai='Tyrion Lannister' Filho='Tywin Lannister'>
+<Record Pai='Chella' Filho='Cheyk'>
+<Record Pai='Lollys Stokeworth' Filho='Stokeworth (Lord)'>
+<Record Pai='Howland Reed' Filho='Jojen Reed'>
+<Record Pai='Howland Reed' Filho='Meera Reed'>
+<Record Pai='Roslin Tully' Filho='Walder Frey'>
+<Record Pai='Torrhen Karstark' Filho='Rickard Karstark'>
+<Record Pai='Arthur Dayne' Filho='Beric Dayne'>
+<Record Pai="Innkeeper's daughter" Filho='Innkeeper'>
+<Record Pai='Edmure Tully' Filho='Hoster Tully'>
+<Record Pai="Craster's younger wife (Walk of Punishment)" Filho='Craster'>
+<Record Pai='Viserys Targaryen' Filho='Aerys II Targaryen'>
+<Record Pai='Jorah Mormont' Filho='Jeor Mormont'>
+<Record Pai='Rickard Karstark' Filho='Harald Karstark'>
+<Record Pai='Rickard Karstark' Filho='Torrhen Karstark'>
+<Record Pai="Craster's wife 2 (Oathkeeper)" Filho='Craster'>
+<Record Pai='Oberyn Martell' Filho='Tyene Sand'>
+<Record Pai='Oberyn Martell' Filho='Obara Sand'>
+<Record Pai='Oberyn Martell' Filho='Nymeria Sand'>
+<Record Pai='Randyll Tarly' Filho='Samwell Tarly'>
+<Record Pai='Randyll Tarly' Filho='Dickon Tarly'>
+<Record Pai='Randyll Tarly' Filho='Talla Tarly'>
+<Record Pai='Matthos Seaworth' Filho='Davos Seaworth'>
+<Record Pai='Tywin Lannister' Filho='Tyrion Lannister'>
+<Record Pai='Tywin Lannister' Filho='Cersei Lannister'>
+<Record Pai='Tywin Lannister' Filho='Jaime Lannister'>
+<Record Pai='Tywin Lannister' Filho='Tytos Lannister'>
+<Record Pai='Stannis Baratheon' Filho='Steffon Baratheon'>
+<Record Pai='Stannis Baratheon' Filho='Shireen Baratheon'>
+<Record Pai='Renly Baratheon' Filho='Steffon Baratheon'>
+<Record Pai='Jeor Mormont' Filho='Jorah Mormont'>
+<Record Pai='Drogo' Filho='Bharbo'>
+<Record Pai='Brienne of Tarth' Filho='Selwyn Tarth'>
+<Record Pai='Lyanna Stark' Filho='Rickard Stark'>
+<Record Pai='Roose Bolton' Filho='Ramsay Bolton'>
+<Record Pai='Roose Bolton' Filho='Ramsay Bolton'>
+<Record Pai='Bran Stark' Filho='Eddard Stark'>
+<Record Pai='Daenerys Targaryen' Filho='Aerys II Targaryen'>
+<Record Pai='Arya Stark' Filho='Eddard Stark'>
+<Record Pai='Davos Seaworth' Filho='Matthos Seaworth'>
+<Record Pai='Aemon' Filho='Maekar Targaryen'>
+<Record Pai='Rickon Stark' Filho='Eddard Stark'>
+<Record Pai='Shireen Baratheon' Filho='Stannis Baratheon'>
+<Record Pai="Craster's wife 3 (Oathkeeper)" Filho='Craster'>
+<Record Pai='Sam' Filho='Craster'>
+<Record Pai='Sally' Filho='Farmer'>
+<Record Pai='Hoster Tully' Filho='Catelyn Stark'>
+<Record Pai='Hoster Tully' Filho='Lysa Arryn'>
+<Record Pai='Hoster Tully' Filho='Edmure Tully'>
+<Record Pai='Stevron Frey' Filho='Walder Frey'>
+<Record Pai='Mace Tyrell' Filho='Luthor Tyrell'>
+<Record Pai='Mace Tyrell' Filho='Loras'>
+<Record Pai='Mace Tyrell' Filho='Margaery Tyrell'>
+<Record Pai='Jaime Lannister' Filho='Myrcella Baratheon'>
+<Record Pai='Jaime Lannister' Filho='Tommen Baratheon'>
+<Record Pai='Jaime Lannister' Filho='Tywin Lannister'>
+<Record Pai='Jaime Lannister' Filho='Joffrey Baratheon'>
+<Record Pai='Walder Frey' Filho='Walder Rivers'>
+<Record Pai='Walder Frey' Filho='Stevron Frey'>
+<Record Pai='Walder Frey' Filho='Ryger Rivers'>
+<Record Pai='Walder Frey' Filho='Roslin Tully'>
+<Record Pai='Walder Frey' Filho='Walder Rivers'>
+<Record Pai='Walder Frey' Filho='Lothar Frey'>
+<Record Pai='Wyman Manderly' Filho='Wendel Manderly'>
+<Record Pai='Ryger Rivers' Filho='Walder Frey'>
+<Record Pai='Robin Arryn' Filho='Jon Arryn'>
+<Record Pai='Craster' Filho='Morag'>
+<Record Pai='Craster' Filho="Craster's wife 2 (Oathkeeper)">
+<Record Pai='Craster' Filho='Sissy'>
+<Record Pai='Craster' Filho='Gilly'>
+<Record Pai='Craster' Filho='Sam'>
+<Record Pai='Craster' Filho="Craster's younger wife (Walk of Punishment)">
+<Record Pai='Craster' Filho="Craster's wife 3 (Oathkeeper)">
+<Record Pai='Harald Karstark' Filho='Rickard Karstark'>
+<Record Pai='Eddard Stark' Filho='Bran Stark'>
+<Record Pai='Eddard Stark' Filho='Sansa Stark'>
+<Record Pai='Eddard Stark' Filho='Arya Stark'>
+<Record Pai='Eddard Stark' Filho='Robb Stark'>
+<Record Pai='Eddard Stark' Filho='Rickard Stark'>
+<Record Pai='Eddard Stark' Filho='Rickon Stark'>
+<Record Pai='Eddard Stark' Filho='Bran Stark'>
+<Record Pai='Smalljon Umber' Filho='Jon Umber'>
+<Record Pai='Catelyn Stark' Filho='Hoster Tully'>
+<Record Pai='Goatherd (The Laws of Gods and Men)' Filho="Goatherd's son">
+<Record Pai='Samwell Tarly' Filho='Randyll Tarly'>
+<Record Pai='Cersei Lannister' Filho='Tywin Lannister'>
+<Record Pai='Theon Greyjoy' Filho='Balon Greyjoy'>
+<Record Pai='Jon Snow' Filho='Rhaegar Targaryen'>
+<Record Pai='Balon Greyjoy' Filho='Theon Greyjoy'>
+<Record Pai='Balon Greyjoy' Filho='Theon Greyjoy'>
+<Record Pai='Balon Greyjoy' Filho='Yara Greyjoy'>
+<Record Pai='Lancel' Filho='Kevan Lannister'>
+<Record Pai='Walder Rivers' Filho='Walder Frey'>
+<Record Pai='Dickon Tarly' Filho='Randyll Tarly'>
+<Record Pai='Olly' Filho='Guymon'>
+<Record Pai='Innkeeper' Filho="Innkeeper's daughter">
+<Record Pai='Morag' Filho='Craster'>
+<Record Pai='Myrcella Baratheon' Filho='Jaime Lannister'>
+<Record Pai='Talla Tarly' Filho='Randyll Tarly'>
+<Record Pai='Lysa Arryn' Filho='Hoster Tully'>
+<Record Pai='Sansa Stark' Filho='Eddard Stark'>
+<Record Pai='Trystane Martell' Filho='Doran Martell'>
+<Record Pai='Loras' Filho='Mace Tyrell'>
+<Record Pai='Yohn Royce' Filho='Waymar Royce'>
+<Record Pai='Petyr Baelish' Filho='Baelish (father of Petyr)'>
+<Record Pai='Tommen Baratheon' Filho='Jaime Lannister'>
+<Record Pai='Benjen Stark' Filho='Rickard Stark'>
+<Record Pai='Rickard Stark' Filho='Benjen Stark'>
+<Record Pai='Rickard Stark' Filho='Eddard Stark'>
+<Record Pai='Rickard Stark' Filho='Lyanna Stark'>
+<Record Pai='Guymon' Filho='Olly'>
+<Record Pai='Doran Martell' Filho='Trystane Martell'>
+<Record Pai='Wendel Manderly' Filho='Wyman Manderly'>
+<Record Pai='Aegon V Targaryen' Filho='Maekar Targaryen'>
+<Record Pai='Aegon V Targaryen' Filho='Rhaella Targaryen'>
+<Record Pai='Aegon V Targaryen' Filho='Aerys II Targaryen'>
+<Record Pai='Baelish (father of Petyr)' Filho='Baelish (hedge knight)'>
+<Record Pai='Baelish (father of Petyr)' Filho='Petyr Baelish'>
+<Record Pai='Stokeworth (Lord)' Filho='Lollys Stokeworth'>
+<Record Pai='Selwyn Tarth' Filho='Brienne of Tarth'>
+<Record Pai='Baelish (hedge knight)' Filho='Baelish (father of Petyr)'>
+<Record Pai='Maekar Targaryen' Filho='Daeron II Targaryen'>
+<Record Pai='Maekar Targaryen' Filho='Aegon V Targaryen'>
+<Record Pai='Daeron II Targaryen' Filho='Maekar Targaryen'>
+<Record Pai='Daeron II Targaryen' Filho='Maekar Targaryen'>
+<Record Pai='Rhaella Targaryen' Filho='Aegon V Targaryen'>
+<Record Pai='Maekar Targaryen' Filho='Daeron II Targaryen'>
+<Record Pai='Maekar Targaryen' Filho='Aemon'>
+<Record Pai='Tytos Lannister' Filho='Kevan Lannister'>
+<Record Pai='Tytos Lannister' Filho='Tywin Lannister'>
+<Record Pai='Jasper Arryn' Filho='Jon Arryn'>
+<Record Pai='Steffon Baratheon' Filho='Robert Baratheon'>
+<Record Pai='Steffon Baratheon' Filho='Stannis Baratheon'>
+<Record Pai='Steffon Baratheon' Filho='Renly Baratheon'>
+<Record Pai='Harys Swyft' Filho='Dorna Lannister'>
+<Record Pai='Cheyk' Filho='Chella'>
+<Record Pai='Farmer' Filho='Sally'>
+<Record Pai='Rhaegar Targaryen' Filho='Aerys II Targaryen'>
+<Record Pai='Rhaegar Targaryen' Filho='Jon Snow'>
+<Record Pai='Beric Dayne' Filho='Arthur Dayne'>
+<Record Pai='Damon Marbrand' Filho='Addam Marbrand'>
+<Record Pai='Bharbo' Filho='Drogo'>
+<Record Pai='Bharbo' Filho='Drogo'>
+<Record Pai='Luthor Tyrell' Filho='Mace Tyrell'>
+<Record Pai='Dorna Lannister' Filho='Harys Swyft'>
+<Record Pai='Dolf' Filho='Shagga'>
+
+
+
+
+
+
+Query: Todas as personagens com ligação à House Tyrell
+<Record Personagem=(_107:Character {id: '/wiki/Margaery_Tyrell', name: 'Margaery Tyrell'})>
+<Record Personagem=(_116:Character {id: '/wiki/Tyrell_server', name: 'Tyrell servant'})>
+<Record Personagem=(_32:Character {id: '/wiki/Margaery%27s_handmaiden', name: "Margaery's handmaiden"})>
+<Record Personagem=(_293:Character {id: '/wiki/Tyrell_guard_(The_Gift)', name: 'Tyrell guard (The Gift)'})>
+<Record Personagem=(_288:Character {id: '/wiki/Randyll_Tarly', name: 'Randyll Tarly'})>
+<Record Personagem=(_549:Character {id: '/wiki/Olenna_Tyrell', name: 'Olenna Tyrell'})>
+<Record Personagem=(_437:Character {id: '/wiki/Mace_Tyrell', name: 'Mace Tyrell'})>
+<Record Personagem=(_477:Character {id: '/wiki/Tyrell_bannerman', name: 'Tyrell bannerman'})>
+
+
+
+
+
+
+Query: Número de vezes que cada personagem apareceu de forma decrescente
+<Record Nome='Tyrion Lannister' Número=54>
+<Record Nome='Cersei Lannister' Número=52>
+<Record Nome='Daenerys Targaryen' Número=49>
+<Record Nome='Jon Snow' Número=49>
+<Record Nome='Arya Stark' Número=47>
+<Record Nome='Sansa Stark' Número=47>
+<Record Nome='Jaime Lannister' Número=43>
+<Record Nome='Jorah Mormont' Número=42>
+<Record Nome='Theon Greyjoy' Número=39>
+<Record Nome='Samwell Tarly' Número=38>
+<Record Nome='Varys' Número=35>
+<Record Nome='Petyr Baelish' Número=34>
+<Record Nome='Brienne of Tarth' Número=32>
+<Record Nome='Bran Stark' Número=30>
+<Record Nome='Bronn' Número=30>
+<Record Nome='Missandei' Número=29>
+<Record Nome='Sandor Clegane' Número=29>
+<Record Nome='Eddison Tollett' Número=29>
+<Record Nome='Davos Seaworth' Número=29>
+<Record Nome='Podrick Payne' Número=27>
+<Record Nome='Tywin Lannister' Número=27>
+<Record Nome='Joffrey Baratheon' Número=26>
+<Record Nome='Margaery Tyrell' Número=26>
+<Record Nome='Melisandre' Número=26>
+<Record Nome='Barristan Selmy' Número=25>
+<Record Nome='Catelyn Stark' Número=25>
+<Record Nome='Tormund' Número=24>
+<Record Nome='Stannis Baratheon' Número=24>
+<Record Nome='Grey Worm' Número=24>
+<Record Nome='Tommen Baratheon' Número=24>
+<Record Nome='Hodor' Número=23>
+<Record Nome='Grenn' Número=22>
+<Record Nome='Robb Stark' Número=21>
+<Record Nome='Pycelle' Número=21>
+<Record Nome='Gilly' Número=21>
+<Record Nome='Daario Naharis' Número=21>
+<Record Nome='Loras' Número=21>
+<Record Nome='Ramsay Bolton' Número=20>
+<Record Nome='Shae' Número=20>
+<Record Nome='Roose Bolton' Número=19>
+<Record Nome='Alliser Thorne' Número=19>
+<Record Nome='Gendry' Número=17>
+<Record Nome='Ygritte' Número=17>
+<Record Nome="Jaqen H'ghar" Número=17>
+<Record Nome='Eddard Stark' Número=17>
+<Record Nome='Meryn Trant' Número=17>
+<Record Nome='Olly' Número=17>
+<Record Nome='Lancel' Número=16>
+<Record Nome='Osha' Número=16>
+<Record Nome='Olenna Tyrell' Número=16>
+<Record Nome='Janos Slynt' Número=15>
+<Record Nome='Rodrik Cassel' Número=15>
+<Record Nome='Gregor Clegane' Número=15>
+<Record Nome='Ros' Número=14>
+<Record Nome='Qyburn' Número=14>
+<Record Nome='Rickon Stark' Número=14>
+<Record Nome='Myrcella Baratheon' Número=14>
+<Record Nome='Irri' Número=13>
+<Record Nome='Meera Reed' Número=13>
+<Record Nome='Pypar' Número=13>
+<Record Nome='Mace Tyrell' Número=13>
+<Record Nome='High Sparrow' Número=12>
+<Record Nome='Rast' Número=12>
+<Record Nome='Kevan Lannister' Número=12>
+<Record Nome='Yara Greyjoy' Número=12>
+<Record Nome='Waif' Número=12>
+<Record Nome='Jeor Mormont' Número=12>
+<Record Nome='Luwin' Número=12>
+<Record Nome='Othell Yarwyck' Número=12>
+<Record Nome='Talisa Stark' Número=11>
+<Record Nome='Ellaria Sand' Número=11>
+<Record Nome='Aemon' Número=11>
+<Record Nome='Doreah' Número=11>
+<Record Nome='Selyse Baratheon' Número=11>
+<Record Nome='Hot Pie' Número=11>
+<Record Nome='Drogo' Número=10>
+<Record Nome='Jojen Reed' Número=10>
+<Record Nome='Shireen Baratheon' Número=10>
+<Record Nome='Myranda' Número=8>
+<Record Nome='Edmure Tully' Número=8>
+<Record Nome='Renly Baratheon' Número=8>
+<Record Nome='Locke' Número=8>
+<Record Nome='Kovarro' Número=8>
+<Record Nome='Hizdahr zo Loraq' Número=8>
+<Record Nome='Robin Arryn' Número=8>
+<Record Nome='Unella' Número=8>
+<Record Nome='Nymeria Sand' Número=7>
+<Record Nome="Night's Watch Officer 2" Número=7>
+<Record Nome='Tyene Sand' Número=7>
+<Record Nome='Thoros' Número=7>
+<Record Nome='Rakharo' Número=7>
+<Record Nome='Bowen Marsh' Número=7>
+<Record Nome='Robert Baratheon' Número=7>
+<Record Nome='Obara Sand' Número=7>
+<Record Nome='Olyvar' Número=7>
+<Record Nome='Marei' Número=7>
+<Record Nome='Oberyn Martell' Número=7>
+<Record Nome='Brynden Tully' Número=7>
+<Record Nome='Yoren' Número=7>
+<Record Nome='Benjen Stark' Número=7>
+<Record Nome='Lothar Frey' Número=6>
+<Record Nome='Beric Dondarrion' Número=6>
+<Record Nome="High Septon (After the riot of King's Landing)" Número=6>
+<Record Nome='Brotherhood member' Número=6>
+<Record Nome='Walder Rivers' Número=6>
+<Record Nome='Mordane' Número=6>
+<Record Nome='Rickard Karstark' Número=6>
+<Record Nome='Anguy' Número=6>
+<Record Nome='Orell' Número=6>
+<Record Nome='Qotho' Número=6>
+<Record Nome='Areo Hotah' Número=6>
+<Record Nome='Dontos Hollard' Número=6>
+<Record Nome='Mance Rayder' Número=5>
+<Record Nome='Three-eyed raven' Número=5>
+<Record Nome='Xaro Xhoan Daxos' Número=5>
+<Record Nome='Walda Bolton' Número=5>
+<Record Nome='Dagmer' Número=5>
+<Record Nome='Wun Weg Wun Dar Wun' Número=5>
+<Record Nome='Viserys Targaryen' Número=5>
+<Record Nome='Jory Cassel' Número=5>
+<Record Nome='Unidentified handmaiden' Número=5>
+<Record Nome='Walder Frey' Número=5>
+<Record Nome='Craster' Número=5>
+<Record Nome='Lysa Arryn' Número=5>
+<Record Nome='Trystane Martell' Número=5>
+<Record Nome='Doran Martell' Número=5>
+<Record Nome='Lord of Bones' Número=4>
+<Record Nome='Marillion' Número=4>
+<Record Nome='Old Nan' Número=4>
+<Record Nome='Lorren' Número=4>
+<Record Nome='Karl Tanner' Número=4>
+<Record Nome='Yezzan zo Qaggaz' Número=4>
+<Record Nome='Royal Steward' Número=4>
+<Record Nome='Timett' Número=4>
+<Record Nome='Steelshanks' Número=4>
+<Record Nome='Biter' Número=4>
+<Record Nome='Rorge' Número=4>
+<Record Nome='Matthos Seaworth' Número=4>
+<Record Nome='Lommy' Número=4>
+<Record Nome='Qhorin' Número=4>
+<Record Nome='Leaf' Número=4>
+<Record Nome='Amory Lorch' Número=4>
+<Record Nome='Balon Greyjoy' Número=4>
+<Record Nome='Armeca' Número=4>
+<Record Nome='Ilyn Payne' Número=4>
+<Record Nome='Yohn Royce' Número=4>
+<Record Nome='Pyat Pree' Número=4>
+<Record Nome='Razdal mo Eraz' Número=3>
+<Record Nome='Dongo' Número=3>
+<Record Nome='Musician 2 (The Door)' Número=3>
+<Record Nome='Jon Umber' Número=3>
+<Record Nome='Lyanna Mormont' Número=3>
+<Record Nome='Musician 4 (The Door)' Número=3>
+<Record Nome="Loyal Night's Watch man 2" Número=3>
+<Record Nome='Musician 5 (The Door)' Número=3>
+<Record Nome='Drennan' Número=3>
+<Record Nome='Kraznys mo Nakloz' Número=3>
+<Record Nome='Moro' Número=3>
+<Record Nome='Vala' Número=3>
+<Record Nome='Chella' Número=3>
+<Record Nome='Bobono' Número=3>
+<Record Nome='Night King' Número=3>
+<Record Nome='Musician 3 (The Door)' Número=3>
+<Record Nome='Mossador' Número=3>
+<Record Nome='Thenn warg' Número=3>
+<Record Nome='Thirteen member' Número=3>
+<Record Nome="Moro's bloodrider 1" Número=3>
+<Record Nome="Moro's bloodrider 2" Número=3>
+<Record Nome='Qhono' Número=3>
+<Record Nome='Mirri Maz Duur' Número=3>
+<Record Nome='Clarenzo' Número=3>
+<Record Nome='Spice King' Número=3>
+<Record Nome='Whore (The Warrior)' Número=3>
+<Record Nome='Polliver' Número=3>
+<Record Nome='Maege Mormont' Número=3>
+<Record Nome='Musician 1 (The Door)' Número=3>
+<Record Nome='Lhara' Número=3>
+<Record Nome='Salladhor Saan' Número=3>
+<Record Nome='Syrio Forel' Número=3>
+<Record Nome='Izembaro' Número=3>
+<Record Nome='Daisy' Número=3>
+<Record Nome='Harald Karstark' Número=3>
+<Record Nome='Alton Lannister' Número=3>
+<Record Nome='Lady Crane' Número=3>
+<Record Nome="King's Landing whore (Lord Snow)" Número=2>
+<Record Nome='Little Bird 6' Número=2>
+<Record Nome='Little Bird 7' Número=2>
+<Record Nome='Little Bird 4' Número=2>
+<Record Nome='Little Bird 3' Número=2>
+<Record Nome='Frances' Número=2>
+<Record Nome='Baratheon soldier' Número=2>
+<Record Nome='Vardis Egen' Número=2>
+<Record Nome='Tobho Mott' Número=2>
+<Record Nome='Malko' Número=2>
+<Record Nome='Martyn Lannister' Número=2>
+<Record Nome='Lem' Número=2>
+<Record Nome='Ghita' Número=2>
+<Record Nome='Willa' Número=2>
+<Record Nome="Loyal Night's Watch man 1" Número=2>
+<Record Nome='Sissy' Número=2>
+<Record Nome='Goldcloak on the Kingsroad' Número=2>
+<Record Nome='Zanrush' Número=2>
+<Record Nome='Great Master 1 (Breaker of Chains)' Número=2>
+<Record Nome='Johnna' Número=2>
+<Record Nome='The Tickler' Número=2>
+<Record Nome='Ternesio Terys' Número=2>
+<Record Nome='Mord' Número=2>
+<Record Nome='Willem Lannister' Número=2>
+<Record Nome='Arthur' Número=2>
+<Record Nome="King's Landing rioter 1" Número=2>
+<Record Nome='Illyrio Mopatis' Número=2>
+<Record Nome='Galbart Glover' Número=2>
+<Record Nome='Mummer 1' Número=2>
+<Record Nome='Mummer 2' Número=2>
+<Record Nome='Mikken' Número=2>
+<Record Nome='Kayla' Número=2>
+<Record Nome='Baratheon General' Número=2>
+<Record Nome='Shagga' Número=2>
+<Record Nome='Stark guard (A Man Without Honor)' Número=2>
+<Record Nome='Todder' Número=2>
+<Record Nome='Old woman' Número=2>
+<Record Nome="Night's Watch man 1" Número=2>
+<Record Nome="Night's Watch man 2" Número=2>
+<Record Nome="Night's Watch man (Book of the Stranger)" Número=2>
+<Record Nome="Mole's Town madam" Número=2>
+<Record Nome='Styr' Número=2>
+<Record Nome='White Walker (Valar Morghulis)' Número=2>
+<Record Nome='White Walker (Winter is Coming)' Número=2>
+<Record Nome='Whore (The Maiden)' Número=2>
+<Record Nome='Mhaegen' Número=2>
+<Record Nome='Whore (The Crone)' Número=2>
+<Record Nome='High Priestess of the Dosh Khaleen' Número=2>
+<Record Nome='Quaithe' Número=2>
+<Record Nome="Hizdahr zo Loraq's manservant" Número=2>
+<Record Nome='Wolkan' Número=2>
+<Record Nome='Dim Dalba' Número=2>
+<Record Nome='Lyanna Stark' Número=2>
+<Record Nome='Farlen' Número=2>
+<Record Nome='Mummer (Margaery Tyrell)' Número=2>
+<Record Nome='Morgan' Número=2>
+<Record Nome='Euron Greyjoy' Número=2>
+<Record Nome='Dothraki widow 2' Número=2>
+<Record Nome='Little Bird 5' Número=2>
+<Record Nome='Bianca' Número=2>
+<Record Nome='Quent' Número=2>
+<Record Nome='Male prostitute' Número=2>
+<Record Nome='Winterfell shepherd' Número=2>
+<Record Nome='Hallyne' Número=2>
+<Record Nome='Lannister captain' Número=2>
+<Record Nome='Joyeuse Erenford' Número=2>
+<Record Nome='Jacks' Número=2>
+<Record Nome='Willis Wode' Número=2>
+<Record Nome='Donnel Waynwood' Número=2>
+<Record Nome='Mummer 3' Número=2>
+<Record Nome='Hugh' Número=2>
+<Record Nome='Kurleket' Número=2>
+<Record Nome='Mago' Número=2>
+<Record Nome='Smalljon Umber' Número=2>
+<Record Nome='Dothraki widow 3' Número=2>
+<Record Nome='Leo Lefford' Número=2>
+<Record Nome='Tycho Nestoris' Número=2>
+<Record Nome='Whore (The Mother)' Número=2>
+<Record Nome='Master Torturer' Número=2>
+<Record Nome='Camello' Número=2>
+<Record Nome='Morag' Número=2>
+<Record Nome="Mole's Town whore" Número=2>
+<Record Nome='Robett Glover' Número=2>
+<Record Nome='Aeron Greyjoy' Número=2>
+<Record Nome='Ornela' Número=2>
+<Record Nome="Night's Watch messenger" Número=2>
+<Record Nome="Moro's wife 2" Número=2>
+<Record Nome='Whore (The Smith)' Número=2>
+<Record Nome='Thin man' Número=2>
+<Record Nome='Boat commander' Número=1>
+<Record Nome='Lead Dornish guard' Número=1>
+<Record Nome='Lannister guardsman (The Kingsroad)' Número=1>
+<Record Nome='Lead Kingsguard' Número=1>
+<Record Nome='Qartheen woman' Número=1>
+<Record Nome='Second Son' Número=1>
+<Record Nome="Morgan's friend" Número=1>
+<Record Nome='Volantene whore 5' Número=1>
+<Record Nome='Varly' Número=1>
+<Record Nome='Endrew Tarth' Número=1>
+<Record Nome='Riddell' Número=1>
+<Record Nome='Cooper' Número=1>
+<Record Nome='Donnel Hill' Número=1>
+<Record Nome="High Septon (Before the riot of King's Landing)" Número=1>
+<Record Nome='Desmond Crakehall' Número=1>
+<Record Nome='Waymar Royce' Número=1>
+<Record Nome='Colen' Número=1>
+<Record Nome='Stark soldier (Valar Morghulis)' Número=1>
+<Record Nome='Stark guard (The Pointy End)' Número=1>
+<Record Nome="Margaery's handmaiden" Número=1>
+<Record Nome='Derek' Número=1>
+<Record Nome="Baratheon soldier (Mother's Mercy)" Número=1>
+<Record Nome='Unidentified Warlock' Número=1>
+<Record Nome='Mirelle' Número=1>
+<Record Nome='Addam Marbrand' Número=1>
+<Record Nome="Olly's mother" Número=1>
+<Record Nome='Gerald' Número=1>
+<Record Nome='Ralf Kenning' Número=1>
+<Record Nome='Mandon Moore' Número=1>
+<Record Nome='Violet' Número=1>
+<Record Nome='White Walker (Oathkeeper)' Número=1>
+<Record Nome='Wineseller' Número=1>
+<Record Nome='Captain of the archers (House Lannister)' Número=1>
+<Record Nome='Ironborn in skiff' Número=1>
+<Record Nome='Lannister soldier (The Prince of Winterfell)' Número=1>
+<Record Nome='Blackmont (Lord)' Número=1>
+<Record Nome='Winter town man' Número=1>
+<Record Nome="King's Landing urchin" Número=1>
+<Record Nome='Reginald Lannister' Número=1>
+<Record Nome='Bolton guard (The Laws of Gods and Men)' Número=1>
+<Record Nome='Greizhen mo Ullhor' Número=1>
+<Record Nome='White Walker (The Night Lands)' Número=1>
+<Record Nome='Little Bird (You Win or You Die)' Número=1>
+<Record Nome='Fennesz' Número=1>
+<Record Nome='Drummer' Número=1>
+<Record Nome="Night's Watch archer" Número=1>
+<Record Nome='Attendant (The Winds of Winter)' Número=1>
+<Record Nome='Anara' Número=1>
+<Record Nome='Ash' Número=1>
+<Record Nome='Great Master 2 (Breaker of Chains)' Número=1>
+<Record Nome='Great Master 7' Número=1>
+<Record Nome='Great Master 6' Número=1>
+<Record Nome='Great Master 5' Número=1>
+<Record Nome='Great Master 4' Número=1>
+<Record Nome='Septon (Valar Morghulis)' Número=1>
+<Record Nome='Tyrell servant' Número=1>
+<Record Nome='Steve' Número=1>
+<Record Nome='Street tough' Número=1>
+<Record Nome='Great Master 2 (Kill the Boy)' Número=1>
+<Record Nome='Lannister scout' Número=1>
+<Record Nome='Melara Hetherspoon' Número=1>
+<Record Nome='Slaver (Unbowed, Unbent, Unbroken)' Número=1>
+<Record Nome='Dothraki woman having sex (Book of the Stranger)' Número=1>
+<Record Nome='Rhaego' Número=1>
+<Record Nome='Portan' Número=1>
+<Record Nome='Baratheon officer' Número=1>
+<Record Nome='Aerys II Targaryen' Número=1>
+<Record Nome='Karstark soldier 1' Número=1>
+<Record Nome='Kinvara' Número=1>
+<Record Nome='Karstark soldier 2' Número=1>
+<Record Nome='Unsullied 1 (Oathkeeper)' Número=1>
+<Record Nome='Farmer Hamlet' Número=1>
+<Record Nome='Rennick' Número=1>
+<Record Nome='Wildling rioter' Número=1>
+<Record Nome="Goatherd's son" Número=1>
+<Record Nome='Ray' Número=1>
+<Record Nome='Inn waitress' Número=1>
+<Record Nome="King's Landing rioter 2" Número=1>
+<Record Nome="King's Landing rioter 3" Número=1>
+<Record Nome='Belicho Paenymion' Número=1>
+<Record Nome='Loboda' Número=1>
+<Record Nome='Sailor (The Dance of Dragons)' Número=1>
+<Record Nome='Catspaw assassin' Número=1>
+<Record Nome='Joss (Unbowed, Unbent, Unbroken)' Número=1>
+<Record Nome='Forzho' Número=1>
+<Record Nome='Scolera' Número=1>
+<Record Nome='Iggo' Número=1>
+<Record Nome='Brea' Número=1>
+<Record Nome='Maggy' Número=1>
+<Record Nome='Dothraki man having sex (Book of the Stranger)' Número=1>
+<Record Nome='Mycah' Número=1>
+<Record Nome='Fighting pit announcer' Número=1>
+<Record Nome="King's Landing boaster" Número=1>
+<Record Nome='Westerosi trader (The Broken Man)' Número=1>
+<Record Nome='Jon Arryn' Número=1>
+<Record Nome='Joss (A Golden Crown)' Número=1>
+<Record Nome='Volantene whore 4' Número=1>
+<Record Nome='Faith Militant 2' Número=1>
+<Record Nome='Valyrian sword smith' Número=1>
+<Record Nome='Faith Militant 1' Número=1>
+<Record Nome='Imry Florent' Número=1>
+<Record Nome="Yunkai'i whore" Número=1>
+<Record Nome='Brothel child 2' Número=1>
+<Record Nome='Slave (Breaker of Chains)' Número=1>
+<Record Nome='Brant' Número=1>
+<Record Nome='Lannister soldier (No One)' Número=1>
+<Record Nome='Bolton soldier (The Red Woman)' Número=1>
+<Record Nome='Karstark lookout' Número=1>
+<Record Nome='Axell Florent' Número=1>
+<Record Nome='Kegs' Número=1>
+<Record Nome='Fruit vendor' Número=1>
+<Record Nome='Lollys Stokeworth' Número=1>
+<Record Nome='Howland Reed' Número=1>
+<Record Nome='Dwarf 2' Número=1>
+<Record Nome='Dwarf 3' Número=1>
+<Record Nome='Dwarf 1' Número=1>
+<Record Nome='Dwarf 4' Número=1>
+<Record Nome='Dwarf 5' Número=1>
+<Record Nome='Tortured prisoner' Número=1>
+<Record Nome='Beggar woman' Número=1>
+<Record Nome='Roslin Tully' Número=1>
+<Record Nome='Torrhen Karstark' Número=1>
+<Record Nome='Braavosi woman 2 (The Door)' Número=1>
+<Record Nome='Mero' Número=1>
+<Record Nome='Sellsword (High Sparrow)' Número=1>
+<Record Nome='Arthur Dayne' Número=1>
+<Record Nome="Innkeeper's daughter" Número=1>
+<Record Nome='Gatins' Número=1>
+<Record Nome='Captain of the archers (House Bolton)' Número=1>
+<Record Nome='Helliweg' Número=1>
+<Record Nome='Valyrian slave' Número=1>
+<Record Nome='Foreign merchant' Número=1>
+<Record Nome="Craster's younger wife (Walk of Punishment)" Número=1>
+<Record Nome="Night's Watchman (Baelor)" Número=1>
+<Record Nome='Knight of House Lynderly' Número=1>
+<Record Nome='Volantene whore 2' Número=1>
+<Record Nome='Simpson' Número=1>
+<Record Nome='Jonos Bracken' Número=1>
+<Record Nome='Braavosi madam' Número=1>
+<Record Nome='Dwarf hunter 2' Número=1>
+<Record Nome="Craster's wife 2 (Oathkeeper)" Número=1>
+<Record Nome='Orphan kid' Número=1>
+<Record Nome='Tommy' Número=1>
+<Record Nome='Wallen' Número=1>
+<Record Nome='Randyll Tarly' Número=1>
+<Record Nome='Tyrell guard (The Gift)' Número=1>
+<Record Nome='Clea' Número=1>
+<Record Nome="King's Landing flasher 2" Número=1>
+<Record Nome='Qorro' Número=1>
+<Record Nome='Great Master 3 (Kill the Boy)' Número=1>
+<Record Nome='Caleotte' Número=1>
+<Record Nome='Tourney Herald' Número=1>
+<Record Nome='Tully bannerman (No One)' Número=1>
+<Record Nome='Northman archer (Battle of the Bastards)' Número=1>
+<Record Nome='Genna' Número=1>
+<Record Nome='Street tough 2' Número=1>
+<Record Nome='Hog farmer' Número=1>
+<Record Nome='Gordy' Número=1>
+<Record Nome='Old woman prisoner' Número=1>
+<Record Nome='Protestor' Número=1>
+<Record Nome='Red Priestess (High Sparrow)' Número=1>
+<Record Nome='Little Bird (The Mountain and the Viper)' Número=1>
+<Record Nome='Woodcutter' Número=1>
+<Record Nome='Musician 2 (The Lion and the Rose)' Número=1>
+<Record Nome='Jaremy Rykker' Número=1>
+<Record Nome='Morgan (Two Swords)' Número=1>
+<Record Nome='Whore 2 (Two Swords)' Número=1>
+<Record Nome='Dwarf hunter 1' Número=1>
+<Record Nome='Knight of House Frey' Número=1>
+<Record Nome='Mully' Número=1>
+<Record Nome='Bolton officer' Número=1>
+<Record Nome='Lannister captain (Home)' Número=1>
+<Record Nome='Wounded Lannister' Número=1>
+<Record Nome='Dothraki crone' Número=1>
+<Record Nome='Jhiqui' Número=1>
+<Record Nome='Vance Corbray' Número=1>
+<Record Nome='Pentoshi servant' Número=1>
+<Record Nome="Theon's master of hounds" Número=1>
+<Record Nome='Lannister guard 1' Número=1>
+<Record Nome='Lannister guard 2' Número=1>
+<Record Nome='Gerold Hightower' Número=1>
+<Record Nome='Mallister supporter' Número=1>
+<Record Nome="Tommen's manservant" Número=1>
+<Record Nome="Captain's daughter" Número=1>
+<Record Nome='Cley Cerwyn' Número=1>
+<Record Nome='Ironborn 3 (The Door)' Número=1>
+<Record Nome='Kesh' Número=1>
+<Record Nome='Bathhouse prostitute' Número=1>
+<Record Nome='Vayon Poole' Número=1>
+<Record Nome='Musician 3 (The Lion and the Rose)' Número=1>
+<Record Nome="King's Landing whore (Mother's Mercy)" Número=1>
+<Record Nome="Craster's wife 3 (Oathkeeper)" Número=1>
+<Record Nome='Lordsport dockhand' Número=1>
+<Record Nome='Meereenese homeless mother' Número=1>
+<Record Nome='Bear Island maester' Número=1>
+<Record Nome='Merchant captain' Número=1>
+<Record Nome='White Rat' Número=1>
+<Record Nome='Cressen' Número=1>
+<Record Nome='Sam' Número=1>
+<Record Nome='Sally' Número=1>
+<Record Nome='Northern Lord' Número=1>
+<Record Nome="King's Landing tailor" Número=1>
+<Record Nome='Braavosi woman 1 (The Door)' Número=1>
+<Record Nome='Stark guard (Fire and Blood)' Número=1>
+<Record Nome='Tomard' Número=1>
+<Record Nome='Hoster Tully' Número=1>
+<Record Nome='Oznak zo Pahl' Número=1>
+<Record Nome='Despondent man' Número=1>
+<Record Nome='Singing Lannister soldier' Número=1>
+<Record Nome='Gared' Número=1>
+<Record Nome='Dying man' Número=1>
+<Record Nome='Stevron Frey' Número=1>
+<Record Nome='Brothel guard' Número=1>
+<Record Nome="King's Landing baker" Número=1>
+<Record Nome='Tom' Número=1>
+<Record Nome='White Walker (Hardhome)' Número=1>
+<Record Nome='Bolton general' Número=1>
+<Record Nome='Goldcloak 2 (Lord Snow)' Número=1>
+<Record Nome='Braavosi prostitute' Número=1>
+<Record Nome='Sorcerer' Número=1>
+<Record Nome='Lannister torturer' Número=1>
+<Record Nome='Brozho' Número=1>
+<Record Nome='Stark messenger' Número=1>
+<Record Nome='Eyrie guard' Número=1>
+<Record Nome='Wyman Manderly' Número=1>
+<Record Nome='Volantene whore (The Broken Man)' Número=1>
+<Record Nome='Ryger Rivers' Número=1>
+<Record Nome='Elder slave' Número=1>
+<Record Nome='Wildling girl' Número=1>
+<Record Nome='Goatherd (The Laws of Gods and Men)' Número=1>
+<Record Nome='Tansy' Número=1>
+<Record Nome='Old man' Número=1>
+<Record Nome='Goatherd (The Children)' Número=1>
+<Record Nome='Drunk man' Número=1>
+<Record Nome='Tyrell bannerman' Número=1>
+<Record Nome="Yunkai'i slave 3" Número=1>
+<Record Nome="Yunkai'i slave 2" Número=1>
+<Record Nome="Yunkai'i slave 1" Número=1>
+<Record Nome="Yunkai'i slave 5" Número=1>
+<Record Nome="Yunkai'i slave 4" Número=1>
+<Record Nome='Marianne Frey' Número=1>
+<Record Nome='Will' Número=1>
+<Record Nome="Night's Watch man (Breaker of Chains)" Número=1>
+<Record Nome='Red Priestess (No One)' Número=1>
+<Record Nome='Northman rioter' Número=1>
+<Record Nome='Stableboy' Número=1>
+<Record Nome='Goldcloak 1 (The Wolf and the Lion)' Número=1>
+<Record Nome='Child of the Forest 2 (The Children)' Número=1>
+<Record Nome='Mag Mar Tun Doh Weg' Número=1>
+<Record Nome="Craster's wives" Número=1>
+<Record Nome='Moelle' Número=1>
+<Record Nome='Adrack Humble' Número=1>
+<Record Nome='Stiv' Número=1>
+<Record Nome='Young bravo' Número=1>
+<Record Nome='Sellsword 2 (High Sparrow)' Número=1>
+<Record Nome='Brothel child 1' Número=1>
+<Record Nome='Masha Heddle' Número=1>
+<Record Nome='Frey guard' Número=1>
+<Record Nome='Bolton soldier (Walk of Punishment)' Número=1>
+<Record Nome='Unsullied 1 (Valar Dohaeris)' Número=1>
+<Record Nome='Son of the Harpy' Número=1>
+<Record Nome='Brothel customer' Número=1>
+<Record Nome='Kitty Frey' Número=1>
+<Record Nome='Samwell Stone' Número=1>
+<Record Nome='Dickon Tarly' Número=1>
+<Record Nome='Prendahl na Ghezn' Número=1>
+<Record Nome='Innkeeper' Número=1>
+<Record Nome='Karsi' Número=1>
+<Record Nome='Lannister messenger' Número=1>
+<Record Nome="King's Landing drunkard" Número=1>
+<Record Nome='Denys Mallister' Número=1>
+<Record Nome='Whore (The Stranger)' Número=1>
+<Record Nome='Rhalko' Número=1>
+<Record Nome='Riverlands traveller' Número=1>
+<Record Nome="King's Landing flasher" Número=1>
+<Record Nome="Night's Watch man (The Door)" Número=1>
+<Record Nome='Frey soldier 2' Número=1>
+<Record Nome='Frey soldier 1' Número=1>
+<Record Nome='Sparring boy' Número=1>
+<Record Nome='Talla Tarly' Número=1>
+<Record Nome='Septon (The Rains of Castamere)' Número=1>
+<Record Nome='Jack Bulwer' Número=1>
+<Record Nome='Great Master 1 (Kill the Boy)' Número=1>
+<Record Nome="Moro's wife 1" Número=1>
+<Record Nome='Musician 1 (The Lion and the Rose)' Número=1>
+<Record Nome='Ironborn 1 (The Door)' Número=1>
+<Record Nome="Ros' dissatisfied customer" Número=1>
+<Record Nome='Eon Hunter' Número=1>
+<Record Nome='Drowned Priest' Número=1>
+<Record Nome='Lannister guardsman (Garden of Bones)' Número=1>
+<Record Nome='Braavosi captain' Número=1>
+<Record Nome='Anya Waynwood' Número=1>
+<Record Nome='Brusco' Número=1>
+<Record Nome='Goldcloak 1 (Lord Snow)' Número=1>
+<Record Nome='Rickard Stark' Número=1>
+<Record Nome='First Mate' Número=1>
+<Record Nome='Guymon' Número=1>
+<Record Nome='Ironborn 2 (The Door)' Número=1>
+<Record Nome='Citadel maester (The Winds of Winter)' Número=1>
+<Record Nome='Melessa Tarly' Número=1>
+<Record Nome='Wendel Manderly' Número=1>
+<Record Nome='Volantene whore 3' Número=1>
+<Record Nome='Weasel' Número=1>
